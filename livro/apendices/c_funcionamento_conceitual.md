@@ -79,6 +79,17 @@ Não há segredo a proteger. Há coerência a preservar.
 
 A materialização concreta desse princípio, por meio de um binário em C++, executável em ambiente neutro e auditável, é apresentada nos **notebooks de demonstração**.
 
+- **`A_cip_demo_interop.ipynb`**  
+  Demonstra a interoperabilidade estrutural da CIP entre chaves emitidas por SDKs distintos, associados a diferentes índices espectrais (IDX).
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/costaalv/descobrindo_caos/blob/main/notebooks/A_cip_demo_interop.ipynb)
+
+- **`B_cip_demo_teste.ipynb`**  
+  Demonstra o funcionamento operacional dos quatro verbos do protocolo:
+  **assinar**, **verificar**, **cifrar** e **decifrar**.
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/costaalv/descobrindo_caos/blob/main/notebooks/B_cip_demo_teste.ipynb)
+
 O leitor não é convidado a acreditar. É convidado a executar.
 
 ## Governança, universalidade e custódia institucional
@@ -117,3 +128,7 @@ A implementação de referência do binário CIP em C++, bem como os SDKs atuali
 **https://www.delta-cip.com.br**
 
 O acesso é público. A verificação do protocolo não depende de credenciamento, autorização institucional ou confiança prévia no ambiente de execução.
+
+---
+
+[⬅ Apêndice B](../apendices/b_confidencialidade.md) | [Sumário](../../index.md)

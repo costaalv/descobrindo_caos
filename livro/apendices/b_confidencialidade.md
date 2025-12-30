@@ -38,11 +38,13 @@ A decifragem não produz uma aproximação semântica nem uma reconstrução tol
 
 ## Leitura operacional da camada de confidencialidade
 
-A camada de confidencialidade demonstrada no notebook `01_cip_demo.ipynb` pode ser resumida em um fato observável:
+A camada de confidencialidade demonstrada no notebook `B_cip_demo_teste.ipynb` pode ser resumida em um fato observável:
 
 1. o ciclo completo de cifragem e decifragem preserva exatamente o conteúdo original.
 
 Esse fato não é apresentado como premissa, mas como **verificação empírica direta**.
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/costaalv/descobrindo_caos/blob/main/notebooks/B_cip_demo_teste.ipynb)
 
 O leitor executa:
 
@@ -66,7 +68,7 @@ A validade da camada de confidencialidade não decorre de argumento teórico, ma
 
 ## Verificação cruzada com chaves externas
 
-O notebook `02_cip_demo_interop.ipynb` demonstra uma propriedade central do protocolo: a **interoperabilidade estrutural** entre chaves emitidas por SDKs distintos.
+O notebook `A_cip_demo_interop.ipynb` demonstra uma propriedade central do protocolo: a **interoperabilidade estrutural** entre chaves emitidas por SDKs distintos.
 
 No experimento, o mesmo arquivo público é assinado em ambientes diferentes:
 
@@ -74,6 +76,8 @@ No experimento, o mesmo arquivo público é assinado em ambientes diferentes:
 - outra chave é gerada em Windows, por um SDK associado ao índice espectral **IDX 20**.
 
 Ambas as chaves são verificadas com sucesso por um único binário CIP local, executado em ambiente neutro (Google Colab), associado a um índice espectral distinto (**IDX 0**).
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/costaalv/descobrindo_caos/blob/main/notebooks/A_cip_demo_interop.ipynb)
 
 ## Papel do índice espectral (IDX)
 
@@ -166,3 +170,7 @@ Essa escolha não é mercadológica. Ela é estrutural.
 
 Este apêndice encerra a obra não como promessa, mas como demonstração executável: a integridade pode ser uma propriedade matemática objetiva,
 e não um acordo social frágil.
+
+---
+
+[⬅ Apêndice A](../apendices/a_demonstracao_operacional.md) | [Sumário](../../index.md) | [Apêndice C](../apendices/c_funcionamento_conceitual.md)

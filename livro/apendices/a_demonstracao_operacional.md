@@ -15,12 +15,16 @@ Todas as operações decorrem exclusivamente da estrutura interna dos arquivos e
 
 A demonstração é acompanhada por dois notebooks executáveis, que constituem o laboratório empírico do apêndice:
 
-- **`01_cip_demo.ipynb`**  
+- **`A_cip_demo_interop.ipynb`**  
+  Demonstra a interoperabilidade estrutural da CIP entre chaves emitidas por SDKs distintos, associados a diferentes índices espectrais (IDX).
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/costaalv/descobrindo_caos/blob/main/notebooks/A_cip_demo_interop.ipynb)
+
+- **`B_cip_demo_teste.ipynb`**  
   Demonstra o funcionamento operacional dos quatro verbos do protocolo:
   **assinar**, **verificar**, **cifrar** e **decifrar**.
 
-- **`02_cip_demo_interop.ipynb`**  
-  Demonstra a interoperabilidade estrutural da CIP entre chaves emitidas por SDKs distintos, associados a diferentes índices espectrais (IDX).
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/costaalv/descobrindo_caos/blob/main/notebooks/B_cip_demo_teste.ipynb)
 
 Ambos os notebooks:
 
@@ -53,3 +57,7 @@ O objetivo não é demonstrar desempenho ou segurança por obscuridade,
 mas evidenciar que a estrutura espectral desenvolvida no corpo do livro sustenta um protocolo funcional, verificável e independente de plataforma.
 
 Nos capítulos seguintes do apêndice, cada bloco é apresentado separadamente, com foco exclusivo na operação observável e em seus resultados.
+
+---
+
+[⬅ Capítulo Anterior](./18_ressonancia_unidade.md) | [Sumário](../../index.md) | [Apêndice B](../apendices/b_confidencialidade.md)
