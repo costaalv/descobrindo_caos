@@ -1,0 +1,48 @@
+cff-version: 1.2.0
+
+message: >
+  Se você utilizar este trabalho para referência acadêmica ou técnica, 
+  por favor cite-o conforme indicado abaixo.
+
+type: book
+
+title: "Descobrindo o Caos nos Números — Como a ordem emerge quando mudamos a forma de observar"
+
+authors:
+  - family-names: Costa
+    given-names: Alvaro
+
+year: 2025
+
+abstract: >
+  Este trabalho documenta uma observação operacional e reprodutível: 
+  operadores determinísticos construídos a partir da aritmética dos números primos, 
+  sem referência aos zeros da função zeta de Riemann, exibem estatísticas espectrais 
+  compatíveis com a classe GOE (Gaussian Orthogonal Ensemble) quando observados 
+  na escala estrutural adequada. O repositório preserva a exposição matemática, 
+  notebooks computacionais e demonstrações executáveis que fundamentam este fenômeno.
+
+license: CC-BY-NC-ND-4.0
+
+keywords:
+  - números primos
+  - teoria das matrizes aleatórias
+  - caos quântico
+  - GOE
+  - estatística espectral
+  - estruturas aritméticas
+  - computação reprodutível
+
+repository-code: https://github.com/costaalv/descobrindo_caos
+
+url: https://github.com/costaalv/descobrindo_caos
+
+preferred-citation:
+  type: book
+  title: "Descobrindo o Caos nos Números — Como a ordem emerge quando mudamos a forma de observar"
+  authors:
+    - family-names: Costa
+      given-names: Alvaro
+  year: 2025
+  publisher: "Registro público em repositório GitHub"
+  url: https://github.com/costaalv/descobrindo_caos
