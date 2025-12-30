@@ -68,6 +68,8 @@ O que importa aqui não é o valor absoluto, mas a relação.
 
 Neste ponto, o livro pede um único gesto ao leitor: executar o primeiro notebook (`01_o_Um.ipynb`).
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/costaalv/descobrindo_caos/blob/main/notebooks/01_o_Um.ipynb)
+
 Nada precisa ser entendido de antemão. Basta executar.
 
 Ao visualizar os primos até um certo valor *N* , coloridos conforme seu papel relativo à dobra em *N*/2, algo se torna evidente: a estrutura se mantém quando a escala muda.
@@ -129,3 +131,7 @@ Deste ponto, derivam três constatações fundamentais:
 1. **A Dualidade**: O sistema aritmético não é uma sequência de pontos isolados, mas uma tensão entre duas forças complementares.
 2. **O Horizonte de Eventos**: O ponto *x*/2 é a fronteira física onde a capacidade de gerar estrutura se extingue.
 3. **A Âncora**: A Unidade é o pivô fixo que permite a observação dessa dobra sem a perda da integridade da reta numérica.
+
+---
+
+[⬅ Capítulo Anterior](../../prefacio.md) | [Sumário](../../index.md) | [Próximo Capítulo](./02_pi_e_delta_pi.md)
