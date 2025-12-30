@@ -86,4 +86,4 @@ O que resta agora é a aplicação consciente daquilo que a própria estrutura j
 
 ---
 
-[⬅ Capítulo Anterior](./17_ponte_berry.md) | [Sumário](../../index.md) | [Apêndice A](../livro/apendices/a_demonstracao_operacional.md)
+[⬅ Capítulo Anterior](./17_ponte_berry.md) | [Sumário](../../index.md) | [Apêndice A](../apendices/a_demonstracao_operacional.md)
