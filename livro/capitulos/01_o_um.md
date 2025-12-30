@@ -1,4 +1,4 @@
-# 1 O Um
+# 1. O Um
 
 > *Antes do dois, não havia número.*  
 > *Havia apenas o Um — indivisível, silencioso e suficiente.*
@@ -134,4 +134,4 @@ Deste ponto, derivam três constatações fundamentais:
 
 ---
 
-[⬅ Capítulo Anterior](../../prefacio.md) | [Sumário](../../index.md) | [Próximo Capítulo](./02_pi_e_delta_pi.md)
+[⬅ Capítulo Anterior](../../livro/prefacio.md) | [Sumário](../../index.md) | [Próximo Capítulo](./02_pi_e_delta_pi.md)

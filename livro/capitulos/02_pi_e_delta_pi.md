@@ -1,4 +1,4 @@
-# O Pulso dos Primos
+# 2. O Pulso dos Primos
 
 > *A harmonia consiste em uma mistura de opostos.*  
 > *— Heráclito*
@@ -120,3 +120,7 @@ Antes de avançar, fixemos o que foi observado:
 - **O Instrumento**: O funcional ∆π(*x*) = π(*x*) − 2π(*x*/2) mede o desbalanceamento entre dois papéis.
 - **O Fenômeno**: Os primos não são distribuídos ao acaso; eles alternam entre estabilizar e estruturar, gerando um pulso.
 - **A Constatação**: O sistema não é estático. Ele possui uma dinâmica interna de redistribuição de funções.
+
+---
+
+[⬅ Capítulo Anterior](./01_o_um.md) | [Sumário](../../index.md) | [Próximo Capítulo](./03_busca_equilibrio.md)
