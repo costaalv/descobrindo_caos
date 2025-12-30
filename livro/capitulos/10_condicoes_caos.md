@@ -46,6 +46,8 @@ Somente nessa escala o pano de fundo geométrico se estabiliza, permitindo que f
 
 A interação entre esses três pilares é demonstrada de forma direta no **Notebook 10** (`10_condicoes_caos.ipynb`).
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/costaalv/descobrindo_caos/blob/main/notebooks/10_condicoes_caos.ipynb)
+
 Nesse experimento, dois conjuntos de gráficos são produzidos:
 
 - um gráfico que explicita a estabilização geométrica da densidade de primos  
@@ -93,3 +95,7 @@ Até aqui:
 
 No próximo capítulo, essas condições serão tensionadas: investigaremos quais perturbações preservam o regime observado e quais o destroem,  
 delimitando com precisão o domínio de validade da universalidade identificada.
+
+---
+
+[⬅ Capítulo Anterior](./09_escala_logaritmica.md) | [Sumário](../../index.md) | [Próximo Capítulo](./11_anatomia_autovetores.md)

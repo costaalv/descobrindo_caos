@@ -34,6 +34,8 @@ A hipótese testada é simples e forte: se o regime GOE for universal, o valor d
 
 O **Notebook 13** (`13_varreduras_escala.ipynb`) implementa esse experimento de forma automatizada. Para cada valor de *X*₀, o operador é construído, seu espectro é calculado e a estatística ⟨*r*⟩ é extraída.
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/costaalv/descobrindo_caos/blob/main/notebooks/13_varreduras_escala.ipynb)
+
 O resultado final é um gráfico de ⟨*r*⟩ em função de log₁₀(*X*₀), que permite visualizar diretamente a evolução do regime estatístico.
 
 Esse procedimento elimina qualquer interpretação baseada em casos isolados e expõe a estrutura global do fenômeno.
@@ -77,3 +79,7 @@ Até aqui:
 Com isso, a universalidade deixa de ser uma intuição e passa a ser um resultado operacional: há um regime em que o operador *M*, observado na escala logarítmica, apresenta assinaturas espectrais compatíveis com a classe GOE de forma persistente sob varreduras de *X*₀.
 
 No capítulo seguinte, investigaremos a estrutura interna dessa estabilidade: quais variações do protocolo preservam o diagnóstico e quais o degradam, delimitando as condições mínimas para que a universalidade observada se mantenha.
+
+---
+
+[⬅ Capítulo Anterior](./12_observador_espelho.md) | [Sumário](../../index.md) | [Próximo Capítulo](./14_operadores_alternativos.md)

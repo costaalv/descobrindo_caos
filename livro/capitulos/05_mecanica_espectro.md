@@ -1,4 +1,4 @@
-# A Mecânica do Espectro
+# 5. A Mecânica do Espectro
 
 > *Autovalores não são propriedades dos números,*  
 > *mas dos operadores.*  

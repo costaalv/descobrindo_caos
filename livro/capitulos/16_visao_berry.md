@@ -99,3 +99,7 @@ Neste capítulo:
 Com isso, a travessia conceitual está completa.
 
 No capítulo final, reuniremos todas as peças — aritmética, espectro, escala e universalidade — em uma leitura estrutural única, encerrando o percurso não com uma conjectura, mas com uma síntese.
+
+---
+
+[⬅ Capítulo Anterior](./15_alturas_estratosfericas.md) | [Sumário](../../index.md) | [Próximo Capítulo](./17_ponte_berry.md)

@@ -57,6 +57,8 @@ Em particular, esperamos observar:
 
 O **Notebook 14** (`14_operadores_alternativos.ipynb`) implementa este teste de forma controlada.
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/costaalv/descobrindo_caos/blob/main/notebooks/14_operadores_alternativos.ipynb)
+
 Foi introduzido um seletor que permite alternar entre o *kernel de cosseno* e o *kernel de fase*, mantendo inalterados:
 
 - o sinal aritmético Δπ(x);
@@ -105,3 +107,7 @@ Até aqui:
 Este capítulo encerra a investigação sobre possíveis artefatos operacionais.
 
 Nos capítulos seguintes, passaremos a explorar as consequências dessa robustez: o que exatamente é universal, o que pode ser perturbado sem destruir o regime, e quais limites naturais emergem dessa estrutura.
+
+---
+
+[⬅ Capítulo Anterior](./13_varreduras_escala.md) | [Sumário](../../index.md) | [Próximo Capítulo](./15_alturas_estratosfericas.md)

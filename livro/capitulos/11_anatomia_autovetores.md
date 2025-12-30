@@ -75,6 +75,8 @@ Para cada caso, são produzidos quatro gráficos:
 * a distribuição dos valores de *PR*/*N* ao longo do espectro;
 * a comparação visual entre regimes.
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/costaalv/descobrindo_caos/blob/main/notebooks/11_anatomia_autovetores.ipynb)
+
 ## Resultados — sinal genuíno e artefato
 
 Os resultados exibem um contraste instrutivo entre os dois regimes de observação.
@@ -135,3 +137,7 @@ Até aqui:
 Com isso, a caracterização do regime caótico do operador *M* está completa: ele se manifesta simultaneamente nos autovalores e na geometria interna de seus autovetores.
 
 No capítulo seguinte, encerramos o percurso conceitual, reunindo os resultados obtidos em uma leitura estrutural unificada.
+
+---
+
+[⬅ Capítulo Anterior](./10_condicoes_caos.md) | [Sumário](../../index.md) | [Próximo Capítulo](./12_observador_espelho.md)

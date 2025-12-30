@@ -73,6 +73,8 @@ A universalidade não emerge porque o sistema é aleatório, mas porque ele é s
 
 O **Notebook 08** (`08_lente_descoberta.ipynb`) não introduz novos operadores nem novas estatísticas.
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/costaalv/descobrindo_caos/blob/main/notebooks/08_lente_descoberta.ipynb)
+
 Ele realiza apenas uma operação conceitual:
 
 > fixa o operador e varia sistematicamente a forma como a reta numérica é percorrida.
@@ -107,3 +109,7 @@ Ao final deste capítulo:
 - o operador *M* permanece determinístico e inalterado.
 
 No próximo capítulo, essa compreensão será levada adiante: investigaremos **quais aspectos do operador são essenciais para a universalidade observada e quais podem ser modificados sem destruí-la**, separando estrutura de contingência.
+
+---
+
+[⬅ Capítulo Anterior](./07_autovalores_reconhecimento_GOE.md) | [Sumário](../../index.md) | [Próximo Capítulo](./09_escala_logaritmica.md)

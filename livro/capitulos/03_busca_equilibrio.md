@@ -1,4 +1,4 @@
-# A Busca pelo Equilíbrio
+# 3. A Busca pelo Equilíbrio
 
 > *A simetria... é a ideia pela qual o homem, através dos tempos,*  
 > tentou compreender e criar ordem, beleza e perfeição.*  

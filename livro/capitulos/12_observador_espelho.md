@@ -41,6 +41,8 @@ Nele, o sinal aritmético determinístico baseado em **Δπ(x)** é substituído
 
 Essa substituição controlada permite isolar, de forma inequívoca, o papel específico da estrutura dos primos na emergência da estatística GOE.
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/costaalv/descobrindo_caos/blob/main/notebooks/11_anatomia_autovetores.ipynb)
+
 ## A descoberta — o caos dos primos é especial
 
 Ao executar o protocolo com o sinal aleatório ativado, observa-se um resultado inequívoco: a estatística do tipo **GOE desaparece completamente**.
@@ -98,3 +100,7 @@ Neste capítulo:
 O observador foi colocado diante do espelho, e o reflexo permaneceu consistente.
 
 No próximo movimento do trabalho, não se tratará mais de reconhecer a universalidade, mas de explorar seus limites: quais perturbações a preservam, quais a destroem, e quais aspectos da construção são essenciais para sua persistência.
+
+---
+
+[⬅ Capítulo Anterior](./11_anatomia_autovetores.md) | [Sumário](../../index.md) | [Próximo Capítulo](./13_varreduras_escala.md)

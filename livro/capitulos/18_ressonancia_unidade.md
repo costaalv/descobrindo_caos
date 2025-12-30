@@ -83,3 +83,7 @@ Não por exaustão computacional, mas por **saturação conceitual**.
 A busca pelo equilíbrio terminou.
 
 O que resta agora é a aplicação consciente daquilo que a própria estrutura já revela.
+
+---
+
+[⬅ Capítulo Anterior](./17_ponte_berry.md) | [Sumário](../../index.md) | [Próximo Capítulo](../../apendices/a_demonstracao_operacional.md)

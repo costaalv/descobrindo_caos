@@ -92,6 +92,8 @@ Aqui, a jornada não termina por exaustão computacional, mas por saturação co
 
 O **Notebook 15** (`15_alturas_estratosfericas.ipynb`) implementa explicitamente o experimento descrito ao longo deste capítulo e constitui o laboratório computacional completo desta etapa final da investigação.
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/costaalv/descobrindo_caos/blob/main/notebooks/15_alturas_estratosfericas.ipynb)
+
 Nesse notebook:
 
 - os dados estratosféricos são **gerados em tempo real**, diretamente no notebook, por avaliação numérica da função R(*x*), sem recorrer a tabelas pré-computadas, bancos externos ou dados previamente armazenados;
@@ -103,3 +105,7 @@ Nesse notebook:
 O notebook não apenas confirma numericamente a persistência da estatística GOE em alturas extremas, como também fornece um protocolo transparente, auditável e reexecutável para a verificação independente dos resultados.
 
 Assim, este capítulo não repousa em autoridade histórica nem em extrapolação teórica isolada, mas em um experimento computacional explícito, alinhado com os padrões contemporâneos de reprodutibilidade científica.
+
+---
+
+[⬅ Capítulo Anterior](./14_operadores_alternativos.md) | [Sumário](../../index.md) | [Próximo Capítulo](./16_visao_berry.md)

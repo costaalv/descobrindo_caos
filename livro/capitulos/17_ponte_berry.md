@@ -74,3 +74,7 @@ Ao final desta jornada, torna-se possível afirmar:
 Pitágoras não estava errado. Riemann não estava distante. Berry forneceu a linguagem que faltava.
 
 A música sempre esteve lá. Faltava apenas aprender a ouvi-la.
+
+---
+
+[⬅ Capítulo Anterior](./16_visao_berry.md) | [Sumário](../../index.md) | [Próximo Capítulo](./18_ressonancia_unidade.md)

@@ -33,6 +33,8 @@ Consideremos a distribuição empírica *P(s)* dos espaçamentos normalizados, d
 
 O **Notebook 07** (`07_autovalores_reconhecimento_GOE.ipynb`) permite observar que, para valores suficientemente grandes de *N* e para escalas iniciais elevadas *X*₀, a densidade empírica passa a apresentar uma característica determinante: a probabilidade de espaçamentos muito pequenos torna-se fortemente suprimida.
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/costaalv/descobrindo_caos/blob/main/notebooks/07_autovalores_reconhecimento_GOE.ipynb)
+
 Em termos descritivos, *P(s)* aproxima-se de uma forma que:
 
 - é aproximadamente nula em *s* = 0;
@@ -130,3 +132,7 @@ Até aqui:
 - nenhum novo objeto foi introduzido e nenhuma hipótese adicional foi assumida.
 
 No próximo capítulo, investigaremos como esse diagnóstico se comporta sob varreduras sistemáticas de escala e sob modificações controladas do operador, delimitando as condições mínimas para a emergência da universalidade observada.
+
+---
+
+[⬅ Capítulo Anterior](./06_regimes_de_escala_e_estatisticas_espectrais.md) | [Sumário](../../index.md) | [Próximo Capítulo](./08_lente_descoberta.md)

@@ -1,4 +1,4 @@
-# O Espectrômetro Harmônico
+# 4. O Espectrômetro Harmônico
 
 > *A estrutura revela-se quando*  
 > *escolhemos a representação correta.*  

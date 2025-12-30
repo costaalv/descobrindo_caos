@@ -33,6 +33,8 @@ Portanto, qualquer observação feita diretamente na escala linear ocorre sobre 
 A estrutura geométrica descrita acima não é apenas assintótica ou conceitual.  
 Ela é verificada diretamente no **Notebook 09** (`09_escala_logaritmica.ipynb`), no qual a densidade empírica de primos é medida e comparada nas escalas linear e logarítmica.
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/costaalv/descobrindo_caos/blob/main/notebooks/09_escala_logaritmica.ipynb)
+
 Os gráficos produzidos nesse experimento mostram explicitamente:
 - o decaimento contínuo de *dπ/dx* na escala linear;
 - a transformação desse colapso em uma lei de crescimento suave ao passar para *dπ/d(log x)*.
@@ -136,3 +138,7 @@ Até aqui:
 O papel da escala está, portanto, isolado: ela determina se o operador será observado sobre um terreno em colapso ou sobre um terreno estabilizado.
 
 No capítulo seguinte, passaremos do diagnóstico geométrico para uma análise operacional: quais perturbações preservam o regime observado e quais o destroem, delimitando de forma explícita as condições mínimas para a persistência da universalidade.
+
+---
+
+[⬅ Capítulo Anterior](./08_lente_descoberta.md) | [Sumário](../../index.md) | [Próximo Capítulo](./10_condicoes_caos.md)

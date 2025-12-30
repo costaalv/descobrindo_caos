@@ -1,4 +1,4 @@
-# Estatísticas Espectrais e Regimes de Escala
+# 6. Estatísticas Espectrais e Regimes de Escala
 
 > *A informação relevante não está nos níveis,*  
 > *mas nos intervalos entre eles.*  
@@ -45,6 +45,8 @@ A função *P*(*s*) é definida como o histograma dos espaçamentos normalizados
 Ela descreve a frequência relativa de diferentes separações entre autovalores consecutivos e permite distinguir entre regimes com ou sem correlação espectral significativa.
 
 O **Notebook 06** (`06_regimes_de_escala_e_estatisticas_espectrais.ipynb`) calcula *P*(*s*) para diferentes valores de *N* e *X*₀, mantendo fixo o operador.
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/costaalv/descobrindo_caos/blob/main/notebooks/06_regimes_de_escala_e_estatisticas_espectrais.ipynb)
 
 A distribuição observada será analisada apenas de forma comparativa nos capítulos seguintes.
 
@@ -109,3 +111,8 @@ O material necessário para comparar o comportamento observado com classes espec
 está agora estabelecido.
 
 A interpretação desses resultados será tratada separadamente.
+
+---
+
+[⬅ Capítulo Anterior](./05_mecanica_espectro.md) | [Sumário](../../index.md) | [Próximo Capítulo](./07_autovalores_reconhecimento_GOE.md)
+
