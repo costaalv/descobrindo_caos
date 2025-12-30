@@ -101,6 +101,8 @@ Nada é afirmado além disso.
 
 O **Notebook 04** (`04_operador_M.ipynb`) implementa diretamente o operador *M* e permite visualizar sua estrutura como um mapa de calor, para diferentes escalas iniciais *X*₀.
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/costaalv/descobrindo_caos/blob/main/notebooks/04_operador_M.ipynb)
+
 Ao executá-lo, observe atentamente:
 - Em escalas pequenas, o operador apresenta aspecto irregular, fragmentado e ruidoso.
 - À medida que *X*₀ aumenta, padrões geométricos começam a surgir.
@@ -132,3 +134,7 @@ Até aqui:
 - apenas a estrutura geométrica do operador foi observada.
 
 O espectrômetro está definido. A análise ainda não começou.
+
+---
+
+[⬅ Capítulo Anterior](./03_busca_equilibrio.md) | [Sumário](../../index.md) | [Próximo Capítulo](./05_mecanica_espectro.md)

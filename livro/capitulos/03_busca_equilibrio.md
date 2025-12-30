@@ -37,6 +37,8 @@ O **Notebook 03** (`03_busca_equilibrio.ipynb`) documenta experimentalmente esta
 - **A Atração da Simetria**: As curvas de densidade de Estruturadores e Estabilizadores aproximam-se da linha crítica de 1/2.
 - **O Amortecimento**: A oscilação relativa, intensa nos valores iniciais, perde amplitude e converge para o zero.
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/costaalv/descobrindo_caos/blob/main/notebooks/03_busca_equilibrio.ipynb)
+
 ## Um Sistema Quântico Disfarçado?
 
 As oscilações de ∆π(*x*)/π(*x*) lembram o comportamento de um sistema quântico relaxando em direção ao equilíbrio. As duas forças — Estruturadora e Estabilizadora — comportam-se como estados de um sistema de dois níveis, trocando energia até a simetria se restabelecer.
@@ -52,3 +54,7 @@ Antes de prosseguir, consolidemos a base desta etapa:
 - **O Limite**: O sistema tende ao equilíbrio perfeito (1/2 para cada papel funcional).
 
 > O equilíbrio aqui não é ausência de movimento, mas o regime para o qual o movimento converge.
+
+---
+
+[⬅ Capítulo Anterior](./02_pi_e_delta_pi.md) | [Sumário](../../index.md) | [Próximo Capítulo](./04_operador_M.md)

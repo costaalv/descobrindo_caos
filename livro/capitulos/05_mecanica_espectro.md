@@ -32,6 +32,8 @@ O **Notebook 05** (`05_mecanica_espectro.ipynb`) inicia gerando, para cada *x* �
 - o valor do sinal aritmético ∆π(*x*);
 - o valor correspondente de ln(*x*).
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/costaalv/descobrindo_caos/blob/main/notebooks/05_mecanica_espectro.ipynb)
+
 Esses dados constituem os únicos insumos do operador. Nenhuma filtragem, suavização ou normalização adicional é aplicada.
 
 ## Construção explícita do operador
@@ -105,3 +107,7 @@ Até aqui:
 No próximo capítulo, essas ferramentas serão aplicadas sistematicamente a domínios crescentes, permitindo observar como o espectro do operador responde à mudança de escala.
 
 Nada será assumido. Tudo será medido.
+
+---
+
+[⬅ Capítulo Anterior](./04_operador_M.md) | [Sumário](../../index.md) | [Próximo Capítulo](./06_regimes_de_escala_e_estatisticas_espectrais.md)

@@ -67,6 +67,8 @@ Neste ponto, a abstração da fórmula deve ceder lugar à evidência visual.
 
 O **Notebook 02** (`02_pi_and_delta_pi.ipynb`) foi desenhado para este fim.
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/costaalv/descobrindo_caos/blob/main/notebooks/02_pi_and_delta_pi.ipynb)
+
 Ao executá-lo, você verá o gráfico de ∆π(*x*) emergir. Observe a natureza do sinal: ele é um sinal em escada discreta, seco e implacável. Observe como as forças azuis (estrutura) e laranjas (estabilização) disputam o domínio da reta numérica. Não há curvas suaves aqui, apenas o registro bruto de cada novo primo que entra no sistema, alterando o equilíbrio entre estruturadores e estabilizadores.
 
 Aumente o intervalo. Note como as oscilações parecem ganhar uma "textura". O que antes parecia um erro de contagem revela-se um padrão de alternância. É este o sinal que chamamos de pulso.
