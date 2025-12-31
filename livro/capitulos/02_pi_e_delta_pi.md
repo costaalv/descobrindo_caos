@@ -37,11 +37,11 @@ Definimos a função π(*x*) como a contagem exata de primos menores ou iguais a
 - o número de primos estruturadores: π(⌊*x*/2⌋);
 - o número de primos estabilizadores: π(*x*) − π(⌊*x*/2⌋).
 
-A diferença entre essas duas quantidades define um operador natural de contraste:
+A diferença entre essas duas quantidades define um funcional natural de contraste:
 
 > ∆π(*x*) = π(*x*) − 2π(*x*/2).
 
-Esse operador não prevê, não ajusta e não suaviza. Ele apenas **mede**, a cada valor de *x*, qual dos dois papéis predomina.
+Esse funcional não prevê, não ajusta e não suaviza. Ele apenas **mede**, a cada valor de *x*, qual dos dois papéis predomina.
 
 Quando ∆π(*x*) é positivo, há mais estabilizadores do que estruturadores. Quando é negativo, a capacidade de estruturação domina. Quando se anula, há um equilíbrio momentâneo.
 
@@ -65,9 +65,9 @@ Não há aqui estatística, espectro ou caos no sentido técnico. Há apenas um 
 
 Neste ponto, a abstração da fórmula deve ceder lugar à evidência visual.
 
-O **Notebook 02** (`02_pi_and_delta_pi.ipynb`) foi desenhado para este fim.
+O **Notebook 02** (`02_pi_e_delta_pi.ipynb`) foi desenhado para este fim.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/costaalv/descobrindo_caos/blob/main/notebooks/02_pi_and_delta_pi.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/costaalv/descobrindo_caos/blob/main/notebooks/02_pi_e_delta_pi.ipynb)
 
 Ao executá-lo, você verá o gráfico de ∆π(*x*) emergir. Observe a natureza do sinal: ele é um sinal em escada discreta, seco e implacável. Observe como as forças azuis (estrutura) e laranjas (estabilização) disputam o domínio da reta numérica. Não há curvas suaves aqui, apenas o registro bruto de cada novo primo que entra no sistema, alterando o equilíbrio entre estruturadores e estabilizadores.
 
