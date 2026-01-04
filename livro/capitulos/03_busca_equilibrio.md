@@ -12,14 +12,13 @@ No capítulo anterior, observamos o pulso do sistema, $\Delta_\pi(x)$. Vimos que
 
 Essa impressão é apenas parcial. O aparente desequilíbrio é um **efeito de escala**, e não de ruptura.
 
-## A Perspectiva Correta: Harmonia Relativa
+## A Perspectiva Adequada: Harmonia Relativa
 
-Para compreender sistemas que crescem indefinidamente, não basta observar diferenças absolutas — é preciso adotar uma **perspectiva relativa**. Lembremos que o número total de primos é a soma das
-duas forças:
+Para compreender sistemas que crescem indefinidamente, não basta observar diferenças absolutas — é preciso adotar uma **perspectiva relativa**. Lembremos que o número total de primos é a soma das duas forças:
 
 $$\pi(x) = \pi_S(x) + \pi_N(x)$$
 
-Dividindo ambos os membros por π(*x*), obtemos uma identidade simples e profunda, que denominamos a **Lei de Conservação dos Primos**:
+Dividindo ambos os membros por $\pi(x)$, obtemos uma identidade simples e profunda, que denominamos a **Lei de Conservação dos Primos**:
 
 $$1 = \frac{\pi_S(x)}{\pi(x)} + \frac{\pi_N(x)}{\pi(x)}$$
 
@@ -33,11 +32,9 @@ Se cada termo tende a $\frac{1}{2}$, a diferença tende a zero. A “dívida” 
 
 ## Laboratório Interativo: A Convergência
 
-O **Notebook 03** (`03_busca_equilibrio.ipynb`) documenta experimentalmente esta transição. Ao executá-lo, o leitor observará dois fenômenos simultâneos:
+O **Notebook 03** (`03_busca_equilibrio.ipynb`) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/costaalv/descobrindo_caos/blob/main/notebooks/03_busca_equilibrio.ipynb) documenta experimentalmente esta transição. Ao executá-lo, o leitor observará dois fenômenos simultâneos:
 - **A Atração da Simetria**: As curvas de densidade de Estruturadores e Estabilizadores aproximam-se da linha crítica de $\frac{1}{2}$.
 - **O Amortecimento**: A oscilação relativa, intensa nos valores iniciais, perde amplitude e converge para o zero.
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/costaalv/descobrindo_caos/blob/main/notebooks/03_busca_equilibrio.ipynb)
 
 ## Um Sistema Quântico Disfarçado?
 
