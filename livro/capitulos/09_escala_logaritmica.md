@@ -1,4 +1,4 @@
-# A Escala Logarítmica — A Lente para o Caos
+# 9. A Escala Logarítmica — A Lente para o Caos
 
 > *Meça o que é mensurável e torne mensurável o que não o é.*  
 > *— Galileu Galilei*

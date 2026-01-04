@@ -105,7 +105,7 @@ Até aqui:
 - o operador foi construído;
 - sua decomposição espectral foi definida;
 - as estatísticas relevantes foram introduzidas;
-- o protocolo experimental está completo.
+- o protocolo experimental ainda não está completo.
 
 O material necessário para comparar o comportamento observado com classes espectrais conhecidas
 está agora estabelecido.

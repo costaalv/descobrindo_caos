@@ -17,11 +17,11 @@ Essa impressão é apenas parcial. O aparente desequilíbrio é um **efeito de e
 Para compreender sistemas que crescem indefinidamente, não basta observar diferenças absolutas — é preciso adotar uma **perspectiva relativa**. Lembremos que o número total de primos é a soma das
 duas forças:
 
-> π(*x*) = π*S*(*x*) + π*N*(*x*)
+$$\pi(x) = \pi_S(x) + \pi_N(x)$$
 
 Dividindo ambos os membros por π(*x*), obtemos uma identidade simples e profunda, que denominamos a **Lei de Conservação dos Primos**:
 
-> 1 = π*S*(*x*)/π(*x*) + π*N*(*x*)/π(*x*)
+$$1 = \pi_S(x)/\pi(x) + \pi_N(x)/\pi(x)$$
 
 Esta equação nos diz que, embora as contagens absolutas variem, as frações de Estruturadores e Estabilizadores **sempre somam exatamente 1**. São duas faces de um mesmo equilíbrio dinâmico.
 

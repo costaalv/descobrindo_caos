@@ -1,4 +1,4 @@
-# A Visão de Berry — A Assinatura Universal do Caos Quântico
+# 16. A Visão de Berry — A Assinatura Universal do Caos Quântico
 
 > *A mecânica quântica não é caótica.*  
 > *Então, como é que o mundo clássico,*  

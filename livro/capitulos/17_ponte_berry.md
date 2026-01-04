@@ -1,4 +1,4 @@
-# A Ponte de Berry — De Pitágoras a Dyson
+# 17. A Ponte de Berry — De Pitágoras a Dyson
 
 > *A matemática é a linguagem com a qual*  
 > *Deus escreveu o universo.*  

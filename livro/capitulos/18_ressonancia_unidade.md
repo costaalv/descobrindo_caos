@@ -1,4 +1,4 @@
-# Ressonância da Unidade — Onde Euler e o Caos se Encontram
+# 18. Ressonância da Unidade — Onde Euler e o Caos se Encontram
 
 ## A identidade que fecha o círculo
 

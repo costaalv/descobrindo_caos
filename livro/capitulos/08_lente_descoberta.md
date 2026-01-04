@@ -1,4 +1,4 @@
-# A Ótica Adequada: Por Que a Escala Logarítmica É Estrutural
+# 8. A Ótica Adequada: Por Que a Escala Logarítmica É Estrutural
 
 > *A geometria não é verdadeira;*  
 > *ela é conveniente.*  
@@ -8,7 +8,7 @@
 
 No capítulo anterior, um fato experimental foi estabelecido com clareza:
 
-> o mesmo operador determinístico (*M*), construído sobre a mesma região aritmética, exibe estatísticas espectrais radicalmente distintas quando observado sob escalas diferentes.
+> o mesmo operador determinístico *M*, construído sobre a mesma região aritmética, exibe estatísticas espectrais radicalmente distintas quando observado sob escalas diferentes.
 
 A amostragem linear revelou um regime estatístico compatível com descorrelação local, enquanto a amostragem logarítmica conduziu sistematicamente à emergência de correlações universais.
 
