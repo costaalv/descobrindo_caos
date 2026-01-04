@@ -6,7 +6,7 @@
 
 ## O Paradoxo da Dívida Crescente
 
-No capítulo anterior, observamos o pulso do sistema, $\delta_pi(x)$. Vimos que, após uma breve fase inicial de euforia (valores positivos), a curva mergulha em um vale de valores negativos — e esse vale parece aprofundar-se à medida que $x$ cresce.
+No capítulo anterior, observamos o pulso do sistema, $\Delta_\pi(x)$. Vimos que, após uma breve fase inicial de euforia (valores positivos), a curva mergulha em um vale de valores negativos — e esse vale parece aprofundar-se à medida que $x$ cresce.
 
 À primeira vista, isso soa paradoxal. Se a diferença absoluta entre Estruturadores ($\pi_S$) e Estabilizadores ($\pi_N$) cresce indefinidamente, o sistema não estaria cada vez mais **desequilibrado**? A “dívida” dos primos estabilizadores nunca seria paga?
 
