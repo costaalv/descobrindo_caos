@@ -1,0 +1,21 @@
+/* Correção MathJax para temas escuros do Jekyll */
+
+mjx-container {
+  color: #eaeaea !important;
+}
+
+mjx-container[jax="CHTML"] {
+  color: #eaeaea !important;
+}
+
+mjx-container * {
+  color: #eaeaea !important;
+}
+
+.MathJax, .mathjax {
+  color: #eaeaea !important;
+}
+
+p mjx-container {
+  opacity: 1 !important;
+}
