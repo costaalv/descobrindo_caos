@@ -25,9 +25,9 @@ $$1 = \frac{\pi_S(x)}{\pi(x)} + \frac{\pi_N(x)}{\pi(x)}$$
 
 Esta equação nos diz que, embora as contagens absolutas variem, as frações de Estruturadores e Estabilizadores **sempre somam exatamente 1**. São duas faces de um mesmo equilíbrio dinâmico.
 
-O Teorema dos Números Primos garante que, à medida que *x* → ∞, ambas as frações convergem para o mesmo valor: $\frac{1}{2}$. A estrutura e a estabilidade tornam-se, em termos de densidade estatística, equivalentes. Revisitando nossa medida de tensão, $\Delta_\pi(x)$, podemos reescrevê-la em sua forma normalizada:
+O Teorema dos Números Primos garante que, à medida que $x \to \infty$, ambas as frações convergem para o mesmo valor: $\frac{1}{2}$. A estrutura e a estabilidade tornam-se, em termos de densidade estatística, equivalentes. Revisitando nossa medida de tensão, $\Delta_\pi(x)$, podemos reescrevê-la em sua forma normalizada:
 
-$$\Delta_\pi(x) = \frac{\pi_N(x)}{\pi(x) − \frac{\pi_S(x)}{\pi(x)}$$
+$$\frac{\Delta_\pi(x)}{\pi(x)} = \frac{\pi_N(x)}{\pi(x)} - \frac{\pi_S(x)}{\pi(x)}$$
 
 Se cada termo tende a $\frac{1}{2}$, a diferença tende a zero. A “dívida” entre as duas forças pode crescer em termos absolutos, mas, *relativamente ao todo*, ela se dilui. O sistema, visto sob a ótica da proporção, caminha inexoravelmente para o equilíbrio.
 
