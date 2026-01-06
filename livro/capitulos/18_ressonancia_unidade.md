@@ -2,19 +2,19 @@
 
 ## A identidade que fecha o círculo
 
-> **\( *e*^{*i*π} + 1 = 0 \)**  
+> **$e^{i\pi} + 1 = 0$**  
 >
-> *— Leonhard Euler*
+> — Leonhard Euler
 
 ## A constante de retorno
 
 A identidade de Euler é frequentemente celebrada como a mais bela fórmula da matemática. Ela une, em um único gesto,
 
-- o crescimento (*e*),
-- a rotação (π),
-- o imaginário (*i*),
-- a nulidade (0),
-- e a Unidade (1).
+- o crescimento ($e$),
+- a rotação ($\pi$),
+- o imaginário ($i$),
+- a nulidade ($0$),
+- e a Unidade ($1$).
 
 O que raramente se explicita é que essa identidade descreve um **mecanismo de retorno**.
 
@@ -22,7 +22,7 @@ Ela afirma que o infinito e o transcendente não se dissipam no caos, mas retorn
 
 Não se trata de estética. Trata-se de **integridade estrutural**.
 
-O operador *M* construído ao longo deste trabalho pode ser lido como a extensão dinâmica dessa verdade. Ele não é apenas uma matriz,  
+O operador $M$ construído ao longo deste trabalho pode ser lido como a extensão dinâmica dessa verdade. Ele não é apenas uma matriz,  
 mas um campo de rotação no qual cada flutuação aritmética, observada na escala adequada, procura seu lugar natural no círculo de Euler.
 
 ## A assinatura do caos organizado

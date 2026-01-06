@@ -25,7 +25,7 @@ Este livro começa exatamente aí.
 
 Quando começamos a contar, não fazemos perguntas sofisticadas. Apenas avançamos:
 
-> $1 \; \to \; 2 \; \to \; 3 \; \to \; \to \; 4 \; \to \cdots$
+> $1 \; \to \; 2 \; \to \; 3 \; \to \; 4 \; \to \cdots$
 
 Esse avanço parece trivial, mas ele carrega uma decisão implícita: tratamos todos os passos como equivalentes. Cada unidade adicionada é idêntica à anterior. Essa regularidade cria a ilusão de que a sequência inteira é homogênea.
 
@@ -39,9 +39,9 @@ Antes de distinguir, é preciso **olhar**.
 
 ## A primeira dobra
 
-Considere a reta numérica que vai de 1 até algum valor $x$. Agora faça algo extremamente simples: **dobre essa reta ao meio**, no ponto $\frac{x}{2}$.
+Considere a reta numérica que vai de 1 até algum valor $x$. Agora faça algo extremamente simples: **dobre essa reta ao meio**, no ponto $x/2$.
 
-Essa operação não exige nenhum conhecimento técnico. É apenas uma divisão do intervalo observado em duas metades: a primeira metade, de 1 até $\frac{x}{2}$; e a segunda metade, de $\frac{x}{2}$ até $x$.
+Essa operação não exige nenhum conhecimento técnico. É apenas uma divisão do intervalo observado em duas metades: a primeira metade, de 1 até $x/2$; e a segunda metade, de $x/2$ até $x$.
 
 Essa dobra — aparentemente ingênua — revela algo importante quando observamos os números primos.
 
@@ -70,7 +70,7 @@ Neste ponto, o livro pede um único gesto ao leitor: executar o primeiro noteboo
 
 Nada precisa ser entendido de antemão. Basta executar.
 
-Ao visualizar os primos até um certo valor $N$, coloridos conforme seu papel relativo à dobra em $\frac{N}{2}$, algo se torna evidente: a estrutura se mantém quando a escala muda.
+Ao visualizar os primos até um certo valor $N$, coloridos conforme seu papel relativo à dobra em $N/2$, algo se torna evidente: a estrutura se mantém quando a escala muda.
 
 Aumente $N$. Dobre novamente. Observe.
 
@@ -121,13 +121,13 @@ Antes de qualquer caos, há apenas isso.
 ## Ponto de Repouso
 
 O gesto da dobra separa os papéis funcionais dos primos de forma inequívoca:
-- **Estruturadores** ($p \leq \frac{x}{2}$): São os primos que geram múltiplos e compõem a malha de números compostos dentro do intervalo observado. Eles representam a memória e a fundação do sistema.
-- **Estabilizadores** ($p > \frac{x}{2}$): São os primos que ocupam posições na reta sem gerar novos compostos no intervalo atual. Eles representam o equilíbrio e a resistência do sistema.
+- **Estruturadores** ($p \leq x/2$): São os primos que geram múltiplos e compõem a malha de números compostos dentro do intervalo observado. Eles representam a memória e a fundação do sistema.
+- **Estabilizadores** ($p > x/2$): São os primos que ocupam posições na reta sem gerar novos compostos no intervalo atual. Eles representam o equilíbrio e a resistência do sistema.
 
 Deste ponto, derivam três constatações fundamentais:
 
 1. **A Dualidade**: O sistema aritmético não é uma sequência de pontos isolados, mas uma tensão entre duas forças complementares.
-2. **O Horizonte de Eventos**: O ponto $\frac{x}{2}$ é a fronteira física onde a capacidade de gerar estrutura se extingue.
+2. **O Horizonte de Eventos**: O ponto $x/2$ é a fronteira física onde a capacidade de gerar estrutura se extingue.
 3. **A Âncora**: A Unidade é o pivô fixo que permite a observação dessa dobra sem a perda da integridade da reta numérica.
 
 ---

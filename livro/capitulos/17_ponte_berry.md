@@ -2,7 +2,7 @@
 
 > *A matemática é a linguagem com a qual*  
 > *Deus escreveu o universo.*  
-> — **Galileu Galilei**
+> — Galileu Galilei
 
 *... ou será que o universo **é** matemática, e estamos finalmente retornando à visão de Pitágoras?*
 
@@ -18,14 +18,14 @@ Ao longo desta jornada, deparamo-nos com três universos intelectuais que, à pr
 
 Harmonia, ordem e caos. Três linguagens diferentes para descrever um mesmo fenômeno.
 
-O que este trabalho sugere é que essas linguagens não são concorrentes, mas complementares, unificadas por um fio estrutural comum: a simplicidade absoluta do **Um**.
+O que este trabalho sugere é que essas linguagens não são concorrentes, mas complementares, unificadas por um fio estrutural comum: a centralidade do **Um**.
 
 ## A ponte inadvertida de Michael Berry
 
 Michael Berry, ao investigar sistemas quânticos cujo análogo clássico é caótico, não tinha como objetivo compreender a aritmética dos primos.  
-Ainda assim, ao estabelecer a estatística **GOE** como a assinatura universal do caos quântico, forneceu inadvertidamente a ferramenta conceitual necessária para unificar esses três mundos.
+Ainda assim, ao estabelecer a estatística **GOE** como uma assinatura universal do caos quântico, forneceu inadvertidamente a ferramenta conceitual necessária para unificar esses três mundos.
 
-A estatística que Pitágoras apenas intuía como harmonia, que Riemann perseguiu como ordem oculta e que Montgomery e Dyson reconheceram nos zeros da zeta, encontrou em Berry sua linguagem definitiva.
+A harmonia que Pitágoras concebeu como relação numérica, que Riemann perseguiu como ordem oculta, e que Montgomery e Dyson reconheceram nos zeros da zeta, encontrou em Berry sua linguagem definitiva.
 
 A GOE tornou-se, assim, uma verdadeira **Pedra de Roseta**:
 
@@ -47,19 +47,21 @@ A resposta está no elemento mais simples — e mais negligenciado: o **Um**.
 - Berry descreveu o caos quântico cuja assinatura estatística, como demonstrado neste trabalho,  
   emerge das flutuações da contagem dos primos.
 
-A **GOE** não é um artefato físico, nem um acidente analítico. Ela é o eco estatístico da complexidade gerada pela regra mais simples possível: a sucessão a partir do Um.
+A **GOE** não é um artefato físico, nem um acidente analítico. Ela é o eco estatístico da complexidade gerada pela regra mais elementar: a sucessão construída a partir do Um.
 
 ## A dobra em 1/2: terra e céu
 
 No centro do laboratório esteve o funcional
 
-> Δπ(*x*) = π(*x*) − 2π(*x*/2)
+$$
+\Delta_\pi(x) = \pi(x) - 2\,\pi(\frac{x}{2})
+$$
 
-A dobra em **1/2** não foi introduzida por conveniência. Ela emergiu como necessidade estrutural no domínio finito: é exatamente o ponto que separa, em qualquer intervalo [1, x], os primos que **estruturam** os compostos daqueles que **estabilizam** a sequência.
+A dobra em **$1/2$** não foi introduzida por conveniência. Ela emergiu como necessidade estrutural no domínio finito: é exatamente o ponto que separa, em qualquer intervalo $[1, x]$, os primos que **estruturam** os compostos daqueles que **estabilizam** a sequência.
 
 De forma notável, essa mesma constante ocupa o papel central no domínio assintótico da teoria dos números: a **linha crítica** da Hipótese de Riemann.
 
-A função zeta é um mapa de alcance infinito. O funcional Δπ(*x*) é um mapa manuscrito, finito. Mas ambos refletem a mesma simetria fundamental.
+A função zeta é um mapa de alcance infinito. A função aritmética $\Delta_\pi(x)$ é um mapa manuscrito, finito. Mas ambos refletem a mesma simetria fundamental.
 
 O que Riemann vislumbrou no infinito aparece aqui como sombra inevitável no finito.
 
@@ -73,8 +75,8 @@ Ao final desta jornada, torna-se possível afirmar:
 
 Pitágoras não estava errado. Riemann não estava distante. Berry forneceu a linguagem que faltava.
 
-A música sempre esteve lá. Faltava apenas aprender a ouvi-la.
+A estrutura sempre esteve presente. O que faltava era o observável adequado.
 
 ---
 
-[⬅ Capítulo Anterior](./16_visao_berry.md) | [Sumário](../../index.md) | [Próximo Capítulo](./18_ressonancia_unidade.md)
+[$\gets$ Capítulo Anterior](./16_visao_berry.md) | [Sumário](../../index.md) | [Próximo Capítulo $\to$](./18_ressonancia_unidade.md)

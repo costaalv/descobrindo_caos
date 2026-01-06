@@ -1,4 +1,4 @@
-# Descobrindo o Caos nos Números
+# Descobrindo o Caos nos Números Primos — Investigações Computacionais sob o Espelho de Euler
 
 Este repositório é um **registro histórico-técnico**.
 
@@ -29,7 +29,7 @@ Nenhuma etapa exige confiança prévia.
 
 # Nota Conceitual — Onde reside o caos quântico
 
-Este repositório atua como um registro de custódia técnico. Seu propósito não é a busca por persuasão, mercado ou validação institucional, mas a preservação rigorosa de um fenômeno observável e das condições necessárias para sua reprodução independente.
+Este repositório atua como um **instrumento de custódia técnica**. Seu propósito não é a busca por persuasão, mercado ou validação institucional, mas a preservação rigorosa de um fenômeno observável e das condições necessárias para sua reprodução independente.
 
 Ao documentar os métodos e o código-fonte, este espaço assegura que a validade do fenômeno dependa exclusivamente da sua execução operacional, e não de endossos externos.
 
@@ -87,7 +87,10 @@ Ela é uma **assinatura relacional**: emerge quando a estrutura do sistema e a r
 
 Este repositório documenta essa afirmação **não como conjectura**, mas como **fato operacional reproduzível**, verificável por qualquer leitor disposto a executar os experimentos aqui registrados.
 
-## Aplicação Técnica do Protocolo CIP
-A estabilidade deste fenômeno permite a construção da Cifra de Integridade Primal (CIP), um protocolo que utiliza a rigidez espectral da aritmética para validar a integridade de artefatos digitais. A CIP demonstra que a "ressonância estrutural" descrita neste trabalho tem consequências práticas imediatas na segurança da informação.
+## Nota sobre derivações externas
 
-> Este repositório existe para que o fenômeno permaneça acessível, mesmo que o debate sobre seu significado leve tempo.
+As estruturas matemáticas e diagnósticos espectrais documentados neste repositório também fundamentam desenvolvimentos técnicos independentes, descritos e mantidos em projetos próprios.
+
+Esses desenvolvimentos não fazem parte do escopo deste registro, mas utilizam, como ponto de partida, a estabilidade estrutural aqui documentada.
+
+> Este repositório existe para que o fenômeno permaneça acessível, independentemente do ritmo do debate sobre seu significado.

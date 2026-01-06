@@ -2,7 +2,7 @@
 
 > *O primeiro princípio é que você não deve enganar a si mesmo —*  
 > *e você é a pessoa mais fácil de enganar.*  
-> — **Richard Feynman**
+> — Richard Feynman
 
 ## O espanto da observação
 
@@ -26,13 +26,12 @@ A questão central é simples e rigorosa:
 
 > a dualidade observada (Poisson versus GOE) é uma propriedade específica da estrutura dos primos, ou qualquer sinal suficientemente irregular produziria o mesmo efeito?
 
-Para responder a essa pergunta, o sinal aritmético determinístico, baseado em Δπ(*x*), é substituído por um sinal de **ruído branco puro** — uma sequência de valores genuinamente aleatórios, sem correlações internas de longo alcance.
+Para responder a essa pergunta, o sinal aritmético determinístico, baseado em $\Delta_\pi(x)$, é substituído por um sinal de **ruído branco puro** — uma sequência de valores genuinamente aleatórios, sem correlações internas de longo alcance.
 
 A intuição inicial poderia sugerir que um sinal ainda mais “caótico” deveria produzir estatísticas do tipo GOE em ambos os regimes.
 O resultado experimental, no entanto, aponta exatamente na direção oposta.
 
-O protocolo computacional completo deste experimento de controle é implementado no **Notebook 12** (`12_observador_espelho.ipynb`).
-Nele, o sinal aritmético determinístico baseado em **Δπ(x)** é substituído por ruído branco puro, mantendo-se **inalterados**:
+O protocolo computacional completo deste experimento de controle é implementado no **Notebook 12** (`12_observador_espelho.ipynb`) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/costaalv/descobrindo_caos/blob/main/notebooks/12_observador_espelho.ipynb). Nele, o sinal aritmético determinístico baseado em **$\Delta_\pi(x)$** é substituído por ruído branco puro, mantendo-se **inalterados**:
 
 * a construção do operador;
 * a normalização;
@@ -40,8 +39,6 @@ Nele, o sinal aritmético determinístico baseado em **Δπ(x)** é substituído
 * os parâmetros de observação.
 
 Essa substituição controlada permite isolar, de forma inequívoca, o papel específico da estrutura dos primos na emergência da estatística GOE.
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/costaalv/descobrindo_caos/blob/main/notebooks/11_anatomia_autovetores.ipynb)
 
 ## A descoberta — o caos dos primos é especial
 

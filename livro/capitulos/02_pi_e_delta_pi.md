@@ -1,11 +1,11 @@
 # 2. O Pulso dos Primos
 
 > *A harmonia consiste em uma mistura de opostos.*  
-> *— Heráclito*
+> — Heráclito
 
 ## Da dobra à medida
 
-No capítulo anterior, realizamos um gesto simples: dobrar a reta numérica no ponto *x*/2. Nada além disso.
+No capítulo anterior, realizamos um gesto simples: dobrar a reta numérica no ponto $x/2$. Nada além disso.
 
 Esse gesto, aparentemente elementar, revelou algo decisivo: ao dividir o intervalo observado em duas metades, os números primos passam a desempenhar **papéis distintos**, não por sua natureza intrínseca, mas por sua **posição relativa** ao ponto de observação.
 
@@ -19,9 +19,9 @@ Se existem dois papéis complementares atuando simultaneamente, é legítimo per
 
 ## Estrutura e estabilização
 
-Chamemos de **estruturadores** os primos que se encontram na primeira metade do intervalo observado. Por estarem em [1, *x*/2], seus múltiplos ainda cabem em [1, *x*], e é por meio deles que os números compostos se formam.
+Chamemos de **estruturadores** os primos que se encontram na primeira metade do intervalo observado. Por estarem em $\left[ 1, x/2 \right]$, seus múltiplos ainda cabem em $\left[ 1, x \right]$, e é por meio deles que os números compostos se formam.
 
-Chamemos de **estabilizadores** os primos que se encontram na segunda metade, em (*x*/2, *x*]. Esses primos já não produzem novos compostos dentro do intervalo observado. Eles ocupam posições que não foram preenchidas pela ação dos estruturadores.
+Chamemos de **estabilizadores** os primos que se encontram na segunda metade, em $\left(x/2, x \right]$. Esses primos já não produzem novos compostos dentro do intervalo observado. Eles ocupam posições que não foram preenchidas pela ação dos estruturadores.
 
 Esses dois papéis não são identidades fixas. São **funções transitórias**.
 
@@ -33,23 +33,23 @@ Esses dois papéis não são identidades fixas. São **funções transitórias**
 
 Para observar essa dinâmica, precisamos de um instrumento simples, direto e inteiramente aritmético.
 
-Definimos a função π(*x*) como a contagem exata de primos menores ou iguais a *x*. Com ela, podemos quantificar:
-- o número de primos estruturadores: π(⌊*x*/2⌋);
-- o número de primos estabilizadores: π(*x*) − π(⌊*x*/2⌋).
+Definimos a função $\pi(x)$ como a contagem exata de primos menores ou iguais a $x$. Com ela, podemos quantificar:
+- o número de primos estruturadores: $\pi\left( \left\lfloor x/2 \right\rfloor \right)$;
+- o número de primos estabilizadores: $\pi(x) − \pi\left( \left\lfloor x/2 \right\rfloor \right)$.
 
 A diferença entre essas duas quantidades define um funcional natural de contraste:
 
-> ∆π(*x*) = π(*x*) − 2π(*x*/2).
+$$ \Delta_\pi(x) = \pi(x) − 2\, \pi(\frac{x}{2})$$.
 
-Esse funcional não prevê, não ajusta e não suaviza. Ele apenas **mede**, a cada valor de *x*, qual dos dois papéis predomina.
+Esse funcional não prevê, não ajusta e não suaviza. Ele apenas **mede**, a cada valor de $x$, qual dos dois papéis predomina.
 
-Quando ∆π(*x*) é positivo, há mais estabilizadores do que estruturadores. Quando é negativo, a capacidade de estruturação domina. Quando se anula, há um equilíbrio momentâneo.
+Quando $\Delta_\pi(x)$ é positivo, há mais estabilizadores do que estruturadores. Quando é negativo, a capacidade de estruturação domina. Quando se anula, há um equilíbrio momentâneo.
 
 Nada além disso é afirmado aqui.
 
 ## O pulso
 
-Ao calcular ∆π(*x*) ao longo da reta numérica, algo inesperado acontece.
+Ao calcular $\Delta_\pi(x)$ ao longo da reta numérica, algo inesperado acontece.
 
 O valor não cresce suavemente, nem decai monotonamente. Ele **oscila**.
 
@@ -65,11 +65,9 @@ Não há aqui estatística, espectro ou caos no sentido técnico. Há apenas um 
 
 Neste ponto, a abstração da fórmula deve ceder lugar à evidência visual.
 
-O **Notebook 02** (`02_pi_e_delta_pi.ipynb`) foi desenhado para este fim.
+O **Notebook 02** (`02_pi_e_delta_pi.ipynb`) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/costaalv/descobrindo_caos/blob/main/notebooks/02_pi_e_delta_pi.ipynb) foi desenhado para este fim.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/costaalv/descobrindo_caos/blob/main/notebooks/02_pi_e_delta_pi.ipynb)
-
-Ao executá-lo, você verá o gráfico de ∆π(*x*) emergir. Observe a natureza do sinal: ele é um sinal em escada discreta, seco e implacável. Observe como as forças azuis (estrutura) e laranjas (estabilização) disputam o domínio da reta numérica. Não há curvas suaves aqui, apenas o registro bruto de cada novo primo que entra no sistema, alterando o equilíbrio entre estruturadores e estabilizadores.
+Ao executá-lo, você verá o gráfico de $\Delta_\pi(x)$ emergir. Observe a natureza do sinal: ele é um sinal em escada discreta, seco e implacável. Observe como as forças azuis (estrutura) e laranjas (estabilização) disputam o domínio da reta numérica. Não há curvas suaves aqui, apenas o registro bruto de cada novo primo que entra no sistema, alterando o equilíbrio entre estruturadores e estabilizadores.
 
 Aumente o intervalo. Note como as oscilações parecem ganhar uma "textura". O que antes parecia um erro de contagem revela-se um padrão de alternância. É este o sinal que chamamos de pulso.
 
@@ -77,7 +75,7 @@ Aumente o intervalo. Note como as oscilações parecem ganhar uma "textura". O q
 
 É impossível não notar um aspecto curioso dessa construção.
 
-O valor 1 sustenta toda a sequência, mas não participa diretamente de nenhuma das relações medidas por ∆π(*x*). Ele não estrutura. Ele não estabiliza.
+O valor 1 sustenta toda a sequência, mas não participa diretamente de nenhuma das relações medidas por $\Delta_\pi(x)$. Ele não estrutura. Ele não estabiliza.
 
 O Um atua como a **referência de fase** do sistema. Ele é o elemento neutro que permite a dobra, mas é a partir do 2 que a **assimetria funcional** (estruturador vs. estabilizador) se manifesta como um sinal observável.
 
@@ -119,10 +117,10 @@ Mas tudo o que virá depois — inclusive qualquer leitura espectral — depende
 ## Ponto de Repouso
 
 Antes de avançar, fixemos o que foi observado:
-- **O Instrumento**: O funcional ∆π(*x*) = π(*x*) − 2π(*x*/2) mede o desbalanceamento entre dois papéis.
+- **O Instrumento**: O funcional $\Delta_\pi(x) = \pi(x) − 2\,\pi(x/2)$ mede o desbalanceamento entre dois papéis.
 - **O Fenômeno**: Os primos não são distribuídos ao acaso; eles alternam entre estabilizar e estruturar, gerando um pulso.
 - **A Constatação**: O sistema não é estático. Ele possui uma dinâmica interna de redistribuição de funções.
 
 ---
 
-[⬅ Capítulo Anterior](./01_o_um.md) | [Sumário](../../index.md) | [Próximo Capítulo](./03_busca_equilibrio.md)
+[$\gets$ Capítulo Anterior](./01_o_um.md) | [Sumário](../../index.md) | [Próximo Capítulo](./03_busca_equilibrio.md)

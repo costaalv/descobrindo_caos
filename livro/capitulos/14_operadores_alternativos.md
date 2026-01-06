@@ -3,7 +3,7 @@
 > *Se você arrasta uma rede com malha de cinco centímetros no mar,*  
 > *a sua conclusão será que não existem peixes menores que cinco centímetros.*  
 > *Mas isso é um fato sobre os peixes do mar, ou sobre a sua rede?*  
-> — **Arthur Eddington**
+> — Arthur Eddington
 
 ## A última dúvida
 
@@ -13,9 +13,11 @@ No entanto, uma dúvida legítima permanece.
 
 O operador central deste trabalho foi definido, até aqui, por um *kernel de cosseno*, da forma
 
-> *M*ᵢⱼ ∝ cos(*f*ᵢ · log *x*ⱼ) + cos(*f*ⱼ · log *x*ᵢ),
+$$
+M_{ij} \propto \cos(f_i \cdot \log x_j) + \cos(f_j \cdot \log x_i),
+$$
 
-onde *f*ᵢ = Δπ(*x*ᵢ).
+onde $f_i = \Delta_\pi(x_i)$.
 
 É natural perguntar se a dualidade observada, Poisson na escala linear e GOE na escala logarítmica, é uma propriedade intrínseca do sistema aritmético, ou se poderia ser um artefato específico da escolha funcional do kernel.
 
@@ -29,15 +31,19 @@ Este capítulo é dedicado a enfrentar essa questão de forma direta.
 
 O cosseno não é uma função arbitrária. Ele surge naturalmente como a parte real de uma fase complexa:
 
-> cos(θ) = Re(*e*ⁱᶿ).
+$$
+\cos(\theta) = \text{Re}(e^{i\theta}).
+$$
 
 Uma generalização imediata, portanto, consiste em abandonar a projeção real e trabalhar diretamente com a fase complexa completa.
 
 Introduzimos assim um operador alternativo, definido por um *kernel de fase*:
 
-> *M*′ᵢⱼ = *e*ⁱ·*f*ᵢ·log *x*ⱼ.
+$$
+M'_{ij} = e^{i \cdot f_i \cdot \log x_j}.
+$$
 
-Esse operador não é simétrico real, mas carrega a mesma informação estrutural fundamental: a interação entre o sinal aritmético *f*ᵢ e a escala logarítmica de *x*ⱼ.
+Esse operador não é simétrico real, mas carrega a mesma informação estrutural fundamental: a interação entre o sinal aritmético $f_i$ e a escala logarítmica de $x_j$.
 
 A motivação deste teste é simples e rigorosa: se a estatística GOE observada anteriormente for consequência da interação profunda entre o sinal dos primos e a escala de observação, e não da forma particular do cosseno, então a substituição do kernel não deve destruir o fenômeno.
 
@@ -55,13 +61,11 @@ Em particular, esperamos observar:
 
 ## O laboratório de operadores
 
-O **Notebook 14** (`14_operadores_alternativos.ipynb`) implementa este teste de forma controlada.
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/costaalv/descobrindo_caos/blob/main/notebooks/14_operadores_alternativos.ipynb)
+O **Notebook 14** (`14_operadores_alternativos.ipynb`) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/costaalv/descobrindo_caos/blob/main/notebooks/14_operadores_alternativos.ipynb) implementa este teste de forma controlada.
 
 Foi introduzido um seletor que permite alternar entre o *kernel de cosseno* e o *kernel de fase*, mantendo inalterados:
 
-- o sinal aritmético Δπ(x);
+- o sinal aritmético $\Delta_pi(x)$;
 - os regimes de observação (linear e logarítmico);
 - o protocolo estatístico aplicado ao espectro.
 
@@ -90,7 +94,7 @@ O caos observado:
 
 Ele emerge da combinação de dois elementos fundamentais:
 
-1. a estrutura aritmética intrínseca do sinal Δπ(x);
+1. a estrutura aritmética intrínseca do sinal $\Delta_pi(x)$;
 2. a observação desse sinal na escala logarítmica natural dos primos.
 
 O operador atua apenas como um instrumento de leitura. Trocar o instrumento não altera a música.
@@ -110,4 +114,4 @@ Nos capítulos seguintes, passaremos a explorar as consequências dessa robustez
 
 ---
 
-[⬅ Capítulo Anterior](./13_varreduras_escala.md) | [Sumário](../../index.md) | [Próximo Capítulo](./15_alturas_estratosfericas.md)
+[$\gets$ Capítulo Anterior](./13_varreduras_escala.md) | [Sumário](../../index.md) | [Próximo Capítulo $\to$](./15_alturas_estratosfericas.md)

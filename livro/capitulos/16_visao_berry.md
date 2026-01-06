@@ -3,7 +3,7 @@
 > *A mecânica quântica não é caótica.*  
 > *Então, como é que o mundo clássico,*  
 > *que emerge dela, pode ser?*  
-> — **Michael Berry**
+> — Michael Berry
 
 ## O paradoxo do caos
 
@@ -32,7 +32,7 @@ A visão de Berry foi formalizada pela Conjectura de **Bohigas–Giannoni–Schm
 - sistemas quânticos associados a dinâmicas clássicas **integráveis** exibem estatística de **Poisson**;
 - sistemas quânticos associados a dinâmicas clássicas **caóticas** exibem estatística do **Ensemble Ortogonal Gaussiano (GOE)**.
 
-No regime caótico, os níveis de energia apresentam **repulsão espectral** e **rigidez global**, obedecendo às distribuições universais previstas pela Teoria de Matrizes Aleatórias.
+No regime caótico, os níveis de energia apresentam **repulsão espectral** e **rigidez global**. Especificamente, a estatística GOE emerge em sistemas que preservam a simetria de reversão temporal: a contraparte estrutural da simetria de espelhamento que identificamos na reta aritmética ancorada na unidade.
 
 O caos, longe de produzir desordem estatística, impõe uma regularidade profunda.
 
@@ -46,17 +46,11 @@ Ao longo dos capítulos anteriores, construímos um operador espectral diretamen
 
 Ainda assim, o espectro obtido exibe, de forma robusta, reprodutível e persistente, todas as assinaturas estatísticas da GOE.
 
-À luz da visão de Berry, esse resultado adquire um significado preciso.
+À luz da visão de Berry, esse resultado adquire um significado preciso. Não se trata de uma coincidência numérica, mas da evidência de que a simetria de espelhamento em $1/2$ é uma realização, na reta real, da mesma classe de rigidez espectral que Riemann vislumbrou no plano complexo.
 
-Não se trata de uma coincidência numérica.  
-Não se trata de um artefato computacional.  
-Não se trata de uma escolha oportunista de operador.
+## A aritmética como objeto espectral de classe caótica
 
-Trata-se de uma leitura legítima da **linguagem universal do caos quântico**.
-
-## A aritmética como sistema caótico abstrato
-
-O que este trabalho revela é que a sequência dos números primos, quando observada na sua escala natural, comporta-se como um sistema quântico caótico abstrato.
+O que este trabalho revela é que a sequência dos números primos, quando observada na sua escala natural, comporta-se como um objeto espectral pertencente à classe caótica.
 
 Não há partículas.  
 Não há Hamiltoniano físico explícito.  
@@ -69,7 +63,7 @@ Ainda assim, há:
 - autovetores ergódicos;
 - estatísticas universais da GOE.
 
-A música que emerge não é metafórica. Ela é **espectral**.
+A regularidade observada não é metafórica. Ela é **espectral**.
 
 O caos não está nas trajetórias, porque não há trajetórias. Ele está na **estrutura estatística profunda** do espectro.
 
@@ -82,9 +76,11 @@ Durante mais de um século, a distribuição dos primos oscilou entre duas narra
 
 A visão de Berry oferece uma terceira via.
 
-Os primos não são aleatórios. Eles são **caoticamente estruturados**.
+Os primos não são aleatórios. Eles exibem **uma estrutura cuja estatística espectral pertence à classe caótica universal**.
 
 Sua irregularidade não é ausência de lei, mas expressão de uma universalidade estatística mais profunda — a mesma que governa sistemas físicos caóticos.
+
+E toda essa rigidez emerge de um único gesto estrutural, o espelhamento aritmético em $x \to x/2$, reiterado ao longo das escalas, sem fragmentação da unidade.
 
 ## Ponto de repouso
 
@@ -102,4 +98,4 @@ No capítulo final, reuniremos todas as peças — aritmética, espectro, escala
 
 ---
 
-[⬅ Capítulo Anterior](./15_alturas_estratosfericas.md) | [Sumário](../../index.md) | [Próximo Capítulo](./17_ponte_berry.md)
+[$\gets$ Capítulo Anterior](./15_alturas_estratosfericas.md) | [Sumário](../../index.md) | [Próximo Capítulo $\to$](./17_ponte_berry.md)

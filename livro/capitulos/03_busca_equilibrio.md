@@ -20,25 +20,29 @@ $$\pi(x) = \pi_S(x) + \pi_N(x)$$
 
 Dividindo ambos os membros por $\pi(x)$, obtemos uma identidade simples e profunda, que denominamos a **Lei de Conservação dos Primos**:
 
-$$1 = \frac{\pi_S(x)}{\pi(x)} + \frac{\pi_N(x)}{\pi(x)}$$
+$$
+1 = \frac{\pi_S(x)}{\pi(x)} + \frac{\pi_N(x)}{\pi(x)}
+$$
 
 Esta equação nos diz que, embora as contagens absolutas variem, as frações de Estruturadores e Estabilizadores **sempre somam exatamente 1**. São duas faces de um mesmo equilíbrio dinâmico.
 
 O Teorema dos Números Primos garante que, à medida que $x \to \infty$, ambas as frações convergem para o mesmo valor: $\frac{1}{2}$. A estrutura e a estabilidade tornam-se, em termos de densidade estatística, equivalentes. Revisitando nossa medida de tensão, $\Delta_\pi(x)$, podemos reescrevê-la em sua forma normalizada:
 
-$$\frac{\Delta_\pi(x)}{\pi(x)} = \frac{\pi_N(x)}{\pi(x)} - \frac{\pi_S(x)}{\pi(x)}$$
+$$
+\frac{\Delta_\pi(x)}{\pi(x)} = \frac{\pi_N(x)}{\pi(x)} - \frac{\pi_S(x)}{\pi(x)}
+$$
 
-Se cada termo tende a $\frac{1}{2}$, a diferença tende a zero. A “dívida” entre as duas forças pode crescer em termos absolutos, mas, *relativamente ao todo*, ela se dilui. O sistema, visto sob a ótica da proporção, caminha inexoravelmente para o equilíbrio.
+Se cada termo tende a $1/2$, a diferença tende a zero. A “dívida” entre as duas forças pode crescer em termos absolutos, mas, *relativamente ao todo*, ela se dilui. O sistema, visto sob a ótica da proporção, caminha inexoravelmente para o equilíbrio.
 
 ## Laboratório Interativo: A Convergência
 
 O **Notebook 03** (`03_busca_equilibrio.ipynb`) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/costaalv/descobrindo_caos/blob/main/notebooks/03_busca_equilibrio.ipynb) documenta experimentalmente esta transição. Ao executá-lo, o leitor observará dois fenômenos simultâneos:
-- **A Atração da Simetria**: As curvas de densidade de Estruturadores e Estabilizadores aproximam-se da linha crítica de $\frac{1}{2}$.
+- **A Atração da Simetria**: As curvas de densidade de Estruturadores e Estabilizadores aproximam-se da linha crítica de $1/2$.
 - **O Amortecimento**: A oscilação relativa, intensa nos valores iniciais, perde amplitude e converge para o zero.
 
 ## Um Sistema Quântico Disfarçado?
 
-As oscilações de $\frac{\Delta_\pi(x)}{\pi(x)}$ lembram o comportamento de um sistema quântico relaxando em direção ao equilíbrio. As duas forças — Estruturadora e Estabilizadora — comportam-se como estados de um sistema de dois níveis, trocando energia até a simetria se restabelecer.
+As oscilações de $\Delta_\pi(x)/\pi(x)$ lembram o comportamento de um sistema quântico relaxando em direção ao equilíbrio. As duas forças — Estruturadora e Estabilizadora — comportam-se como estados de um sistema de dois níveis, trocando energia até a simetria se restabelecer.
 
 A escala logarítmica desempenha um papel análogo ao de um tempo interno, em que o caos inicial dá lugar à ordem espectral. Visto sob essa lente, a reta numérica não é estática — é um campo oscilatório cuja harmonia final emerge exatamente do conflito que a gerou.
 
@@ -48,10 +52,10 @@ A escala logarítmica desempenha um papel análogo ao de um tempo interno, em qu
 
 Antes de prosseguir, consolidemos a base desta etapa:
 - **A Normalização**: A tensão $\Delta_\pi(x)$ deve ser lida em relação à massa total de primos $\pi(x)$.
-- **O Limite**: O sistema tende ao equilíbrio perfeito ($\frac{1}{2}$ para cada papel funcional).
+- **O Limite**: O sistema tende ao equilíbrio perfeito ($1/2$ para cada papel funcional).
 
 > O equilíbrio aqui não é ausência de movimento, mas o regime para o qual o movimento converge.
 
 ---
 
-[⬅ Capítulo Anterior](./02_pi_e_delta_pi.md) | [Sumário](../../index.md) | [Próximo Capítulo](./04_operador_M.md)
+[$\gets$ Capítulo Anterior](./02_pi_e_delta_pi.md) | [Sumário](../../index.md) | [Próximo Capítulo](./04_operador_M.md)

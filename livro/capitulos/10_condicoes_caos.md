@@ -2,7 +2,7 @@
 
 > *A ordem é o prazer da razão;*  
 > *mas a desordem é o deleite da imaginação.*  
-> *— Paul Claudel*
+> — Paul Claudel
 
 Nos capítulos anteriores, foram apresentadas evidências consistentes de um fenômeno inesperado: a assinatura estatística associada ao caos quântico — compatível com a classe GOE — emerge diretamente de um operador construído a partir da contagem dos números primos.
 
@@ -44,9 +44,7 @@ Somente nessa escala o pano de fundo geométrico se estabiliza, permitindo que f
 
 ## Verificação empírica
 
-A interação entre esses três pilares é demonstrada de forma direta no **Notebook 10** (`10_condicoes_caos.ipynb`).
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/costaalv/descobrindo_caos/blob/main/notebooks/10_condicoes_caos.ipynb)
+A interação entre esses três pilares é demonstrada de forma direta no **Notebook 10** (`10_condicoes_caos.ipynb`) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/costaalv/descobrindo_caos/blob/main/notebooks/10_condicoes_caos.ipynb).
 
 Nesse experimento, dois conjuntos de gráficos são produzidos:
 
@@ -98,4 +96,4 @@ delimitando com precisão o domínio de validade da universalidade identificada.
 
 ---
 
-[⬅ Capítulo Anterior](./09_escala_logaritmica.md) | [Sumário](../../index.md) | [Próximo Capítulo](./11_anatomia_autovetores.md)
+[$\gets$ Capítulo Anterior](./09_escala_logaritmica.md) | [Sumário](../../index.md) | [Próximo Capítulo](./11_anatomia_autovetores.md)

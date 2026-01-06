@@ -2,9 +2,9 @@
 
 > *O que observamos não é a natureza em si,*  
 > *mas a natureza exposta ao nosso método de questionamento.*  
-> — **Werner Heisenberg**
+> — Werner Heisenberg
 
-Nos capítulos anteriores, a análise concentrou-se nos **autovalores** do operador *M*. Eles forneceram a localização espectral das excitações do sistema e, por meio de suas estatísticas, permitiram distinguir regimes descorrelacionados (Poisson) de regimes correlacionados (GOE).
+Nos capítulos anteriores, a análise concentrou-se nos **autovalores** do operador $M$. Eles forneceram a localização espectral das excitações do sistema e, por meio de suas estatísticas, permitiram distinguir regimes descorrelacionados (Poisson) de regimes correlacionados (GOE).
 
 Neste capítulo, o foco desloca-se para os **autovetores** do operador.
 
@@ -23,26 +23,32 @@ Para investigar esse aspecto, introduzimos duas ferramentas complementares:
 
 ## Ferramenta I — Participation Ratio
 
-O *Participation Ratio* (*PR*) quantifica o grau de espalhamento de um autovetor.
+O *Participation Ratio* ($PR$) quantifica o grau de espalhamento de um autovetor.
 
 Para um autovetor normalizado
 
-> *v* = (*v*₁, *v*₂, ..., *v*ₙ), define-se:
+> $v = (v_1, v_2, \dots, v_n)$, define-se:
 
-> ***PR* = 1/soma(|*v*ᵢ|⁴)**
+$$
+PR = \frac{(\sum_{i=1}^{n} |v_i|^2)^2}{\sum_{i=1}^{n} |v_i|^4}.
+$$
 
 Seu significado é direto:
 
-* autovetores localizados apresentam PR pequeno, da ordem da unidade;
-* autovetores deslocalizados apresentam PR proporcional a *N*.
+* autovetores localizados apresentam $PR$ pequeno, da ordem da unidade;
+* autovetores deslocalizados apresentam $PR$ proporcional a $N$.
 
 Na Teoria de Matrizes Aleatórias, autovetores da classe GOE são **ergódicos**. Para eles, a razão normalizada
 
-> ***PR*/*N***
+$$
+\frac{PR}{N}
+$$
 
 concentra-se em torno do valor universal
 
-> **1/3**.
+$$
+\frac{1}{3}.
+$$
 
 Esse valor constitui uma assinatura estrutural do caos quântico, independente da forma detalhada do operador.
 
@@ -63,7 +69,7 @@ Um *p-valor* elevado indica que não há evidência estatística para rejeitar a
 
 ## O laboratório empírico
 
-O **Notebook 11** (`11_anatomia_autovetores.ipynb`) implementa essas duas análises de forma sistemática, permitindo a comparação direta entre dois regimes de observação:
+O **Notebook 11** (`11_anatomia_autovetores.ipynb`) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/costaalv/descobrindo_caos/blob/main/notebooks/11_anatomia_autovetores.ipynb) implementa essas duas análises de forma sistemática, permitindo a comparação direta entre dois regimes de observação:
 
 * amostragem linear;
 * amostragem logarítmica.
@@ -75,8 +81,6 @@ Para cada caso, são produzidos quatro gráficos:
 * a distribuição dos valores de *PR*/*N* ao longo do espectro;
 * a comparação visual entre regimes.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/costaalv/descobrindo_caos/blob/main/notebooks/11_anatomia_autovetores.ipynb)
-
 ## Resultados — sinal genuíno e artefato
 
 Os resultados exibem um contraste instrutivo entre os dois regimes de observação.
@@ -87,13 +91,13 @@ Na parametrização logarítmica, observa-se que:
 
 * os componentes dos autovetores seguem consistentemente uma distribuição Gaussiana;
 * o teste de Kolmogorov–Smirnov retorna *p-valores* elevados;
-* a distribuição de *PR*/*N* concentra-se fortemente em torno de 1/3.
+* a distribuição de $PR/N$ concentra-se fortemente em torno de $1/3$.
 
 Esses resultados indicam que os autovetores são **ergódicos** e que a complexidade observada não é superficial, mas uma propriedade estrutural do operador.
 
 ### Escala linear — o fantasma metodológico
 
-Na parametrização linear, os resultados aparentam, à primeira vista, ser igualmente compatíveis com o GOE: componentes aproximadamente Gaussianos e valores de *PR*/*N* próximos de 1/3.
+Na parametrização linear, os resultados aparentam, à primeira vista, ser igualmente compatíveis com o GOE: componentes aproximadamente Gaussianos e valores de $PR/N$ próximos de $1/3$.
 
 Essa semelhança, no entanto, é enganosa.
 
@@ -115,7 +119,7 @@ A escala logarítmica satisfaz essa condição. A escala linear, não.
 
 As propriedades observadas sugerem aplicações potenciais em áreas como a criptografia.
 
-Parâmetros como *X*₀, *N* e a função Δπ(*x*) podem ser interpretados como uma chave privada, a partir da qual autovetores altamente complexos são gerados de forma determinística.
+Parâmetros como $X_0$, $N$ e a função aritmética $\Delta_\pi(x)$ podem ser interpretados como uma chave privada, a partir da qual autovetores altamente complexos são gerados de forma determinística.
 
 O problema inverso, reconstruir esses parâmetros a partir de um autovetor ergódico, apresenta elevada complexidade computacional.
 
@@ -134,10 +138,10 @@ Até aqui:
 * distinguiu-se claramente sinal genuíno de artefato metodológico;
 * o **Notebook 11** forneceu a base empírica dessas conclusões.
 
-Com isso, a caracterização do regime caótico do operador *M* está completa: ele se manifesta simultaneamente nos autovalores e na geometria interna de seus autovetores.
+Com isso, a caracterização do regime caótico do operador $M$ está completa: ele se manifesta simultaneamente nos autovalores e na geometria interna de seus autovetores.
 
 No capítulo seguinte, encerramos o percurso conceitual, reunindo os resultados obtidos em uma leitura estrutural unificada.
 
 ---
 
-[⬅ Capítulo Anterior](./10_condicoes_caos.md) | [Sumário](../../index.md) | [Próximo Capítulo](./12_observador_espelho.md)
+[$\gets$ Capítulo Anterior](./10_condicoes_caos.md) | [Sumário](../../index.md) | [Próximo Capítulo](./12_observador_espelho.md)

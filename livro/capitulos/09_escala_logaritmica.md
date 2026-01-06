@@ -1,9 +1,9 @@
 # 9. A Escala Logarítmica — A Lente para o Caos
 
 > *Meça o que é mensurável e torne mensurável o que não o é.*  
-> *— Galileu Galilei*
+> — Galileu Galilei
 
-Um dos resultados centrais deste trabalho é a constatação de que a emergência da estatística do tipo GOE no espectro do operador *M* não é um fenômeno invariante sob mudanças de escala.
+Um dos resultados centrais deste trabalho é a constatação de que a emergência da estatística do tipo GOE no espectro do operador $M$ não é um fenômeno invariante sob mudanças de escala.
 
 Ao contrário, ela só se manifesta de forma robusta quando o sistema é observado através de uma lente específica: a **escala logarítmica**.
 
@@ -14,30 +14,32 @@ A resposta está na própria geometria da distribuição dos números primos.
 
 ## A topografia dos primos
 
-A função de contagem de primos π(x) descreve a quantidade de números primos menores ou iguais a *x*.  
+A função de contagem de primos $\pi(x)$ descreve a quantidade de números primos menores ou iguais a $x$.  
 O Teorema dos Números Primos estabelece que, assintoticamente,
 
-> π(*x*) ∼ *x*/log(*x*)
+$$
+\pi(x) \sim \frac{x}{ln(x)}
+$$
 
 o que implica que a densidade local de primos na reta linear satisfaz
 
-> dπ/d*x* ≈ 1/log(*x*).
+$$
+\frac{d\pi}{dx} \approx \frac{1}{ln(x)}.
+$$
 
 Essa expressão contém uma informação fundamental:  
-**a densidade de primos decai continuamente à medida que *x* cresce**.
+**a densidade de primos decai continuamente à medida que $x$ cresce**.
 
 Portanto, qualquer observação feita diretamente na escala linear ocorre sobre um terreno cuja principal característica estrutural é um colapso progressivo da densidade.
 
 ## Verificação empírica
 
 A estrutura geométrica descrita acima não é apenas assintótica ou conceitual.  
-Ela é verificada diretamente no **Notebook 09** (`09_escala_logaritmica.ipynb`), no qual a densidade empírica de primos é medida e comparada nas escalas linear e logarítmica.
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/costaalv/descobrindo_caos/blob/main/notebooks/09_escala_logaritmica.ipynb)
+Ela é verificada diretamente no **Notebook 09** (`09_escala_logaritmica.ipynb`) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/costaalv/descobrindo_caos/blob/main/notebooks/09_escala_logaritmica.ipynb), no qual a densidade empírica de primos é medida e comparada nas escalas linear e logarítmica.
 
 Os gráficos produzidos nesse experimento mostram explicitamente:
-- o decaimento contínuo de *dπ/dx* na escala linear;
-- a transformação desse colapso em uma lei de crescimento suave ao passar para *dπ/d(log x)*.
+- o decaimento contínuo de $d\pi/dx$ na escala linear;
+- a transformação desse colapso em uma lei de crescimento suave ao passar para $d\pi/d(\ln\,x)$.
 
 Essas visualizações fornecem o pano de fundo geométrico necessário para interpretar os regimes espectrais observados nos capítulos anteriores.
 
@@ -52,7 +54,7 @@ O resultado observacional é direto:
 
 > em um palco cuja geometria colapsa continuamente, apenas estatísticas descorrelacionadas sobrevivem.
 
-É por isso que, mesmo após normalização local dos espaçamentos, o espectro do operador *M*, observado linearmente, exibe estatística do tipo Poisson.
+É por isso que, mesmo após normalização local dos espaçamentos, o espectro do operador $M$, observado linearmente, exibe estatística do tipo Poisson.
 
 Não se trata de ausência de estrutura no operador, mas de ausência de condições geométricas para que essa estrutura se manifeste.
 
@@ -60,26 +62,36 @@ Não se trata de ausência de estrutura no operador, mas de ausência de condiç
 
 Consideremos agora a transformação de variável:
 
-> y = log(*x*).
+$$
+y = \ln(x).
+$$
 
 A densidade de primos em relação à nova variável é obtida pela regra da cadeia:
 
-> dπ/d*y* = (dπ/d*x*) · (d*x*/d*y*).
+$$
+d\,\pi/d\,y = (\frac{d\,\pi}{d\,x}) \cdot (\frac{d\,x}{d\,y}).
+$$
 
-Como *dx/dy = x*, segue que:
+Como $d\,x/d\,y = x$, segue que:
 
-> dπ/d(log *x*) = *x* · dπ/d*x*.
+$$
+\frac{d\,\pi}{d(\ln\,x}) = x \cdot \frac{d\,\pi}{d\,x}.
+$$
 
 Substituindo a aproximação assintótica da densidade linear,
 
-> dπ/d*x* ≈ 1/log(*x*),
+$$
+\frac{d\,\pi}{d\,x} \approx \frac{1}{\ln(x)},
+$$
 
 obtemos:
 
-> dπ/d(log *x*) ≈ *x*/log(*x*).
+$$
+\frac{d\,\pi}{d(\ln\,x)} \approx \frac{x}{\ln(x).
+$$
 
 Essa expressão é fundamental:  
-a função *x/log(x)* é **estritamente crescente**.
+a função $x/\ln(x)$ é **estritamente crescente**.
 
 O que antes era um colapso contínuo transforma-se agora em uma lei de crescimento suave e previsível.
 
@@ -92,8 +104,8 @@ Em vez de uma densidade que tende a zero, obtemos uma densidade que cresce de fo
 Isso cria um pano de fundo estável contra o qual as flutuações podem ser analisadas de forma significativa.
 
 É nesse regime que:
-- a função Δπ(*x*) exibe flutuações estruturais em múltiplas escalas;
-- o operador *M* torna-se altamente variável;
+- a função $\Delta_\pi(x)$ exibe flutuações estruturais em múltiplas escalas;
+- o operador $M$ torna-se altamente variável;
 - o espectro passa a apresentar correlações locais e rigidez global.
 
 A estatística do tipo GOE não é criada pela escala logarítmica.  
@@ -103,12 +115,14 @@ Ela é **revelada** por ela.
 
 Os experimentos numéricos mostram que a transição do regime não correlacionado para o regime GOE ocorre, de forma sistemática, a partir de escalas iniciais da ordem de:
 
-> *X*₀ ≈ 10⁴ – 10⁵.
+$$
+X_0 \approx 10^4\text{–}10^5.
+$$
 
 Essa observação ganha agora uma interpretação geométrica clara.
 
 Abaixo dessa região, a distribuição dos primos ainda é dominada por irregularidades discretas e efeitos finitos.  
-Acima dela, a lei assintótica *x / log(x)* passa a governar a densidade de forma robusta.
+Acima dela, a lei assintótica $x / \ln(x)$ passa a governar a densidade de forma robusta.
 
 É nesse ponto que o “palco” se estabiliza.  
 A partir daí, as flutuações — e não a tendência média — passam a dominar a estatística espectral.
@@ -130,10 +144,10 @@ Ela só pode ser ouvida quando o palco está adequadamente construído.
 
 Até aqui:
 - a diferença entre observação linear e logarítmica foi reformulada como um problema geométrico de densidade;
-- foi explicitado que, na escala linear, a densidade de primos decai como *dπ/dx ≈ 1/log(x)*, produzindo um pano de fundo estruturalmente instável;
-- foi derivada a densidade correspondente na escala logarítmica, *dπ/d(log x) ≈ x/log(x)*, evidenciando a transformação do colapso em uma lei de crescimento suave;
+- foi explicitado que, na escala linear, a densidade de primos decai como $d\,\pi/d\,x \approx 1/ln(x)$, produzindo um pano de fundo estruturalmente instável;
+- foi derivada a densidade correspondente na escala logarítmica, $d\,\pi/d(ln\,x) \approx x/ln(x)$, evidenciando a transformação do colapso em uma lei de crescimento suave;
 - foi identificado que a lente logarítmica não “cria” universalidade, mas estabiliza o regime de observação no qual flutuações podem dominar;
-- foi conectada a escala crítica observada (*X₀ ≈ 10⁴ – 10⁵*) à consolidação empírica do regime assintótico.
+- foi conectada a escala crítica observada ($ X_0 \approx 10^4\text{–}10^5 $) à consolidação empírica do regime assintótico.
 
 O papel da escala está, portanto, isolado: ela determina se o operador será observado sobre um terreno em colapso ou sobre um terreno estabilizado.
 
@@ -141,4 +155,4 @@ No capítulo seguinte, passaremos do diagnóstico geométrico para uma análise 
 
 ---
 
-[⬅ Capítulo Anterior](./08_lente_descoberta.md) | [Sumário](../../index.md) | [Próximo Capítulo](./10_condicoes_caos.md)
+[$\gets$ Capítulo Anterior](./08_lente_descoberta.md) | [Sumário](../../index.md) | [Próximo Capítulo](./10_condicoes_caos.md)

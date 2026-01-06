@@ -2,13 +2,13 @@
 
 > *A geometria não é verdadeira;*  
 > *ela é conveniente.*  
-> *— Henri Poincaré*
+> — Henri Poincaré
 
 ## Do fenômeno à necessidade
 
 No capítulo anterior, um fato experimental foi estabelecido com clareza:
 
-> o mesmo operador determinístico *M*, construído sobre a mesma região aritmética, exibe estatísticas espectrais radicalmente distintas quando observado sob escalas diferentes.
+> o mesmo operador determinístico $M$, construído sobre a mesma região aritmética, exibe estatísticas espectrais radicalmente distintas quando observado sob escalas diferentes.
 
 A amostragem linear revelou um regime estatístico compatível com descorrelação local, enquanto a amostragem logarítmica conduziu sistematicamente à emergência de correlações universais.
 
@@ -24,9 +24,11 @@ Até aqui, a escala foi tratada como um parâmetro externo: uma escolha do obser
 
 No contexto da aritmética dos primos, a escala **não é neutra**. Ela está embutida no próprio objeto observado.
 
-Desde Gauss, sabe-se que a densidade média de primos em torno de *x* decresce como:
+Desde Gauss, sabe-se que a densidade média de primos em torno de $x$ decresce como:
 
-> 1 / log(*x*)
+$$
+\frac{1}{ln(x)}
+$$
 
 Isso significa que a reta numérica **não é homogênea** do ponto de vista da estrutura prima. Regiões afastadas do Um não são apenas “maiores”: elas são estruturalmente mais rarefeitas.
 
@@ -36,18 +38,20 @@ A escala logarítmica, por outro lado, atua como uma **mudança de coordenadas n
 
 ## O papel de Δπ(*x*) sob reparametrização
 
-O operador *M* não depende diretamente de π(*x*), mas de sua combinação oscilatória:
+O operador $M$ não depende diretamente de $\pi(x)$, mas de sua combinação oscilatória:
 
-> Δπ(*x*) = π(*x*) − 2π(*x*/2)
+$$
+\Delta_pi(x) = \pi(x) - 2\, \pi(x/2)
+$$
 
-Essa função captura exatamente o desvio local em relação ao comportamento médio esperado.
+Esse funcional captura exatamente o desvio local em relação ao comportamento médio esperado.
 
 O ponto crucial é que:
 
-- sob uma parametrização linear restrita, Δπ(x) varia lentamente;
-- sob uma parametrização logarítmica ampla, Δπ(x) atravessa regimes com flutuações de múltiplas escalas.
+- sob uma parametrização linear restrita, $\Delta_\pi(x)$ varia lentamente;
+- sob uma parametrização logarítmica ampla, $\Delta_\pi(x)$ atravessa regimes com flutuações de múltiplas escalas.
 
-Assim, a diferença observada no espectro de *M* **não nasce no operador**, mas na forma como o argumento do operador percorre a estrutura aritmética.
+Assim, a diferença observada no espectro de $M$ **não nasce no operador**, mas na forma como o argumento do operador percorre a estrutura aritmética.
 
 A lente linear “congela” o sinal.  
 A lente logarítmica o faz vibrar.
@@ -56,11 +60,13 @@ A lente logarítmica o faz vibrar.
 
 A matriz
 
-> *M*ᵢⱼ = cos(Δπ(*x*ᵢ) · ln(*x*ⱼ)) + cos(Δπ(*x*ⱼ) · ln(*x*ᵢ))
+$$
+M_{ij} = \cos\, (\Delta_\pi(x_i) \dot \ln(x_j)) + \cos\, (\Delta_\pi(x_j) \dot \ln(x_i))
+$$
 
 é, por construção, simétrica e determinística.
 
-No entanto, o seu grau de complexidade efetiva depende da diversidade de fases presentes nos termos Δπ(*x*ᵢ) · ln(*x*ⱼ).
+No entanto, o seu grau de complexidade efetiva depende da diversidade de fases presentes nos termos $\Delta_\pi(x_i) \dot \ln(x_j)$.
 
 - Em janelas lineares estreitas, essas fases são altamente correlacionadas.
 - Em janelas logarítmicas amplas, ocorre uma **mistura de fases** comparável àquela observada em sistemas caóticos determinísticos.
@@ -71,9 +77,7 @@ A universalidade não emerge porque o sistema é aleatório, mas porque ele é s
 
 ## O experimento ótico
 
-O **Notebook 08** (`08_lente_descoberta.ipynb`) não introduz novos operadores nem novas estatísticas.
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/costaalv/descobrindo_caos/blob/main/notebooks/08_lente_descoberta.ipynb)
+O **Notebook 08** (`08_lente_descoberta.ipynb`) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/costaalv/descobrindo_caos/blob/main/notebooks/08_lente_descoberta.ipynb) não introduz novos operadores nem novas estatísticas.
 
 Ele realiza apenas uma operação conceitual:
 
@@ -106,10 +110,10 @@ Ao final deste capítulo:
 - a escala deixa de ser um parâmetro técnico e passa a ser parte da estrutura;
 - a lente logarítmica é identificada como geometricamente natural;
 - o contraste entre Poisson e GOE é reinterpretado como mudança de regime, não de objeto;
-- o operador *M* permanece determinístico e inalterado.
+- o operador $M$ permanece determinístico e inalterado.
 
 No próximo capítulo, essa compreensão será levada adiante: investigaremos **quais aspectos do operador são essenciais para a universalidade observada e quais podem ser modificados sem destruí-la**, separando estrutura de contingência.
 
 ---
 
-[⬅ Capítulo Anterior](./07_autovalores_reconhecimento_GOE.md) | [Sumário](../../index.md) | [Próximo Capítulo](./09_escala_logaritmica.md)
+[$\gets$ Capítulo Anterior](./07_autovalores_reconhecimento_GOE.md) | [Sumário](../../index.md) | [Próximo Capítulo](./09_escala_logaritmica.md)

@@ -2,7 +2,7 @@
 
 > *Wir müssen wissen. Wir werden wissen.*  
 > *(Nós devemos saber. Nós saberemos.)*  
-> — **David Hilbert**
+> — David Hilbert
 
 ## Contexto histórico: Montgomery, Berry e Odlyzko
 
@@ -30,9 +30,9 @@ Nesse contexto, os zeros da função zeta, e, por extensão, a aritmética dos p
 
 A conjectura ganhou sustentação empírica decisiva com os trabalhos de Andrew Odlyzko. Utilizando supercomputadores e algoritmos altamente otimizados, Odlyzko calculou a posição de trilhões de zeros da função zeta em alturas extremas da reta crítica, atingindo ordens como 10²² e além.
 
-Os resultados foram inequívocos: as estatísticas observadas coincidiam com extraordinária precisão com as previsões da GOE.
+Os resultados foram inequívocos: as estatísticas observadas coincidiam com extraordinária precisão com as previsões da GUE ((Gaussian Unitary Ensemble).
 
-O laboratório apresentado neste capítulo é uma homenagem direta a essa trajetória intelectual. Adotamos a linguagem do caos quântico, seguimos o espírito computacional de Odlyzko e testamos a robustez do fenômeno em escalas até então inacessíveis.
+O laboratório apresentado neste capítulo é uma homenagem direta a essa trajetória intelectual, mas com uma distinção fundamental: enquanto os zeros no plano complexo revelam a rigidez GUE, a nossa análise da reta aritmética real, ancorada na unidade, revela a emergência da classe GOE — a assinatura de sistemas que preservam a simetria de espelhamento.
 
 ## O desafio das alturas estratosféricas
 
@@ -42,29 +42,29 @@ A questão natural que se impõe é se essa lei persiste em escalas verdadeirame
 
 Uma abordagem direta é impraticável. A contagem explícita de primos torna-se rapidamente inviável em alturas estratosféricas.
 
-Para contornar essa limitação, recorremos a uma ponte teórica: a função R(*x*) de Riemann (também conhecida como função de contagem suavizada de primos), que fornece uma aproximação assintótica extremamente precisa para π(*x*), mesmo em domínios astronômicos.
+Para contornar essa limitação, recorremos a uma ponte teórica: a função $\mathrm{R}(x)$ de Riemann (também conhecida como função de contagem suavizada de primos), que fornece uma aproximação assintótica extremamente precisa para $\pi(x)$, mesmo em domínios astronômicos.
 
 Essa substituição permite sondar regiões da reta numérica muito além do alcance de algoritmos elementares, preservando a estrutura estatística relevante.
 
 ## Análise dos dados estratosféricos
 
-Neste experimento final, não são gerados novos dados brutos. Em vez disso, analisamos um conjunto de resultados pré-computados, organizado em um *dataframe* (estrutura tabular de dados numéricos) que cobre uma varredura de *X*₀ desde 10⁸ até aproximadamente 10²⁸.
+Neste experimento final, não são gerados novos dados brutos. Em vez disso, analisamos um conjunto de resultados pré-computados, organizado em um *dataframe* (estrutura tabular de dados numéricos) que cobre uma varredura de $X_0$ desde $10^8$ até aproximadamente $10^{28}$.
 
-Não são utilizados dados externos nem tabelas pré-computadas. Todos os valores analisados neste capítulo são gerados diretamente no **Notebook 15**, que implementa o experimento completo em alta precisão, recorrendo à função R(*x*) de Riemann como aproximação assintótica de π(*x*) para permitir a sondagem de alturas estratosféricas.
+Não são utilizados dados externos nem tabelas pré-computadas. Todos os valores analisados neste capítulo são gerados diretamente no **Notebook 15**, que implementa o experimento completo em alta precisão, recorrendo à função $\mathrm{R}(x)$ de Riemann como aproximação assintótica de $\pi(x)$ para permitir a sondagem de alturas estratosféricas.
 
 Duas estatísticas centrais são monitoradas ao longo dessa varredura:
 
-- a média da razão de espaçamentos adjacentes, ⟨*r*⟩;
-- o *Participation Ratio* normalizado, *PR/N*.
+- a média da razão de espaçamentos adjacentes, $\langle r \rangle$;
+- o *Participation Ratio* normalizado, $\mathrm{PR}/N$.
 
 Ambas funcionam como impressões digitais independentes da classe GOE.
 
 ## Hipótese final
 
-Se a conexão entre a aritmética dos primos e a estatística GOE for estrutural e verdadeiramente universal, então essas duas quantidades devem permanecer estáveis, coladas aos valores teóricos da GOE,
+Se a conexão entre a aritmética dos primos e a estatística GOE for estrutural e verdadeiramente universal, **sustentada pela simetria de espelhamento inerente à reta real**, então essas duas quantidades devem permanecer estáveis, coladas aos valores teóricos da GOE,
 
-> ⟨*r*⟩₍GOE₎ ≈ 0.536  
-> *PR/N* ≈ 1/3
+> $\langle r \rangle_{\text{GOE}} \approx 0.536$  
+> $\mathrm{PR}/N \approx 1/3$
 
 mesmo quando a análise é empurrada para as fronteiras mais distantes da reta numérica.
 
@@ -76,8 +76,8 @@ Até aqui:
 
 - foi contextualizada historicamente a conexão entre primos, zeros da zeta e caos quântico;
 - foi explicitada a limitação computacional direta em escalas extremas;
-- foi introduzida a função R(*x*) como ponte assintótica para alturas estratosféricas;
-- foram analisadas estatísticas espectrais em domínios até 10²⁸;
+- foi introduzida a função $\mathrm{R}(x)$ como ponte assintótica para alturas estratosféricas;
+- foram analisadas estatísticas espectrais em domínios até $10^{28}$;
 - foi testada a estabilidade final das assinaturas da GOE.
 
 O resultado observado é inequívoco: a música do caos quântico não se dissipa com a altura.
@@ -90,15 +90,13 @@ Aqui, a jornada não termina por exaustão computacional, mas por saturação co
 
 É importante enfatizar que os resultados apresentados neste capítulo não são apenas uma análise expositiva ou interpretativa.
 
-O **Notebook 15** (`15_alturas_estratosfericas.ipynb`) implementa explicitamente o experimento descrito ao longo deste capítulo e constitui o laboratório computacional completo desta etapa final da investigação.
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/costaalv/descobrindo_caos/blob/main/notebooks/15_alturas_estratosfericas.ipynb)
+O **Notebook 15** (`15_alturas_estratosfericas.ipynb`) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/costaalv/descobrindo_caos/blob/main/notebooks/15_alturas_estratosfericas.ipynb) implementa explicitamente o experimento descrito ao longo deste capítulo e constitui o laboratório computacional completo desta etapa final da investigação.
 
 Nesse notebook:
 
-- os dados estratosféricos são **gerados em tempo real**, diretamente no notebook, por avaliação numérica da função R(*x*), sem recorrer a tabelas pré-computadas, bancos externos ou dados previamente armazenados;
-- a função R(*x*) de Riemann é utilizada como aproximação assintótica de π(*x*);
-- as estatísticas ⟨*r*⟩ e *PR/N* são calculadas diretamente a partir do espectro do operador;
+- os dados estratosféricos são **gerados em tempo real**, diretamente no notebook, por avaliação numérica da função $\mathrm{R}(x)$, sem recorrer a tabelas pré-computadas, bancos externos ou dados previamente armazenados;
+- a função $\mathrm{R}(x)$ de Riemann é utilizada como aproximação assintótica de $\pi(x)$;
+- as estatísticas $\langle r \rangle$ e $\mathrm{PR}/N$ são calculadas diretamente a partir do espectro do operador;
 - os resultados são visualizados e comparados com os valores teóricos da GOE;
 - todo o processo pode ser **integralmente replicado** pelo leitor.
 
@@ -108,4 +106,4 @@ Assim, este capítulo não repousa em autoridade histórica nem em extrapolaçã
 
 ---
 
-[⬅ Capítulo Anterior](./14_operadores_alternativos.md) | [Sumário](../../index.md) | [Próximo Capítulo](./16_visao_berry.md)
+[$\gets$ Capítulo Anterior](./14_operadores_alternativos.md) | [Sumário](../../index.md) | [Próximo Capítulo $\to$](./16_visao_berry.md)
