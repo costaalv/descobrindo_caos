@@ -60,4 +60,4 @@ A busca pelo equilíbrio terminou. O que permanece é a possibilidade de reconhe
 
 ---
 
-[$\gets$ Capítulo Anterior](./17_ponte_berry.md) | [Sumário](../../index.md)
+[$\gets$ Capítulo Anterior](./17_meio_estatuto_da_afirmacao.md) | [Sumário](../../index.md)

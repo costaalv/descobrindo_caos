@@ -1,4 +1,4 @@
-# 17$\frac{1}{2}$. Estatuto da Afirmação — Necessidade, Universalidade e Escolha
+# 17$\,1/2$. Estatuto da Afirmação — Necessidade, Universalidade e Escolha
 
 > *A clareza não enfraquece uma descoberta.*  
 > *Ela define o seu alcance.*
@@ -33,7 +33,7 @@ Nada além disso é exigido para aceitá-los.
 
 Um segundo passo consiste em reconhecer que os dados obtidos não são acidentais.
 
-A estabilidade estatística observada; independência em relação a detalhes microscópicos, operadores alternativos e posição na reta; satisfaz exatamente o critério operacional de **universalidade** estabelecido pela Teoria de Matrizes Aleatórias e pela conjectura BGS.
+A estabilidade estatística observada, independente de detalhes microscópicos, de operadores alternativos e da posição na reta, corresponde exatamente ao critério operacional de universalidade da Teoria de Matrizes Aleatórias e da conjectura BGS.
 
 Nesse nível, não se afirma *por que* a universalidade emerge. Apenas se reconhece que:
 
@@ -59,7 +59,7 @@ Esse ponto é crucial.
 
 O experimento não obriga essa leitura. Mas também **não a contradiz em nenhum ponto**.
 
-Trata-se de uma escolha interpretativa informada, coerente e economicamente estrutural: ela explica, com um único princípio, fenômenos que de outra forma permaneceriam desconectados.
+Trata-se de uma escolha interpretativa informada, coerente e economicamente estrutural: ela fornece uma unificação estrutural mínima para fenômenos que, de outra forma, permanecem desconectados.
 
 ## Sobre necessidade e inevitabilidade
 
@@ -104,7 +104,7 @@ Com essa distinção explícita, o percurso está completo.
 
 Nada foi inflado. Nada foi ocultado. Nada foi retirado.
 
-O que resta não é uma prova a mais, mas uma **responsabilidade interpretativa**.
+O que resta não é uma prova adicional, mas uma **responsabilidade interpretativa explícita**.
 
 O capítulo seguinte não introduz novos resultados. Ele apenas retorna ao ponto inicial — a Unidade — agora não como axioma, mas como **ressonância observável**.
 
