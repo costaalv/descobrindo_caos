@@ -1,4 +1,4 @@
-# 17$\,1/2$. Estatuto da Afirmação — Necessidade, Universalidade e Escolha
+# 17 1/2. Estatuto da Afirmação — Necessidade, Universalidade e Escolha
 
 > *A clareza não enfraquece uma descoberta.*  
 > *Ela define o seu alcance.*
