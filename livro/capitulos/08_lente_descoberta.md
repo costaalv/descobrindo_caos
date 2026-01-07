@@ -27,7 +27,7 @@ No contexto da aritmética dos primos, a escala **não é neutra**. Ela está em
 Desde Gauss, sabe-se que a densidade média de primos em torno de $x$ decresce como:
 
 $$
-\frac{1}{ln(x)}
+\frac{1}{\ln(x)}
 $$
 
 Isso significa que a reta numérica **não é homogênea** do ponto de vista da estrutura prima. Regiões afastadas do Um não são apenas “maiores”: elas são estruturalmente mais rarefeitas.
@@ -36,19 +36,19 @@ Consequentemente, uma régua linear não mede adequadamente esse espaço. Ela co
 
 A escala logarítmica, por outro lado, atua como uma **mudança de coordenadas natural**: ela reparametriza o eixo de forma que a variação média da densidade prima se torne aproximadamente uniforme.
 
-## O papel de Δπ(*x*) sob reparametrização
+## O papel de $\Delta_\pi(x)$ sob reparametrização
 
 O operador $M$ não depende diretamente de $\pi(x)$, mas de sua combinação oscilatória:
 
 $$
-\Delta_pi(x) = \pi(x) - 2\, \pi(x/2)
+\Delta_\pi(x) = \pi(x) - 2\, \pi(x/2)
 $$
 
 Esse funcional captura exatamente o desvio local em relação ao comportamento médio esperado.
 
 O ponto crucial é que:
 
-- sob uma parametrização linear restrita, $\Delta_\pi(x)$ varia lentamente;
+- sob uma parametrização linear restrita, $\Delta_\pi(x)$ varia de forma quase monótona em janelas restritas;
 - sob uma parametrização logarítmica ampla, $\Delta_\pi(x)$ atravessa regimes com flutuações de múltiplas escalas.
 
 Assim, a diferença observada no espectro de $M$ **não nasce no operador**, mas na forma como o argumento do operador percorre a estrutura aritmética.
@@ -61,7 +61,7 @@ A lente logarítmica o faz vibrar.
 A matriz
 
 $$
-M_{ij} = \cos\, (\Delta_\pi(x_i) \dot \ln(x_j)) + \cos\, (\Delta_\pi(x_j) \dot \ln(x_i))
+M_{ij} = \cos\, (\Delta_\pi(x_i)\, \ln(x_j)) + \cos\, (\Delta_\pi(x_j)\, \ln(x_i))
 $$
 
 é, por construção, simétrica e determinística.
@@ -116,4 +116,4 @@ No próximo capítulo, essa compreensão será levada adiante: investigaremos **
 
 ---
 
-[$\gets$ Capítulo Anterior](./07_autovalores_reconhecimento_GOE.md) | [Sumário](../../index.md) | [Próximo Capítulo](./09_escala_logaritmica.md)
+[$\gets$ Capítulo Anterior](./07_autovalores_reconhecimento_GOE.md) | [Sumário](../../index.md) | [Próximo Capítulo $\to$](./09_escala_logaritmica.md)

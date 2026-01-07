@@ -96,8 +96,8 @@ Neste capítulo:
 
 O observador foi colocado diante do espelho, e o reflexo permaneceu consistente.
 
-No próximo movimento do trabalho, não se tratará mais de reconhecer a universalidade, mas de explorar seus limites: quais perturbações a preservam, quais a destroem, e quais aspectos da construção são essenciais para sua persistência.
+No próximo capítulo, o foco desloca-se. Não se tratará mais de reconhecer a universalidade, mas de explorar seus limites: quais perturbações a preservam, quais a destroem, e quais aspectos da construção são essenciais para sua persistência.
 
 ---
 
-[⬅ Capítulo Anterior](./11_anatomia_autovetores.md) | [Sumário](../../index.md) | [Próximo Capítulo](./13_varreduras_escala.md)
+[$\gets$ Capítulo Anterior](./11_anatomia_autovetores.md) | [Sumário](../../index.md) | [Próximo Capítulo $\to$](./13_varreduras_escala.md)

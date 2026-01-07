@@ -38,7 +38,7 @@ Seu significado é direto:
 * autovetores localizados apresentam $PR$ pequeno, da ordem da unidade;
 * autovetores deslocalizados apresentam $PR$ proporcional a $N$.
 
-Na Teoria de Matrizes Aleatórias, autovetores da classe GOE são **ergódicos**. Para eles, a razão normalizada
+Na Teoria de Matrizes Aleatórias, autovetores **típicos do *bulk*** da classe GOE são **ergódicos**. Para eles, a razão normalizada
 
 $$
 \frac{PR}{N}
@@ -138,10 +138,10 @@ Até aqui:
 * distinguiu-se claramente sinal genuíno de artefato metodológico;
 * o **Notebook 11** forneceu a base empírica dessas conclusões.
 
-Com isso, a caracterização do regime caótico do operador $M$ está completa: ele se manifesta simultaneamente nos autovalores e na geometria interna de seus autovetores.
+Com isso, a caracterização do regime caótico do operador $M$ está completa, tanto no espectro quanto na geometria interna dos estados.
 
 No capítulo seguinte, encerramos o percurso conceitual, reunindo os resultados obtidos em uma leitura estrutural unificada.
 
 ---
 
-[$\gets$ Capítulo Anterior](./10_condicoes_caos.md) | [Sumário](../../index.md) | [Próximo Capítulo](./12_observador_espelho.md)
+[$\gets$ Capítulo Anterior](./10_condicoes_caos.md) | [Sumário](../../index.md) | [Próximo Capítulo $\to$](./12_observador_espelho.md)

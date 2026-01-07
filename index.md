@@ -44,6 +44,7 @@ O foco do trabalho é conceitual, operacional e verificável, sem dependência d
 * [Capítulo 15: A Confirmação nas Alturas Estratosféricas](./livro/capitulos/15_alturas_estratosfericas.md)
 * [Capítulo 16: A Visão de Berry — A Assinatura Universal do Caos Quântico](./livro/capitulos/16_visao_berry.md)
 * [Capítulo 17: A Ponte de Berry — De Pitágoras a Dyson](./livro/capitulos/17_ponte_berry.md)
+* [Capítulo 17$\frac{1}{2}$: Estatuto da Afirmação — Necessidade, Universalidade e Escolha](./livro/capitulos/17_meio_estatuto_da_afirmacao.md)
 * [Capítulo 18: Ressonância da Unidade — Onde Euler e o Caos se Encontram](./livro/capitulos/18_ressonancia_unidade.md)
 
 ## Laboratório Computacional

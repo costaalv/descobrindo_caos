@@ -47,7 +47,7 @@ A resposta está no elemento mais simples — e mais negligenciado: o **Um**.
 - Berry descreveu o caos quântico cuja assinatura estatística, como demonstrado neste trabalho,  
   emerge das flutuações da contagem dos primos.
 
-A **GOE** não é um artefato físico, nem um acidente analítico. Ela é o eco estatístico da complexidade gerada pela regra mais elementar: a sucessão construída a partir do Um.
+A **GOE** não é um artefato físico, nem um acidente analítico, **nem uma imposição modelística externa**. Ela é o eco estatístico da complexidade gerada pela regra mais elementar: a sucessão construída a partir do Um.
 
 ## A dobra em 1/2: terra e céu
 
@@ -57,7 +57,7 @@ $$
 \Delta_\pi(x) = \pi(x) - 2\,\pi(\frac{x}{2})
 $$
 
-A dobra em **$1/2$** não foi introduzida por conveniência. Ela emergiu como necessidade estrutural no domínio finito: é exatamente o ponto que separa, em qualquer intervalo $[1, x]$, os primos que **estruturam** os compostos daqueles que **estabilizam** a sequência.
+A dobra em **$1/2$** não foi introduzida por conveniência. Ela emergiu como necessidade estrutural no domínio finito: é exatamente o ponto que separa, em qualquer intervalo $[1, x]$, os primos que **estruturam** os compostos daqueles que **estabilizam** a sequência. Essa separação é aritmética e funcional: apenas os primos $p \leq x/2$ geram múltiplos no intervalo e, portanto, controlam a multiplicidade dos fatores. Esse ponto marca o único limiar aritmético em que a expansão multiplicativa é integralmente compensada pela sucessão aditiva.
 
 De forma notável, essa mesma constante ocupa o papel central no domínio assintótico da teoria dos números: a **linha crítica** da Hipótese de Riemann.
 

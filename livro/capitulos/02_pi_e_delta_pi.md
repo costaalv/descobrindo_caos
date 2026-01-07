@@ -29,7 +29,7 @@ Esses dois papéis não são identidades fixas. São **funções transitórias**
 
 É essa dinâmica — e não a existência isolada de primos — que começa a revelar a complexidade do sistema.
 
-## Um funcional de contraste
+## Uma função aritmética de contraste
 
 Para observar essa dinâmica, precisamos de um instrumento simples, direto e inteiramente aritmético.
 
@@ -37,11 +37,13 @@ Definimos a função $\pi(x)$ como a contagem exata de primos menores ou iguais 
 - o número de primos estruturadores: $\pi\left( \left\lfloor x/2 \right\rfloor \right)$;
 - o número de primos estabilizadores: $\pi(x) − \pi\left( \left\lfloor x/2 \right\rfloor \right)$.
 
-A diferença entre essas duas quantidades define um funcional natural de contraste:
+A diferença entre essas duas quantidades define uma função aritmética natural de contraste:
 
-$$ \Delta_\pi(x) = \pi(x) − 2\, \pi(\frac{x}{2})$$.
+$$
+\Delta_\pi(x) = \pi(x) − 2\, \pi(\lfloor \frac{x}{2} \rfloor).
+$$
 
-Esse funcional não prevê, não ajusta e não suaviza. Ele apenas **mede**, a cada valor de $x$, qual dos dois papéis predomina.
+Essa função não prevê, não ajusta e não suaviza nada. Ela apenas **mede**, a cada valor de $x$, qual dos dois papéis predomina.
 
 Quando $\Delta_\pi(x)$ é positivo, há mais estabilizadores do que estruturadores. Quando é negativo, a capacidade de estruturação domina. Quando se anula, há um equilíbrio momentâneo.
 
@@ -117,10 +119,10 @@ Mas tudo o que virá depois — inclusive qualquer leitura espectral — depende
 ## Ponto de Repouso
 
 Antes de avançar, fixemos o que foi observado:
-- **O Instrumento**: O funcional $\Delta_\pi(x) = \pi(x) − 2\,\pi(x/2)$ mede o desbalanceamento entre dois papéis.
+- **O Instrumento**: A função aritmética $\Delta_\pi(x) = \pi(x) − 2\,\pi(x/2)$ mede o desbalanceamento entre dois papéis funcionais.
 - **O Fenômeno**: Os primos não são distribuídos ao acaso; eles alternam entre estabilizar e estruturar, gerando um pulso.
 - **A Constatação**: O sistema não é estático. Ele possui uma dinâmica interna de redistribuição de funções.
 
 ---
 
-[$\gets$ Capítulo Anterior](./01_o_um.md) | [Sumário](../../index.md) | [Próximo Capítulo](./03_busca_equilibrio.md)
+[$\gets$ Capítulo Anterior](./01_o_um.md) | [Sumário](../../index.md) | [Próximo Capítulo $\to$](./03_busca_equilibrio.md)

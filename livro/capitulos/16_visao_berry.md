@@ -46,14 +46,14 @@ Ao longo dos capítulos anteriores, construímos um operador espectral diretamen
 
 Ainda assim, o espectro obtido exibe, de forma robusta, reprodutível e persistente, todas as assinaturas estatísticas da GOE.
 
-À luz da visão de Berry, esse resultado adquire um significado preciso. Não se trata de uma coincidência numérica, mas da evidência de que a simetria de espelhamento em $1/2$ é uma realização, na reta real, da mesma classe de rigidez espectral que Riemann vislumbrou no plano complexo.
+À luz da visão de Berry, esse resultado adquire um significado preciso. Não se trata de uma coincidência numérica, mas da evidência de que a simetria de espelhamento em $1/2$ constitui, na reta real, uma realização funcional da mesma **classe de rigidez espectral que Riemann identificou no plano complexo**.
 
 ## A aritmética como objeto espectral de classe caótica
 
 O que este trabalho revela é que a sequência dos números primos, quando observada na sua escala natural, comporta-se como um objeto espectral pertencente à classe caótica.
 
 Não há partículas.  
-Não há Hamiltoniano físico explícito.  
+Não há Hamiltoniano físico explícito, **nem é reivindicado que exista um**.  
 Não há dinâmica temporal no sentido clássico.
 
 Ainda assim, há:

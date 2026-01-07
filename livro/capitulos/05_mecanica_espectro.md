@@ -10,7 +10,7 @@ Nos capítulos anteriores, foi construído um operador determinístico $M$ a par
 
 Esse operador foi introduzido como objeto geométrico e visual, sem qualquer análise espectral.
 
-O objetivo deste capítulo é **descrever formalmente** os elementos básicos da análise espectral aplicada ao operador $M$ , em um regime completamente controlado.
+O objetivo deste capítulo é **descrever formalmente** os elementos básicos da análise espectral aplicada ao operador $M$, em um regime completamente controlado.
 
 Nada novo será introduzido. Apenas ferramentas necessárias serão definidas.
 
@@ -20,9 +20,15 @@ Antes de avançar para escalas grandes, é instrutivo trabalhar em um domínio p
 
 Neste capítulo, fixamos:
 
-$$ N = 32$$,
+$$
+N = 32
+$$,
 
-e consideramos o domínio discreto $x \in {1, 2, \cdots, 32}$.
+e consideramos o domínio discreto
+
+$$
+x \in \{1, 2, \ldots, 32\}.
+$$
 
 Essa escolha não possui significado teórico. Ela permite apenas que todos os componentes do operador sejam explicitamente calculados e examinados.
 
@@ -30,13 +36,13 @@ Essa escolha não possui significado teórico. Ela permite apenas que todos os c
 
 O **Notebook 05** (`05_mecanica_espectro.ipynb`) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/costaalv/descobrindo_caos/blob/main/notebooks/05_mecanica_espectro.ipynb) inicia gerando, para cada $x \leq 32$:
 - o valor do sinal aritmético $\Delta_\pi(x)$;
-- o valor correspondente de $ln(x)$.
+- o valor correspondente de $\ln(x)$.
 
 Esses dados constituem os únicos insumos do operador. Nenhuma filtragem, suavização ou normalização adicional é aplicada.
 
 ## Construção explícita do operador
 
-Com os vetores $\Delta_\pi(x)$ e $ln(x)$ definidos, o operador $M$ é construído diretamente pela fórmula:
+Com os vetores $\Delta_\pi(x)$ e $\ln(x)$ definidos, o operador $M$ é construído diretamente pela fórmula:
 
 $$
 M_{ij}
@@ -48,7 +54,7 @@ $$
 
 Para $N = 32$, isso resulta em uma matriz real, simétrica, de dimensão $32 \times 32$.
 
-O mapa de calor apresentado no **Notebook 5** permite visualizar a organização interna do operador nesse regime finito.
+O mapa de calor apresentado no **Notebook 05** permite visualizar a organização interna do operador nesse regime finito.
 
 Nenhuma interpretação é associada a essa visualização. Ela apenas confirma que o operador está bem definido e estruturalmente não trivial.
 
@@ -59,7 +65,7 @@ Seja $M$ uma matriz real e simétrica.
 Um número real $\lambda$ é chamado autovalor de $M$ se existir um vetor não nulo $v$ tal que:
 
 $$
-$Mv = \lambda v.
+Mv = \lambda v.
 $$
 
 O vetor $v$ correspondente é chamado autovetor.
@@ -101,7 +107,7 @@ Neste capítulo:
 - nenhuma estatística espectral foi analisada;
 - nenhuma hipótese universal foi formulada.
 
-O operador permanece o mesmo. A mudança ocorrerá apenas no regime de observação.
+O operador permanece inalterado. A mudança ocorrerá exclusivamente no regime de observação.
 
 ## Ponto de repouso
 
@@ -116,4 +122,4 @@ Nada será assumido. Tudo será medido.
 
 ---
 
-[$\gets$ Capítulo Anterior](./04_operador_M.md) | [Sumário](../../index.md) | [Próximo Capítulo](./06_regimes_de_escala_e_estatisticas_espectrais.md)
+[$\gets$ Capítulo Anterior](./04_operador_M.md) | [Sumário](../../index.md) | [Próximo Capítulo $\to$](./06_regimes_de_escala_e_estatisticas_espectrais.md)

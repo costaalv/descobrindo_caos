@@ -18,7 +18,7 @@ Para compreender sistemas que crescem indefinidamente, não basta observar difer
 
 $$\pi(x) = \pi_S(x) + \pi_N(x)$$
 
-Dividindo ambos os membros por $\pi(x)$, obtemos uma identidade simples e profunda, que denominamos a **Lei de Conservação dos Primos**:
+Dividindo ambos os membros por $\pi(x)$, obtemos uma identidade simples e profunda, que chamamos de **Identidade de Conservação dos Primos**:
 
 $$
 1 = \frac{\pi_S(x)}{\pi(x)} + \frac{\pi_N(x)}{\pi(x)}
@@ -26,7 +26,7 @@ $$
 
 Esta equação nos diz que, embora as contagens absolutas variem, as frações de Estruturadores e Estabilizadores **sempre somam exatamente 1**. São duas faces de um mesmo equilíbrio dinâmico.
 
-O Teorema dos Números Primos garante que, à medida que $x \to \infty$, ambas as frações convergem para o mesmo valor: $\frac{1}{2}$. A estrutura e a estabilidade tornam-se, em termos de densidade estatística, equivalentes. Revisitando nossa medida de tensão, $\Delta_\pi(x)$, podemos reescrevê-la em sua forma normalizada:
+O Teorema dos Números Primos garante que, à medida que $x \to \infty$, ambas as frações convergem para o mesmo valor: $1/2$. A estrutura e a estabilidade tornam-se, em termos de densidade estatística, equivalentes. Revisitando nossa medida de tensão, $\Delta_\pi(x)$, podemos reescrevê-la em sua forma normalizada:
 
 $$
 \frac{\Delta_\pi(x)}{\pi(x)} = \frac{\pi_N(x)}{\pi(x)} - \frac{\pi_S(x)}{\pi(x)}
@@ -44,7 +44,7 @@ O **Notebook 03** (`03_busca_equilibrio.ipynb`) [![Open In Colab](https://colab.
 
 As oscilações de $\Delta_\pi(x)/\pi(x)$ lembram o comportamento de um sistema quântico relaxando em direção ao equilíbrio. As duas forças — Estruturadora e Estabilizadora — comportam-se como estados de um sistema de dois níveis, trocando energia até a simetria se restabelecer.
 
-A escala logarítmica desempenha um papel análogo ao de um tempo interno, em que o caos inicial dá lugar à ordem espectral. Visto sob essa lente, a reta numérica não é estática — é um campo oscilatório cuja harmonia final emerge exatamente do conflito que a gerou.
+Uma mudança adequada de escala desempenha um papel análogo ao de um tempo interno, em que o caos inicial dá lugar à ordem espectral. Visto sob essa lente, a reta numérica não é estática — é um campo oscilatório cuja harmonia final emerge exatamente do conflito que a gerou.
 
 > O que parecia um descompasso infinito revela-se, afinal, uma harmonia que cresce com a própria escala. O caos inicial não é erro — é o preço da expansão.
 
@@ -58,4 +58,4 @@ Antes de prosseguir, consolidemos a base desta etapa:
 
 ---
 
-[$\gets$ Capítulo Anterior](./02_pi_e_delta_pi.md) | [Sumário](../../index.md) | [Próximo Capítulo](./04_operador_M.md)
+[$\gets$ Capítulo Anterior](./02_pi_e_delta_pi.md) | [Sumário](../../index.md) | [Próximo Capítulo $\to$](./04_operador_M.md)

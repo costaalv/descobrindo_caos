@@ -24,7 +24,7 @@ A primeira condição é abandonar a interpretação da reta numérica como um o
 
 À medida que o parâmetro *x* cresce, as propriedades estatísticas do sistema mudam. Essa dependência explícita da escala permite identificar regimes distintos: um regime inicial descorrelacionado, uma região de transição e um regime estabilizado no qual emergem correlações de longo alcance.
 
-Somente sistemas observados como processos, e não como instantâneos, podem exibir esse tipo de estrutura em fases.
+Somente sistemas **tratados** como processos, e não como instantâneos, podem exibir esse tipo de estrutura em fases.
 
 ### 2. O papel ativo do *Um*
 
@@ -79,8 +79,7 @@ A “receita” observacional pode agora ser formulada de forma objetiva:
 - reconhecer o papel estabilizador do *Um*;
 - alinhar a observação com a escala natural dos primos.
 
-É a intersecção rigorosa desses três princípios, e apenas ela, que permite transformar a contagem de primos  
-em uma observação direta de estatísticas universais do caos.
+É **somente** a intersecção rigorosa desses três princípios, e apenas ela, que permite transformar a contagem de primos em uma observação direta de estatísticas universais do caos.
 
 ## Ponto de repouso
 
@@ -96,4 +95,4 @@ delimitando com precisão o domínio de validade da universalidade identificada.
 
 ---
 
-[$\gets$ Capítulo Anterior](./09_escala_logaritmica.md) | [Sumário](../../index.md) | [Próximo Capítulo](./11_anatomia_autovetores.md)
+[$\gets$ Capítulo Anterior](./09_escala_logaritmica.md) | [Sumário](../../index.md) | [Próximo Capítulo $\to$](./11_anatomia_autovetores.md)

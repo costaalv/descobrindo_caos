@@ -11,7 +11,7 @@ Contar não é uma operação abstrata. É um ato físico e mental: repetir algo
 
 Quando escrevemos a sequência dos números naturais,
 
-> 1, 2, 3, 4, . . .
+> $1, 2, 3, 4, \cdots$
 
 o que estamos realmente fazendo é repetir o 1 em intervalos iguais. O dois é a primeira repetição explícita do Um. O três é três “uns”. O quatro é o mesmo gesto reiterado mais uma vez.
 
@@ -47,16 +47,16 @@ Essa dobra — aparentemente ingênua — revela algo importante quando observam
 
 Os primos que aparecem na primeira metade do intervalo ainda são capazes de gerar novos números compostos dentro do intervalo completo. Seus múltiplos continuam “atuando” sobre a reta observada. Eles **estruturam**.
 
-Os primos que aparecem na segunda metade já não conseguem fazer isso. Qualquer múltiplo deles ultrapassa o limite *x*. Eles não criam novos compostos ali. Eles apenas ocupam posições que restaram vazias. Eles **estabilizam**.
+Os primos que aparecem na segunda metade já não conseguem fazer isso. Qualquer múltiplo deles ultrapassa o limite $x$. Eles não criam novos compostos ali. Eles apenas ocupam posições que restaram vazias. Eles **estabilizam**.
 
 Essa separação não é artificial. Ela surge automaticamente a partir da dobra. Sem imposição, sem ajuste.
 
 ## Dois papéis, uma única origem
 
 A partir desse gesto, os primos passam a desempenhar dois papéis complementares:
-- **Estruturadores**: os primos da primeira metade, que ainda participam ativamente da construção
+- **Estruturadores ($\pi_S(x)$**: os primos da primeira metade, que ainda participam ativamente da construção
 dos compostos;
-- **Estabilizadores**: os primos da segunda metade, que apenas preenchem lacunas.
+- **Estabilizadores ($\pi_N(x)$**: os primos da segunda metade, que apenas preenchem lacunas.
 
 Ambos nascem do mesmo processo: a repetição do Um. Nenhum deles é especial por si só. O que muda é **onde** estão quando observamos.
 
@@ -121,15 +121,15 @@ Antes de qualquer caos, há apenas isso.
 ## Ponto de Repouso
 
 O gesto da dobra separa os papéis funcionais dos primos de forma inequívoca:
-- **Estruturadores** ($p \leq x/2$): São os primos que geram múltiplos e compõem a malha de números compostos dentro do intervalo observado. Eles representam a memória e a fundação do sistema.
-- **Estabilizadores** ($p > x/2$): São os primos que ocupam posições na reta sem gerar novos compostos no intervalo atual. Eles representam o equilíbrio e a resistência do sistema.
+- **Estruturadores ($\pi_S(x)$** ($p \leq x/2$): São os primos que geram múltiplos e compõem a malha de números compostos dentro do intervalo observado. Eles representam a memória e a fundação do sistema.
+- **Estabilizadores ($\pi_N(x)$** ($p > x/2$): São os primos que ocupam posições na reta sem gerar novos compostos no intervalo atual. Eles representam o equilíbrio e a resistência do sistema.
 
 Deste ponto, derivam três constatações fundamentais:
 
 1. **A Dualidade**: O sistema aritmético não é uma sequência de pontos isolados, mas uma tensão entre duas forças complementares.
-2. **O Horizonte de Eventos**: O ponto $x/2$ é a fronteira física onde a capacidade de gerar estrutura se extingue.
+2. **O Horizonte de Eventos**: O ponto $x/2$ é a fronteira funcional onde a capacidade de gerar estrutura se extingue.
 3. **A Âncora**: A Unidade é o pivô fixo que permite a observação dessa dobra sem a perda da integridade da reta numérica.
 
 ---
 
-[$\gets$ Capítulo Anterior](../../livro/prefacio.md) | [Sumário](../../index.md) | [Próximo Capítulo](./02_pi_e_delta_pi.md)
+[$\gets$ Capítulo Anterior](../../livro/prefacio.md) | [Sumário](../../index.md) | [Próximo Capítulo $\to$](./02_pi_e_delta_pi.md)

@@ -30,7 +30,7 @@ Nesse contexto, os zeros da função zeta, e, por extensão, a aritmética dos p
 
 A conjectura ganhou sustentação empírica decisiva com os trabalhos de Andrew Odlyzko. Utilizando supercomputadores e algoritmos altamente otimizados, Odlyzko calculou a posição de trilhões de zeros da função zeta em alturas extremas da reta crítica, atingindo ordens como 10²² e além.
 
-Os resultados foram inequívocos: as estatísticas observadas coincidiam com extraordinária precisão com as previsões da GUE ((Gaussian Unitary Ensemble).
+Os resultados foram inequívocos: as estatísticas observadas coincidiam com extraordinária precisão com as previsões da GUE (Gaussian Unitary Ensemble), a classe esperada para sistemas sem simetria de reversão temporal.
 
 O laboratório apresentado neste capítulo é uma homenagem direta a essa trajetória intelectual, mas com uma distinção fundamental: enquanto os zeros no plano complexo revelam a rigidez GUE, a nossa análise da reta aritmética real, ancorada na unidade, revela a emergência da classe GOE — a assinatura de sistemas que preservam a simetria de espelhamento.
 
@@ -82,7 +82,7 @@ Até aqui:
 
 O resultado observado é inequívoco: a música do caos quântico não se dissipa com a altura.
 
-Ela persiste, intacta, como uma lei estrutural do universo aritmético.
+Ela persiste, intacta, como uma **regularidade estrutural universal** da aritmética.
 
 Aqui, a jornada não termina por exaustão computacional, mas por saturação conceitual. Nada mais alto precisa ser escalado: a estrutura já se revelou por completo.
 

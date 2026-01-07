@@ -18,13 +18,13 @@ A função de contagem de primos $\pi(x)$ descreve a quantidade de números prim
 O Teorema dos Números Primos estabelece que, assintoticamente,
 
 $$
-\pi(x) \sim \frac{x}{ln(x)}
+\pi(x) \sim \frac{x}{\ln(x)}
 $$
 
 o que implica que a densidade local de primos na reta linear satisfaz
 
 $$
-\frac{d\pi}{dx} \approx \frac{1}{ln(x)}.
+\frac{d\pi}{dx} \approx \frac{1}{\ln(x)}.
 $$
 
 Essa expressão contém uma informação fundamental:  
@@ -56,7 +56,7 @@ O resultado observacional é direto:
 
 É por isso que, mesmo após normalização local dos espaçamentos, o espectro do operador $M$, observado linearmente, exibe estatística do tipo Poisson.
 
-Não se trata de ausência de estrutura no operador, mas de ausência de condições geométricas para que essa estrutura se manifeste.
+Não se trata de ausência de estrutura no operador, mas de ausência de condições geométricas para a sua manifestação.
 
 ## A mudança de variável e a densidade logarítmica
 
@@ -69,7 +69,7 @@ $$
 A densidade de primos em relação à nova variável é obtida pela regra da cadeia:
 
 $$
-d\,\pi/d\,y = (\frac{d\,\pi}{d\,x}) \cdot (\frac{d\,x}{d\,y}).
+\frac{d\,\pi}{d\,y} = (\frac{d\,\pi}{d\,x}) \cdot (\frac{d\,x}{d\,y}).
 $$
 
 Como $d\,x/d\,y = x$, segue que:
@@ -87,7 +87,7 @@ $$
 obtemos:
 
 $$
-\frac{d\,\pi}{d(\ln\,x)} \approx \frac{x}{\ln(x).
+\frac{d\,\pi}{d(\ln\,x)} \approx \frac{x}{\ln(x)}.
 $$
 
 Essa expressão é fundamental:  
@@ -144,8 +144,8 @@ Ela só pode ser ouvida quando o palco está adequadamente construído.
 
 Até aqui:
 - a diferença entre observação linear e logarítmica foi reformulada como um problema geométrico de densidade;
-- foi explicitado que, na escala linear, a densidade de primos decai como $d\,\pi/d\,x \approx 1/ln(x)$, produzindo um pano de fundo estruturalmente instável;
-- foi derivada a densidade correspondente na escala logarítmica, $d\,\pi/d(ln\,x) \approx x/ln(x)$, evidenciando a transformação do colapso em uma lei de crescimento suave;
+- foi explicitado que, na escala linear, a densidade de primos decai como $d\,\pi/d\,x \approx 1/\ln(x)$, produzindo um pano de fundo estruturalmente instável;
+- foi derivada a densidade correspondente na escala logarítmica, $d\,\pi/d(\ln\,x) \approx x/ln(x)$, evidenciando a transformação do colapso em uma lei de crescimento suave;
 - foi identificado que a lente logarítmica não “cria” universalidade, mas estabiliza o regime de observação no qual flutuações podem dominar;
 - foi conectada a escala crítica observada ($ X_0 \approx 10^4\text{–}10^5 $) à consolidação empírica do regime assintótico.
 
@@ -155,4 +155,4 @@ No capítulo seguinte, passaremos do diagnóstico geométrico para uma análise 
 
 ---
 
-[$\gets$ Capítulo Anterior](./08_lente_descoberta.md) | [Sumário](../../index.md) | [Próximo Capítulo](./10_condicoes_caos.md)
+[$\gets$ Capítulo Anterior](./08_lente_descoberta.md) | [Sumário](../../index.md) | [Próximo Capítulo $\to$](./10_condicoes_caos.md)

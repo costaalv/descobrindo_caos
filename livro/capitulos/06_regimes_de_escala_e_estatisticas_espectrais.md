@@ -19,7 +19,7 @@ Nenhuma hipótese de universalidade é assumida. As ferramentas são introduzida
 Em dimensão finita, o espectro de *M* consiste em um conjunto discreto e ordenado de autovalores reais:
 
 $$
-\lambda_1 \leq \lambda_2 \leq \cdoys \leq \lambda_n.
+\lambda_1 \leq \lambda_2 \leq \ldots \leq \lambda_n.
 $$
 
 À medida que $N$ cresce, torna-se natural investigar não apenas os valores absolutos desses autovalores, mas também a **estrutura estatística dos espaçamentos entre eles**.
@@ -31,7 +31,7 @@ Essas relações são sensíveis a correlações internas do operador e constitu
 Definimos os espaçamentos consecutivos:
 
 $$
-s_i = \lambda_{i+1} − \lambda_i.
+s_i = \lambda_{i+1} - \lambda_i.
 $$
 
 Para permitir comparação entre diferentes escalas e tamanhos de matriz, os espaçamentos são normalizados pela média local:
@@ -50,7 +50,7 @@ A função $P(s)$ é definida como o histograma dos espaçamentos normalizados $
 
 Ela descreve a frequência relativa de diferentes separações entre autovalores consecutivos e permite distinguir entre regimes com ou sem correlação espectral significativa.
 
-O **Notebook 06** (`06_regimes_de_escala_e_estatisticas_espectrais.ipynb`) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/costaalv/descobrindo_caos/blob/main/notebooks/06_regimes_de_escala_e_estatisticas_espectrais.ipynb) calcula *P*(*s*) para diferentes valores de *N* e *X*₀, mantendo fixo o operador.
+O **Notebook 06** (`06_regimes_de_escala_e_estatisticas_espectrais.ipynb`) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/costaalv/descobrindo_caos/blob/main/notebooks/06_regimes_de_escala_e_estatisticas_espectrais.ipynb) calcula *P*(*s*) para diferentes valores de *N* e *X*₀, mantendo fixa a definição do operador.
 
 
 A distribuição observada será analisada apenas de forma comparativa nos capítulos seguintes.
@@ -69,7 +69,7 @@ $$
 \langle r \rangle = \frac{1}{N-2} \sum_{i=1}^{N-2} r_i,
 $$
 
-onde a soma é tomada sobre os índices $i$ do *bulk* espectral.
+onde a soma é tomada sobre os índices $i$ do *bulk* espectral, excluindo regiões extremas do espectro.
 
 O valor médio $\langle r \rangle$ fornece um indicador compacto do grau de correlação entre autovalores consecutivos.
 
@@ -123,4 +123,4 @@ A interpretação desses resultados será tratada separadamente.
 
 ---
 
-[$\gets$ Capítulo Anterior](./05_mecanica_espectro.md) | [Sumário](../../index.md) | [Próximo Capítulo](./07_autovalores_reconhecimento_GOE.md)
+[$\gets$ Capítulo Anterior](./05_mecanica_espectro.md) | [Sumário](../../index.md) | [Próximo Capítulo $\to$](./07_autovalores_reconhecimento_GOE.md)

@@ -6,7 +6,7 @@ Este livro nasce da suspeita oposta.
 
 Ele parte da ideia de que **o mistério não está nos números**, mas na forma como olhamos para eles.
 
-Durante décadas — em alguns casos, séculos — matemáticos e físicos observaram sequências numéricas sob instrumentos extremamente refinados: teoremas profundos, técnicas assintóticas, conjecturas poderosas. Ainda assim, certos comportamentos coletivos permaneceram invisíveis. Não por falta de inteligência ou rigor, mas por algo mais simples e mais desconfortável: **a régua usada para observar era inadequada ao fenômeno.**
+Durante décadas — em alguns casos, séculos — matemáticos e físicos observaram sequências numéricas com instrumentos extremamente refinados: teoremas profundos, técnicas assintóticas, conjecturas poderosas. Ainda assim, certos comportamentos coletivos permaneceram invisíveis. Não por falta de inteligência ou rigor, mas por algo mais simples e mais desconfortável: **a régua usada para observar era inadequada ao fenômeno.**
 
 Este livro é sobre isso. Sobre o que acontece quando mudamos a forma de observar.
 
@@ -36,11 +36,13 @@ Um dos conceitos mais importantes deste livro pode ser expresso de forma simples
 
 Na aritmética, estamos acostumados a observar números em escalas lineares:
 
-**1, 2, 3, 4, 5, 6, …**
+$$
+1, 2, 3, 4, 5, 6, \dots
+$$
 
 Essa escolha parece natural — quase inevitável. Mas ela não é neutra.
 
-Quando mudamos a escala de observação, certos padrões desaparecem, enquanto outros emergem com clareza surpreendente. Não porque o sistema mudou, mas porque **o observador mudou**.
+Quando mudamos o regime de observação, certos padrões desaparecem, enquanto outros emergem com clareza surpreendente. Não porque o sistema mudou, mas porque **o observador mudou**.
 
 Este livro explora exatamente esse deslocamento: o que surge quando abandonamos a régua padrão e passamos a observar os números em escalas mais próximas de sua estrutura interna.
 
@@ -165,4 +167,4 @@ Vamos começar.**
 
 ---
 
-[Sumário](./index.md) | [Próximo Capítulo](./capitulos/01_o_um.md)
+[Sumário](./index.md) | [Próximo Capítulo $\to$](./capitulos/01_o_um.md)

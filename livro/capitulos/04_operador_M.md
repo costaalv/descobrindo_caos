@@ -37,7 +37,7 @@ O que buscamos não é previsão, mas observabilidade.
 
 ## Definição do operador harmônico
 
-Definimos o operador M por seus elementos:
+Definimos o operador M por seus elementos $M_{ij}$:
 
 $$
 M_{ij}
@@ -97,13 +97,13 @@ Essa condição assegura que o espectro do operador vive inteiramente na reta re
 
 Estamos, portanto, construindo um operador aritmético cuja estrutura espectral pode ser investigada de forma rigorosa.
 
-O operador $M$ não é alimentado por uma versão normalizada de $\Delta_\pi$, mas pelo sinal absoluto de sua divergência acumulada.
+O operador $M$ não é alimentado por uma versão normalizada de $\Delta_\pi$, mas pelo sinal bruto de sua divergência acumulada.
 
 São os degraus discretos de $\pi(x) − 2\,\pi(x/2)$, enquanto eventos aritméticos globais, que geram coerência espectral sob projeção.
 
 A estatística emergente não decorre de flutuações relativas, mas da geometria descontínua da contagem de primos.
 
-Nada é afirmado além disso.
+Nada além disso é afirmado neste estágio.
 
 ## O laboratório visual
 
@@ -143,4 +143,4 @@ O espectrômetro está definido. A análise ainda não começou.
 
 ---
 
-[$\gets$ Capítulo Anterior](./03_busca_equilibrio.md) | [Sumário](../../index.md) | [Próximo Capítulo](./05_mecanica_espectro.md)
+[$\gets$ Capítulo Anterior](./03_busca_equilibrio.md) | [Sumário](../../index.md) | [Próximo Capítulo $\to$](./05_mecanica_espectro.md)

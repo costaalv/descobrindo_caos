@@ -7,7 +7,7 @@
 
 ## A última dúvida
 
-Os capítulos anteriores estabeleceram um resultado forte: ao observar o sinal aritmético dos primos na escala logarítmica, o espectro do operador construído exibe, de forma robusta, estatísticas compatíveis com a classe universal do GOE, enquanto a observação linear conduz sistematicamente ao regime de Poisson.
+Os capítulos anteriores estabeleceram um resultado forte: ao observar o sinal aritmético dos primos na escala logarítmica, o espectro do operador construído exibe, de forma robusta, estatísticas de correlação espectral indistinguíveis daquelas associadas à classe GOE, enquanto a observação linear conduz sistematicamente ao regime de Poisson.
 
 No entanto, uma dúvida legítima permanece.
 
@@ -65,7 +65,7 @@ O **Notebook 14** (`14_operadores_alternativos.ipynb`) [![Open In Colab](https:/
 
 Foi introduzido um seletor que permite alternar entre o *kernel de cosseno* e o *kernel de fase*, mantendo inalterados:
 
-- o sinal aritmético $\Delta_pi(x)$;
+- o sinal aritmético $\Delta_\pi(x)$;
 - os regimes de observação (linear e logarítmico);
 - o protocolo estatístico aplicado ao espectro.
 
@@ -94,7 +94,7 @@ O caos observado:
 
 Ele emerge da combinação de dois elementos fundamentais:
 
-1. a estrutura aritmética intrínseca do sinal $\Delta_pi(x)$;
+1. a estrutura aritmética intrínseca do sinal $\Delta_\pi(x)$;
 2. a observação desse sinal na escala logarítmica natural dos primos.
 
 O operador atua apenas como um instrumento de leitura. Trocar o instrumento não altera a música.
