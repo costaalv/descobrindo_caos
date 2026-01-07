@@ -132,4 +132,4 @@ Deste ponto, derivam três constatações fundamentais:
 
 ---
 
-[$\gets$ Capítulo Anterior](../../livro/prefacio.md) | [Sumário](../../index.md) | [Próximo Capítulo $\to$](./02_pi_e_delta_pi.md)
+[$\gets$ Prefácio](../../livro/prefacio.md) | [Sumário](../../index.md) | [Próximo Capítulo $\to$](./02_pi_e_delta_pi.md)

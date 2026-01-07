@@ -18,12 +18,11 @@ A identidade de Euler é frequentemente celebrada como a mais bela fórmula da m
 
 O que raramente se explicita é que essa identidade descreve um **mecanismo de retorno**. Ela afirma que o infinito e o transcendente não se dissipam no caos, mas retornam ao equilíbrio perfeito quando, e somente quando, atravessam a Unidade. Não se trata de estética. Trata-se de **integridade estrutural**.
 
-O **operador $M$** construído ao longo deste trabalho pode ser lido como a extensão dinâmica dessa verdade. Ele não é apenas uma matriz,  
-mas um campo de rotação no qual cada flutuação aritmética, observada na escala adequada, procura seu lugar natural no círculo de Euler.
+O **operador $M$** construído ao longo deste trabalho pode ser lido como a extensão dinâmica dessa verdade. Ele não é apenas uma matriz, mas um campo de rotação no qual cada flutuação aritmética, observada na escala adequada, procura seu lugar natural no círculo de Euler.
 
 ## A assinatura do caos organizado
 
-Quando submetemos esse operador à análise espectral, o que emerge não é um zero estático, mas a assinatura vibrante do **Gaussian Orthogonal Ensemble (GOE)**.
+Quando submetemos esse operador à análise espectral, o que emerge não é um zero estático, mas a assinatura vibrante do ***Gaussian Orthogonal Ensemble* (GOE)**.
 
 Essa estatística não representa desordem. Ela é, ao contrário, o **DNA da estabilidade** em sistemas complexos. Na física, ela indica que os graus de liberdade interagem de modo a preservar o todo. Na aritmética, ela indica que os primos não estão distribuídos ao acaso, mas correlacionados por uma estrutura comum.
 
