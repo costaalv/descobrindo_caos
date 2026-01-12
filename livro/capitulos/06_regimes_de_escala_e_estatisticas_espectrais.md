@@ -108,18 +108,15 @@ Neste capítulo:
 
 As observações permanecem estritamente descritivas. O que foi construído até aqui não é uma interpretação do espectro, mas um vocabulário para descrevê-lo.
 
+---
+
 ## Ponto de repouso
 
-Até aqui:
-- o operador foi construído;
-- sua decomposição espectral foi definida;
-- as estatísticas relevantes foram introduzidas;
-- o protocolo experimental ainda não está completo.
+Até aqui, o operador foi construído e sua decomposição espectral foi formalmente definida. As estatísticas relevantes foram introduzidas, mas o protocolo experimental ainda não está completo.
 
-O material necessário para comparar o comportamento observado com classes espectrais conhecidas
-está agora estabelecido.
+O conjunto mínimo de ferramentas necessárias para confrontar o comportamento observado com classes espectrais conhecidas encontra-se agora estabelecido.
 
-A interpretação desses resultados será tratada separadamente.
+A leitura e a interpretação desses resultados serão tratadas separadamente, apenas após a execução sistemática das medições.
 
 ---
 

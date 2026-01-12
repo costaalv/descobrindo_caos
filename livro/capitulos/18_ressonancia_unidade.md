@@ -53,9 +53,11 @@ Descobertas fundamentais raramente chegam acompanhadas de aplausos. Euler formul
 
 Este trabalho não reivindica ruptura. Ele constata **convergência**.
 
-Ao retornar à Unidade, não como dogma, mas como **estrutura observável**, o percurso se fecha. Não por exaustão computacional, mas por **saturação conceitual**.
+Ao retornar ao espelhamento da Unidade, não como dogma, mas como **estrutura observável**, o percurso se fecha. Não por exaustão computacional, mas por **saturação conceitual**.
 
-A busca pelo equilíbrio terminou. O que permanece é a possibilidade de reconhecer, com clareza, aquilo que a própria estrutura já revela.
+> O espelhamento nunca desapareceu. Apenas deixou de ser observado no único domínio onde sua função é literal.
+
+A busca pelo equilíbrio termina aqui. O que permanece é a possibilidade de reconhecer, com clareza, aquilo que a própria estrutura sempre revelou.
 
 ---
 

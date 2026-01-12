@@ -61,7 +61,7 @@ Ainda assim, há:
 - repulsão de níveis;
 - rigidez espectral;
 - autovetores ergódicos;
-- estatísticas universais da GOE.
+- estatísticas universais da classe GOE.
 
 A regularidade observada não é metafórica. Ela é **espectral**.
 
@@ -84,17 +84,13 @@ E toda essa rigidez emerge de um único gesto estrutural, o espelhamento aritmé
 
 ## Ponto de repouso
 
-Neste capítulo:
+Neste capítulo, a visão de Berry foi apresentada como solução conceitual para o paradoxo do caos quântico, e a conjectura BGS foi introduzida como critério operacional de diagnóstico universal do caos. Nesse enquadramento, a classe GOE emerge não como uma escolha técnica, mas como a assinatura estatística natural do regime caótico.
 
-- foi apresentada a visão de Berry como solução conceitual para o paradoxo do caos quântico;
-- foi introduzida a conjectura BGS como critério universal de diagnóstico do caos;
-- foi estabelecida a GOE como assinatura estatística do regime caótico;
-- foi reinterpretado o espectro do operador aritmético à luz dessa linguagem universal;
-- foi reconciliada a tensão histórica entre ordem e irregularidade na distribuição dos primos.
+À luz dessa linguagem universal, o espectro do operador aritmético pôde ser reinterpretado de forma unificada, reconciliando a tensão histórica entre ordem e irregularidade na distribuição dos primos. O que antes aparecia como conflito conceitual revelou-se como duas faces de uma mesma estrutura, observada sob lentes distintas.
 
 Com isso, a travessia conceitual está completa.
 
-No capítulo final, reuniremos todas as peças — aritmética, espectro, escala e universalidade — em uma leitura estrutural única, encerrando o percurso não com uma conjectura, mas com uma síntese.
+No capítulo final, todas as peças — aritmética, espectro, escala e universalidade — serão reunidas em uma leitura estrutural única, encerrando o percurso não com uma nova conjectura, mas com uma síntese.
 
 ---
 

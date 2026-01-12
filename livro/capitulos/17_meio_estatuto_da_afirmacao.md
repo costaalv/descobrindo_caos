@@ -33,7 +33,7 @@ Nada além disso é exigido para aceitá-los.
 
 Um segundo passo consiste em reconhecer que os dados obtidos não são acidentais.
 
-A estabilidade estatística observada, independente de detalhes microscópicos, de operadores alternativos e da posição na reta, corresponde exatamente ao critério operacional de universalidade da Teoria de Matrizes Aleatórias e da conjectura BGS.
+A estabilidade estatística observada, tal como verificada independente de detalhes microscópicos, de operadores alternativos e da posição na reta, corresponde exatamente ao critério operacional de universalidade da Teoria de Matrizes Aleatórias e da conjectura BGS.
 
 Nesse nível, não se afirma *por que* a universalidade emerge. Apenas se reconhece que:
 
@@ -61,6 +61,8 @@ O experimento não obriga essa leitura. Mas também **não a contradiz em nenhum
 
 Trata-se de uma escolha interpretativa informada, coerente e economicamente estrutural: ela fornece uma unificação estrutural mínima para fenômenos que, de outra forma, permanecem desconectados.
 
+Essa coerência emerge apenas quando o intervalo é ancorado na Unidade ($1$). Ao contrário da análise assintótica tradicional, que observa o comportamento dos primos em sua vizinhança local ou em limites infinitos abstratos, a ancoragem no $1$ define um sistema fechado de informação. Dentro desse sistema $[1, x]$, o $1/2$ deixa de ser uma variável e torna-se um divisor de águas funcional: o ponto onde a capacidade de gerar estrutura (multiplicidade) cede lugar à pura densidade (aditividade).
+
 ## Sobre necessidade e inevitabilidade
 
 Há uma distinção sutil, mas decisiva, entre duas ideias frequentemente confundidas:
@@ -72,13 +74,31 @@ Este trabalho não afirma que a leitura final seja logicamente inevitável. Afir
 
 > **dada a estrutura observada, qualquer leitura alternativa deverá introduzir mais hipóteses, não menos.**
 
-A dobra em $1/2$ não é escolhida por elegância, mas porque é o único limiar aritmético que separa, em qualquer intervalo $[1,x]$, os primos que geram multiplicidade dos que não geram.
+A dobra em $1/2$ não é escolhida por elegância, mas porque é o único limiar aritmético que separa, em qualquer intervalo $[1, x]$, os primos que geram multiplicidade dos que não geram. **A distinção funcional entre primos estruturadores e primos estabilizadores elimina a necessidade estrutural, no interior do sistema fechado $[1, x]$, de hipóteses adicionais**.
 
 A escala logarítmica não é escolhida por conveniência, mas porque é a única que estabiliza a geometria da densidade.
 
 A GOE não é invocada como metáfora física, mas reconhecida como diagnóstico estatístico independente.
 
 Nada disso força uma ontologia. Mas tudo isso **delimita severamente** o espaço das interpretações coerentes.
+
+> **Não faltavam dados. Faltava perguntar o que os primos fazem, e não apenas onde eles estão.**
+
+## Sobre prova, fundamento e espaço de possibilidade
+
+Um ponto merece ser explicitado com cuidado, pois frequentemente gera confusão conceitual.
+
+A leitura estrutural proposta neste trabalho não afirma que o espelhamento em $1/2$ deva ser “provado” como um resultado interno ao formalismo. Isso seria um erro categorial.
+
+O espelhamento em $1/2$ não é um objeto dentro do espaço de análise. Ele é o gesto que **define o próprio espaço no qual critérios de estabilidade, universalidade e prova fazem sentido**.
+
+Toda prova possível já habita esse espaço. Exigir uma demonstração do espelhamento como condição prévia equivale a exigir uma prova do sistema de coordenadas antes de permitir qualquer medida.
+
+O experimento não impõe essa leitura. Mas também não a contradiz em nenhum ponto: qualquer alternativa que dispense o espelhamento deverá introduzir hipóteses adicionais, não menos.
+
+> Se o espelhamento em $1/2$ é o gesto que cria o espaço das possibilidades estruturais, então toda prova habita necessariamente esse espaço. Exigir sua demonstração como condição prévia é confundir fundamento com consequência.
+
+A leitura proposta — a centralidade do espelhamento em $1/2$ — conecta a estatística de Gauss à completude de Euler. O $1/2$ literal é o limiar necessário: abaixo dele, reside a multiplicidade estruturadora; acima dele, a aditividade estabilizadora. O Operador $M$ é a ferramenta que traduz essa transição de fase na linguagem da GOE.
 
 ## O papel do observador
 
@@ -98,14 +118,20 @@ Mas o reconhecimento de sua coerência **não é automático**.
 
 Ele exige uma decisão: aceitar que a ordem observada não é um artefato a ser descartado, nem um mistério a ser perpetuado, mas uma estrutura a ser reconhecida.
 
-## Transição para o fechamento
+---
 
-Com essa distinção explícita, o percurso está completo.
+## Ponto de Transição
 
-Nada foi inflado. Nada foi ocultado. Nada foi retirado.
+Com essa distinção explicitada, o percurso atinge seu limite natural.
 
-O que resta não é uma prova adicional, mas uma **responsabilidade interpretativa explícita**.
+Nada foi inflado.  
+Nada foi ocultado.  
+Nada foi retirado.
 
-O capítulo seguinte não introduz novos resultados. Ele apenas retorna ao ponto inicial — a Unidade — agora não como axioma, mas como **ressonância observável**.
+O que permanece não é uma prova adicional, mas uma **responsabilidade interpretativa**: reconhecer o alcance do que foi observado sem extrapolá-lo além do que a própria estrutura permite.
+
+O capítulo seguinte não introduz novos resultados. Ele retorna ao ponto inicial — a Unidade — não mais como axioma ou hipótese, mas como **ressonância observável**.
+
+---
 
 [$\gets$ Capítulo Anterior](./17_ponte_berry.md) | [Sumário](../../index.md) | [Próximo Capítulo $\to$](./18_ressonancia_unidade.md)

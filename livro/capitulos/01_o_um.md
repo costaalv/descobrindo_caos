@@ -54,9 +54,9 @@ Essa separação não é artificial. Ela surge automaticamente a partir da dobra
 ## Dois papéis, uma única origem
 
 A partir desse gesto, os primos passam a desempenhar dois papéis complementares:
-- **Estruturadores ($\pi_S(x)$**: os primos da primeira metade, que ainda participam ativamente da construção
+- **Estruturadores ($\pi_S(x)$)**: os primos da primeira metade, que ainda participam ativamente da construção
 dos compostos;
-- **Estabilizadores ($\pi_N(x)$**: os primos da segunda metade, que apenas preenchem lacunas.
+- **Estabilizadores ($\pi_N(x)$)**: os primos da segunda metade, que apenas preenchem lacunas.
 
 Ambos nascem do mesmo processo: a repetição do Um. Nenhum deles é especial por si só. O que muda é **onde** estão quando observamos.
 
@@ -66,7 +66,7 @@ O que importa aqui não é o valor absoluto, mas a relação.
 
 ## O experimento mínimo
 
-Neste ponto, o livro pede um único gesto ao leitor: executar o primeiro notebook (`01_o_Um.ipynb`) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/costaalv/descobrindo_caos/blob/main/notebooks/01_o_Um.ipynb).
+Neste ponto, o livro pede um único gesto ao leitor: executar o primeiro notebook (`01_o_um.ipynb`) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/costaalv/descobrindo_caos/blob/main/notebooks/01_o_um.ipynb).
 
 Nada precisa ser entendido de antemão. Basta executar.
 
@@ -118,17 +118,15 @@ Mas tudo o que virá depois depende deste gesto inicial simples e silencioso:
 
 Antes de qualquer caos, há apenas isso.
 
+---
+
 ## Ponto de Repouso
 
-O gesto da dobra separa os papéis funcionais dos primos de forma inequívoca:
-- **Estruturadores ($\pi_S(x)$** ($p \leq x/2$): São os primos que geram múltiplos e compõem a malha de números compostos dentro do intervalo observado. Eles representam a memória e a fundação do sistema.
-- **Estabilizadores ($\pi_N(x)$** ($p > x/2$): São os primos que ocupam posições na reta sem gerar novos compostos no intervalo atual. Eles representam o equilíbrio e a resistência do sistema.
+O gesto da dobra separa os papéis funcionais dos primos de forma inequívoca. Abaixo de $x/2$, os primos geram multiplicidade e compõem a malha estrutural dos compostos. Acima desse limiar, ocupam a reta sem produzir novos vínculos, estabilizando o sistema.
 
-Deste ponto, derivam três constatações fundamentais:
+O sistema aritmético não se organiza como uma sucessão de pontos isolados, mas como uma tensão entre estrutura e equilíbrio. O ponto $x/2$ marca a fronteira funcional onde a geração de multiplicidade se extingue, sem que a coerência da reta seja perdida.
 
-1. **A Dualidade**: O sistema aritmético não é uma sequência de pontos isolados, mas uma tensão entre duas forças complementares.
-2. **O Horizonte de Eventos**: O ponto $x/2$ é a fronteira funcional onde a capacidade de gerar estrutura se extingue.
-3. **A Âncora**: A Unidade é o pivô fixo que permite a observação dessa dobra sem a perda da integridade da reta numérica.
+*A Unidade permanece como âncora*. Ela permite que essa dobra seja observada sem fragmentação, fixando o sistema no intervalo $[1,x]$ como um todo coerente.
 
 ---
 

@@ -42,14 +42,12 @@ Mas por que descrições tão distintas conduzem à mesma estatística?
 A resposta está no elemento mais simples — e mais negligenciado: o **Um**.
 
 - Pitágoras ouviu a harmonia que emerge da própria contagem, um processo que começa no Um;
-- Riemann mapeou o terreno dos primos, consequência inevitável da estrutura multiplicativa  
-  erigida a partir do Um;
-- Berry descreveu o caos quântico cuja assinatura estatística, como demonstrado neste trabalho,  
-  emerge das flutuações da contagem dos primos.
+- Riemann mapeou o terreno dos primos, consequência inevitável da estrutura multiplicativa erigida a partir do Um;
+- Berry descreveu o caos quântico cuja assinatura estatística, como demonstrado neste trabalho, emerge das flutuações da contagem dos primos.
 
 A **GOE** não é um artefato físico, nem um acidente analítico, **nem uma imposição modelística externa**. Ela é o eco estatístico da complexidade gerada pela regra mais elementar: a sucessão construída a partir do Um.
 
-## A dobra em 1/2: terra e céu
+## A dobra em $1/2$: terra e céu
 
 No centro do laboratório esteve o funcional
 
@@ -63,19 +61,21 @@ De forma notável, essa mesma constante ocupa o papel central no domínio assint
 
 A função zeta é um mapa de alcance infinito. A função aritmética $\Delta_\pi(x)$ é um mapa manuscrito, finito. Mas ambos refletem a mesma simetria fundamental.
 
-O que Riemann vislumbrou no infinito aparece aqui como sombra inevitável no finito.
+O que Riemann vislumbrou no infinito aparece aqui como sombra inevitável do finito.
 
-## Síntese
+---
 
-Ao final desta jornada, torna-se possível afirmar:
+## Ponto de repouso
 
-- a estatística **GOE** não é importada da física para os primos;
-- ela emerge diretamente da aritmética, quando observada na escala geométrica adequada;
-- o caos quântico e o enigma de Riemann são manifestações distintas de uma mesma estrutura.
+Ao término deste percurso, o que se impõe não é uma conclusão no sentido clássico, mas uma síntese estrutural.
 
-Pitágoras não estava errado. Riemann não estava distante. Berry forneceu a linguagem que faltava.
+A estatística observada não foi transferida da física para a aritmética como metáfora ou analogia externa. Ela emerge diretamente da própria estrutura dos primos quando estes são observados na escala geométrica adequada. Sob essa lente, o que se convencionou chamar de caos quântico e o enigma associado à função zeta revelam-se como manifestações distintas de uma mesma ordem subjacente.
 
-A estrutura sempre esteve presente. O que faltava era o observável adequado.
+A leitura aqui proposta não introduz novos objetos nem exige extrapolações ontológicas. Ela apenas reorganiza o que já estava lá. A harmonia intuída por Pitágoras, a simetria vislumbrada por Riemann e a universalidade formalizada por Berry não se contradizem. Elas ocupam níveis diferentes de descrição de uma única estrutura.
+
+Nada foi acrescentado à aritmética. Apenas se tornou possível observá-la de modo coerente.
+
+*O que sempre esteve lá não era invisível por ausência, mas por falta de um observável adequado.*
 
 ---
 

@@ -57,11 +57,11 @@ Para valores pequenos de $X_0$, tipicamente $10^3$ e $10^4$, a estatística $\la
 
 ### A zona de transição: o despertar do caos
 
-Em torno de $X_0 \approx 10^5$, observa-se uma transição rápida. O valor de $\langle r \rangle$ cresce de forma acentuada, afastando-se do regime de Poisson e aproximando-se do valor da GOE. Esse comportamento indica que o sistema atinge uma massa crítica de complexidade, na qual correlações de longo alcance passam a dominar a estatística espectral.
+Em torno de $X_0 \approx 10^4$, observa-se uma transição rápida. O valor de $\langle r \rangle$ cresce de forma acentuada, afastando-se do regime de Poisson e aproximando-se do valor da GOE. Esse comportamento indica que o sistema atinge uma massa crítica de complexidade, na qual correlações de longo alcance passam a dominar a estatística espectral.
 
 ### O regime assintótico: a universalidade da GOE
 
-A partir de escalas da ordem de $10^7$, o valor de $\langle r \rangle$ estabiliza-se de forma inequívoca no valor previsto para a GOE. Mais importante ainda, ele torna-se essencialmente independente de $X_0$.
+A partir de escalas da ordem de $10^5$, o valor de $\langle r \rangle$ estabiliza-se de forma inequívoca no valor previsto para a GOE. Mais importante ainda, ele torna-se essencialmente independente de $X_0$.
 
 Entramos, assim, no regime assintótico: a estatística observada deixa de carregar informações sobre a posição específica na reta numérica e passa a refletir uma lei universal.
 
@@ -73,19 +73,19 @@ A varredura de escala revela que a transição observada nos capítulos anterior
 
 A música dos primos não é um fenômeno regional da reta aritmética. Ela é uma constante estrutural do universo aritmético — audível apenas quando observada na escala adequada.
 
+---
+
 ## Ponto de repouso
 
-Até aqui:
+Até aqui, foi estabelecida de forma precisa a distinção entre um fenômeno local e um diagnóstico universal. A noção de universalidade foi definida operacionalmente como independência em relação ao ponto inicial $X_0$, e não como extrapolação assintótica ou argumento qualitativo.
 
-- foi formulada a distinção entre um fenômeno local e um diagnóstico universal, estabelecendo o critério operacional de universalidade como independência em relação a $X_0$;
-- foi definido um protocolo de varredura de escala, mantendo fixa a construção do operador $M$ e a lente logarítmica, e deslocando apenas o ponto inicial $X_0$ ao longo de várias ordens de magnitude;
-- foi adotada a estatística $\langle r \rangle$ como indicador sintético e robusto de correlação espectral, permitindo comparar regimes sem recorrer a hipóteses adicionais;
-- foi observado um cenário organizado em três regimes: baixa escala com comportamento compatível com Poisson, uma zona de transição em torno de $X_0 \approx 10^5$, e um regime assintótico em que $\langle r \rangle$ se estabiliza próximo do valor de referência da GOE;
-- foi isolada a consequência principal: acima de uma escala crítica, o diagnóstico deixa de depender da posição na reta numérica e passa a refletir um comportamento estatístico estável.
+Com esse critério, formulou-se um protocolo de varredura de escala no qual a construção do operador $M$ e a lente logarítmica permanecem fixas, enquanto apenas o ponto inicial $X_0$ é deslocado ao longo de várias ordens de magnitude. Para acompanhar essa varredura, adotou-se a estatística $\langle r \rangle$ como indicador sintético e robusto de correlação espectral, permitindo a comparação direta entre regimes sem a introdução de hipóteses adicionais.
 
-Com isso, a universalidade deixa de ser uma intuição e passa a ser um resultado operacional: há um regime em que o operador $M$, observado na escala logarítmica, apresenta assinaturas espectrais compatíveis com a classe GOE de forma persistente sob varreduras de $X_0$.
+OO resultado observado organiza-se em três regiões bem definidas: um regime inicial compatível com Poisson, uma zona de transição centrada em torno de $X_0 \approx 10^4$, e um regime assintótico no qual $\langle r \rangle$ se estabiliza próximo ao valor característico da GOE. Acima de uma escala crítica, o diagnóstico deixa de depender da posição na reta numérica e passa a refletir um comportamento estatístico estável.
 
-No capítulo seguinte, investigaremos a estrutura interna dessa estabilidade: quais variações do protocolo preservam o diagnóstico e quais o degradam, delimitando as condições mínimas para que a universalidade observada se mantenha.
+A universalidade deixa, assim, de ser uma inferência intuitiva e passa a ser um **resultado operacional**. Existe um regime no qual o operador $M$, observado na escala logarítmica, apresenta assinaturas espectrais compatíveis com a classe GOE de forma persistente sob varreduras de $X_0$.
+
+No próximo capítulo, essa estabilidade será colocada à prova. Investigaremos quais variações do protocolo preservam o diagnóstico observado e quais o degradam, delimitando explicitamente as condições mínimas para a persistência da universalidade identificada.
 
 ---
 

@@ -7,8 +7,7 @@ Um dos resultados centrais deste trabalho é a constatação de que a emergênci
 
 Ao contrário, ela só se manifesta de forma robusta quando o sistema é observado através de uma lente específica: a **escala logarítmica**.
 
-Este capítulo investiga o motivo dessa seletividade.  
-A pergunta não é mais *se* a estatística muda com a escala — isso já foi estabelecido — mas *por que* apenas a escala logarítmica cria as condições necessárias para a emergência do regime correlacionado.
+Este capítulo investiga o motivo dessa seletividade. A pergunta não é mais *se* a estatística muda com a escala — isso já foi estabelecido — mas *por que* apenas a escala logarítmica cria as condições necessárias para a emergência do regime correlacionado.
 
 A resposta está na própria geometria da distribuição dos números primos.
 
@@ -27,15 +26,13 @@ $$
 \frac{d\pi}{dx} \approx \frac{1}{\ln(x)}.
 $$
 
-Essa expressão contém uma informação fundamental:  
-**a densidade de primos decai continuamente à medida que $x$ cresce**.
+Essa expressão contém uma informação fundamental: **a densidade de primos decai continuamente à medida que $x$ cresce**.
 
 Portanto, qualquer observação feita diretamente na escala linear ocorre sobre um terreno cuja principal característica estrutural é um colapso progressivo da densidade.
 
 ## Verificação empírica
 
-A estrutura geométrica descrita acima não é apenas assintótica ou conceitual.  
-Ela é verificada diretamente no **Notebook 09** (`09_escala_logaritmica.ipynb`) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/costaalv/descobrindo_caos/blob/main/notebooks/09_escala_logaritmica.ipynb), no qual a densidade empírica de primos é medida e comparada nas escalas linear e logarítmica.
+A estrutura geométrica descrita acima não é apenas assintótica ou conceitual. Ela é verificada diretamente no **Notebook 09** (`09_escala_logaritmica.ipynb`) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/costaalv/descobrindo_caos/blob/main/notebooks/09_escala_logaritmica.ipynb), no qual a densidade empírica de primos é medida e comparada nas escalas linear e logarítmica.
 
 Os gráficos produzidos nesse experimento mostram explicitamente:
 - o decaimento contínuo de $d\pi/dx$ na escala linear;
@@ -45,8 +42,7 @@ Essas visualizações fornecem o pano de fundo geométrico necessário para inte
 
 ## A lente linear: um palco instável
 
-Quando o sistema é observado em uma parametrização linear, a densidade de estados associada aos primos diminui continuamente.  
-Não existe uma escala local estável: cada intervalo sucessivo contém menos estrutura do que o anterior.
+Quando o sistema é observado em uma parametrização linear, a densidade de estados associada aos primos diminui continuamente. Não existe uma escala local estável: cada intervalo sucessivo contém menos estrutura do que o anterior.
 
 Nesse regime, as flutuações estatísticas mais sutis — aquelas responsáveis por correlações espectrais de longo alcance — ficam submersas em uma tendência dominante de rarefação.
 
@@ -90,26 +86,22 @@ $$
 \frac{d\,\pi}{d(\ln\,x)} \approx \frac{x}{\ln(x)}.
 $$
 
-Essa expressão é fundamental:  
-a função $x/\ln(x)$ é **estritamente crescente**.
+Essa expressão é fundamental: a função $x/\ln(x)$ é **estritamente crescente**.
 
 O que antes era um colapso contínuo transforma-se agora em uma lei de crescimento suave e previsível.
 
 ## A lente logarítmica: a estabilização do palco
 
-A escala logarítmica não torna a densidade dos primos constante.  
-Ela faz algo mais sutil e mais importante: transforma uma degenerescência estrutural em uma geometria regular.
+A escala logarítmica não torna a densidade dos primos constante. Ela faz algo mais sutil e mais importante: transforma uma degenerescência estrutural em uma geometria regular.
 
-Em vez de uma densidade que tende a zero, obtemos uma densidade que cresce de forma controlada, sem oscilações violentas.  
-Isso cria um pano de fundo estável contra o qual as flutuações podem ser analisadas de forma significativa.
+Em vez de uma densidade que tende a zero, obtemos uma densidade que cresce de forma controlada, sem oscilações violentas. Isso cria um pano de fundo estável contra o qual as flutuações podem ser analisadas de forma significativa.
 
 É nesse regime que:
 - a função $\Delta_\pi(x)$ exibe flutuações estruturais em múltiplas escalas;
 - o operador $M$ torna-se altamente variável;
 - o espectro passa a apresentar correlações locais e rigidez global.
 
-A estatística do tipo GOE não é criada pela escala logarítmica.  
-Ela é **revelada** por ela.
+A estatística da classe GOE não é criada pela escala logarítmica. Ela é **revelada** por ela.
 
 ## A condição de emergência
 
@@ -121,11 +113,9 @@ $$
 
 Essa observação ganha agora uma interpretação geométrica clara.
 
-Abaixo dessa região, a distribuição dos primos ainda é dominada por irregularidades discretas e efeitos finitos.  
-Acima dela, a lei assintótica $x / \ln(x)$ passa a governar a densidade de forma robusta.
+Abaixo dessa região, a distribuição dos primos ainda é dominada por irregularidades discretas e efeitos finitos. Acima dela, a lei assintótica $x / \ln(x)$ passa a governar a densidade de forma robusta.
 
-É nesse ponto que o “palco” se estabiliza.  
-A partir daí, as flutuações — e não a tendência média — passam a dominar a estatística espectral.
+É nesse ponto que o “palco” se estabiliza. A partir daí, as flutuações — e não a tendência média — passam a dominar a estatística espectral.
 
 ## Síntese
 
@@ -137,21 +127,27 @@ O papel da escala logarítmica pode agora ser resumido de forma precisa:
 
 Ao alinhar a observação com a escala natural dos primos, a lente logarítmica cria as condições mínimas para que correlações espectrais profundas se tornem visíveis.
 
-A música do caos não surge por acaso.  
-Ela só pode ser ouvida quando o palco está adequadamente construído.
+A música do caos não surge por acaso. Ela só pode ser ouvida quando o palco está adequadamente construído.
 
-## Ponto de repouso
+---
 
-Até aqui:
-- a diferença entre observação linear e logarítmica foi reformulada como um problema geométrico de densidade;
-- foi explicitado que, na escala linear, a densidade de primos decai como $d\,\pi/d\,x \approx 1/\ln(x)$, produzindo um pano de fundo estruturalmente instável;
-- foi derivada a densidade correspondente na escala logarítmica, $d\,\pi/d(\ln\,x) \approx x/ln(x)$, evidenciando a transformação do colapso em uma lei de crescimento suave;
-- foi identificado que a lente logarítmica não “cria” universalidade, mas estabiliza o regime de observação no qual flutuações podem dominar;
-- foi conectada a escala crítica observada ($ X_0 \approx 10^4\text{–}10^5 $) à consolidação empírica do regime assintótico.
+## Ponto de Repouso
 
-O papel da escala está, portanto, isolado: ela determina se o operador será observado sobre um terreno em colapso ou sobre um terreno estabilizado.
+Até aqui, a distinção entre observação linear e observação logarítmica foi reformulada como um problema geométrico de densidade.
 
-No capítulo seguinte, passaremos do diagnóstico geométrico para uma análise operacional: quais perturbações preservam o regime observado e quais o destroem, delimitando de forma explícita as condições mínimas para a persistência da universalidade.
+Na escala linear, a densidade de primos decai como  
+$d\,\pi/dx \approx 1/\ln(x)$, produzindo um pano de fundo estruturalmente instável, no qual as flutuações são continuamente amortecidas pela rarefação do sistema.
+
+Na escala logarítmica, a densidade correspondente,  
+$d\,\pi/d(\ln x) \approx x/\ln(x)$, transforma esse colapso em uma lei de crescimento suave. O que antes se dissipava torna-se observável.
+
+Fica então claro que a lente logarítmica não “cria” universalidade. Ela apenas estabiliza o regime de observação no qual as flutuações podem dominar o comportamento estatístico do operador.
+
+A escala crítica observada ($X_0 \approx 10^4\text{–}10^5$) surge, assim, não como um parâmetro arbitrário, mas como o ponto empírico de consolidação do regime assintótico.
+
+O papel da escala está, portanto, isolado: ela determina se o operador é observado sobre um terreno em colapso ou sobre um terreno estabilizado.
+
+No capítulo seguinte, passaremos do diagnóstico geométrico para uma análise operacional. Investigaremos quais perturbações preservam o regime observado e quais o destroem, delimitando de forma explícita as condições mínimas para a persistência da universalidade.
 
 ---
 

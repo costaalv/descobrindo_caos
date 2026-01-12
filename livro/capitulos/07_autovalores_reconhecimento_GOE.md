@@ -39,8 +39,7 @@ Em termos descritivos, $P(s)$ aproxima-se de uma forma que:
 - cresce a partir de 0 até um máximo em $s > 0$;
 - decai para espaçamentos maiores.
 
-Esse padrão não é compatível com espectros não correlacionados.  
-Ele é a assinatura mínima de repulsão local entre autovalores.
+Esse padrão não é compatível com espectros não correlacionados. Ele é a assinatura mínima de repulsão local entre autovalores.
 
 ## A estatística escalar e o valor de referência
 
@@ -54,10 +53,10 @@ produz um número médio $\langle r \rangle$ que resume o grau de correlação l
 
 O ponto crítico é que, para classes universais, $\langle r \rangle$ assume valores característicos.
 
-Em particular, para o GOE, a literatura estabelece um valor de referência aproximadamente constante:
+Em particular, para a GOE, a literatura estabelece um valor de referência aproximadamente constante:
 
 $$
-\langle r \rangle_\text{GOE} \approx 0.5359
+\langle r \rangle_\text{GOE} \approx 0.536
 $$
 
 enquanto para espectros não correlacionados o valor típico é substancialmente menor:
@@ -66,7 +65,7 @@ $$
 \langle r \rangle_\text{nc} \approx 0.386
 $$
 
-Ao aplicar o protocolo do **Notebook 07** ao operador $M$, observa-se que, em regimes adequados de $N$ e $X_0$, o valor medido de $\langle r \rangle$ aproxima-se sistematicamente do valor de referência do GOE.
+Ao aplicar o protocolo do **Notebook 07** ao operador $M$, observa-se que, em regimes adequados de $N$ e $X_0$, o valor medido de $\langle r \rangle$ aproxima-se sistematicamente do valor de referência da classe GOE.
 
 Essa aproximação é robusta sob variações moderadas de parâmetros do protocolo (*bulk*, janela logarítmica e perturbações numéricas mínimas), indicando que não se trata de uma coincidência localizada.
 
@@ -78,23 +77,23 @@ Uma segunda característica, independente, é a rigidez estatística: a flutuaç
 
 A variância numérica $\Sigma^2(L)$, definida no capítulo anterior, mede exatamente essa flutuação.
 
-O **Notebook 07** demonstra que, para regimes em que $P(s)$ apresenta supressão em $s = 0$ e $\langle r \rangle$ se aproxima do valor de referência do GOE, a curva empírica de $\Sigma^2(L)$ abandona o crescimento linear ($\Sigma^2(L) \sim L$) — característico de sistemas do tipo Poisson — para assumir um **crescimento logarítmico** ($\Sigma^2(L) \sim \ln(L)$).
+O **Notebook 07** demonstra que, para regimes em que $P(s)$ apresenta supressão em $s = 0$ e $\langle r \rangle$ se aproxima do valor de referência da GOE, a curva empírica de $\Sigma^2(L)$ abandona o crescimento linear ($\Sigma^2(L) \sim L$) — característico de sistemas do tipo Poisson — para assumir um **crescimento logarítmico** ($\Sigma^2(L) \sim \ln(L)$).
 
 Essa transição constitui uma evidência robusta da rigidez espectral do operador $M$. Ela indica que os níveis não apenas se repelem localmente, mas preservam correlações de longo alcance que estabilizam a estrutura do sistema.
 
-Duas estatísticas independentes — local ($P(s)$) e global ($\Sigma^2$) — convergem, assim, para o reconhecimento da mesma classe universal.
+Duas estatísticas independentes — local ($P(s)$) e global ($\Sigma^2(L)$) — convergem, assim, para o reconhecimento da mesma classe universal.
 
 ## Determinismo e universalidade
 
 Há um aspecto que merece ser explicitado.
 
-O GOE é tradicionalmente introduzido como um ensemble aleatório de matrizes simétricas reais. A universalidade observada nesse contexto refere-se ao fato de que muitas famílias de operadores, sob condições amplas, exibem as mesmas estatísticas no *bulk* espectral.
+A GOE é tradicionalmente introduzido como um ensemble aleatório de matrizes simétricas reais. A universalidade observada nesse contexto refere-se ao fato de que muitas famílias de operadores, sob condições amplas, exibem as mesmas estatísticas no *bulk* espectral.
 
 No presente trabalho, o operador $M$ não é aleatório. Ele é construído deterministicamente a partir de uma função aritmética elementar e de uma mudança de escala fixa.
 
 O ponto observado aqui é, portanto, mais restrito e mais concreto:
 
-> um operador determinístico, construído exclusivamente a partir de contagem de primos e simetrização, pode exibir estatísticas espectrais compatíveis com a classe universal do GOE.
+> um operador determinístico, construído exclusivamente a partir de contagem de primos e simetrização, pode exibir estatísticas espectrais compatíveis com a classe universal GOE.
 
 Nada além disso é reivindicado.
 
@@ -124,16 +123,17 @@ Quando essa estabilidade se observa, o reconhecimento de classe deixa de ser uma
 
 O terceiro nível não altera os dois primeiros. Ele apenas nomeia um comportamento observado.
 
-Neste capítulo, o comportamento reconhecido é o pertencimento estatístico do espectro do operador $M$, em regimes adequados, à classe universal do GOE.
+Neste capítulo, o comportamento reconhecido é o pertencimento estatístico do espectro do operador $M$, em regimes adequados, à classe universal GOE.
 
-## Ponto de repouso
+---
 
-Até aqui:
+## Ponto de Repouso
 
-- o protocolo estatístico foi aplicado ao espectro do operador $M$ em regimes ampliados;
-- múltiplas estatísticas independentes apontaram para a mesma classe espectral;
-- o comportamento observado foi identificado como compatível com a classe GOE;
-- nenhum novo objeto foi introduzido e nenhuma hipótese adicional foi assumida.
+Até aqui, o protocolo estatístico foi aplicado ao espectro do operador $M$ em regimes progressivamente ampliados.  
+Múltiplas estatísticas independentes convergiram de forma consistente para a mesma classe espectral.
+
+O comportamento observado foi identificado como compatível com a classe GOE.  
+Nenhum novo objeto foi introduzido. Nenhuma hipótese adicional foi assumida.
 
 No próximo capítulo, investigaremos como esse diagnóstico se comporta sob varreduras sistemáticas de escala e sob modificações controladas do operador, delimitando as condições mínimas para a emergência da universalidade observada.
 

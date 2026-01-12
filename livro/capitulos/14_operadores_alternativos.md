@@ -99,18 +99,17 @@ Ele emerge da combinação de dois elementos fundamentais:
 
 O operador atua apenas como um instrumento de leitura. Trocar o instrumento não altera a música.
 
+---
+
 ## Ponto de repouso
 
-Até aqui:
+Até aqui, foi examinada de forma sistemática a dependência do fenômeno em relação à forma específica do operador. Verificou-se que kernels funcionalmente distintos conduzem ao mesmo diagnóstico estatístico, e que a dualidade entre regimes do tipo Poisson e GOE permanece invariável sob essa substituição.
 
-- foi testada a dependência do fenômeno em relação à forma do operador;
-- kernels funcionalmente distintos produziram o mesmo diagnóstico estatístico;
-- a dualidade Poisson/GOE mostrou-se invariável sob essa troca;
-- a origem do comportamento foi isolada na interação entre o sinal dos primos e a escala de observação.
+Com isso, a origem do comportamento observado pôde ser isolada com clareza: ela não reside em detalhes formais da construção, mas na interação entre o sinal aritmético dos primos e a escala de observação adotada.
 
-Este capítulo encerra a investigação sobre possíveis artefatos operacionais.
+Este capítulo encerra, portanto, a investigação sobre possíveis artefatos operacionais.
 
-Nos capítulos seguintes, passaremos a explorar as consequências dessa robustez: o que exatamente é universal, o que pode ser perturbado sem destruir o regime, e quais limites naturais emergem dessa estrutura.
+Nos capítulos seguintes, o foco se desloca das causas para as consequências dessa robustez. Investigaremos o que é efetivamente universal, quais perturbações podem ser introduzidas sem destruir o regime observado e quais limites naturais emergem da própria estrutura identificada.
 
 ---
 

@@ -21,8 +21,8 @@ Antes de avançar para escalas grandes, é instrutivo trabalhar em um domínio p
 Neste capítulo, fixamos:
 
 $$
-N = 32
-$$,
+N = 32,
+$$
 
 e consideramos o domínio discreto
 
@@ -109,16 +109,15 @@ Neste capítulo:
 
 O operador permanece inalterado. A mudança ocorrerá exclusivamente no regime de observação.
 
+---
+
 ## Ponto de repouso
 
-Até aqui:
-- a análise espectral foi introduzida formalmente;
-- o operador foi estudado em dimensão finita;
-- todas as ferramentas necessárias estão definidas.
+Até este ponto, a análise espectral foi introduzida formalmente. O operador foi estudado em dimensão finita. Todas as ferramentas necessárias estão agora definidas.
 
-No próximo capítulo, essas ferramentas serão aplicadas sistematicamente a domínios crescentes, permitindo observar como o espectro do operador responde à mudança de escala.
+No próximo capítulo, essas ferramentas serão aplicadas de forma sistemática a domínios crescentes, permitindo observar como o espectro do operador responde à mudança de escala.
 
-Nada será assumido. Tudo será medido.
+*Nada será assumido. Tudo será medido*.
 
 ---
 

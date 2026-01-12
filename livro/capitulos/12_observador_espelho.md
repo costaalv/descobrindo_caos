@@ -58,7 +58,7 @@ O experimento de controle demonstra que a estatística de Poisson constitui o **
 
 O contraste com o caso aritmético é decisivo.
 
-Quando o operador é construído a partir de Δπ(*x*), a estatística GOE emerge **exclusivamente** sob a lente logarítmica. Isso indica que não é o “ruído” dos primos que gera o efeito, mas a interação entre:
+Quando o operador é construído a partir de $\Delta_\pi(x)$, a estatística GOE emerge **exclusivamente** sob a lente logarítmica. Isso indica que não é o “ruído” dos primos que gera o efeito, mas a interação entre:
 
 * a estrutura pseudoaleatória específica da distribuição dos primos;
 * a escala logarítmica, que estabiliza a geometria do espaço de observação.
@@ -85,18 +85,21 @@ A conclusão é inequívoca: a estatística GOE **não é ruído**.
 
 Ela é a assinatura de uma ordem profunda, oculta na distribuição dos números primos, e só se torna audível quando observada na escala adequada.
 
+---
+
 ## Ponto de repouso
 
-Neste capítulo:
+Neste capítulo,
 
-* o método foi submetido a um experimento de controle rigoroso;
-* demonstrou-se que a estatística GOE não emerge de sinais aleatórios genéricos;
-* isolou-se a assinatura específica dos primos como fonte do regime correlacionado;
-* confirmou-se que a escala logarítmica não cria o fenômeno, mas permite que ele se manifeste.
+o método foi submetido a um experimento de controle rigoroso.  
+Demonstrou-se que a estatística GOE não emerge de sinais aleatórios genéricos.  
+Isolou-se, de forma inequívoca, a assinatura específica dos primos como fonte do regime correlacionado.  
+Confirmou-se que a escala logarítmica não cria o fenômeno, mas define o regime no qual ele pode se manifestar.
 
-O observador foi colocado diante do espelho, e o reflexo permaneceu consistente.
+O observador foi colocado diante do espelho —  
+e o reflexo permaneceu consistente.
 
-No próximo capítulo, o foco desloca-se. Não se tratará mais de reconhecer a universalidade, mas de explorar seus limites: quais perturbações a preservam, quais a destroem, e quais aspectos da construção são essenciais para sua persistência.
+No próximo capítulo, o foco se desloca. Não se tratará mais de reconhecer a universalidade, mas de explorar seus limites: **quais perturbações a preservam, quais a destroem e quais aspectos da construção são essenciais para sua persistência**.
 
 ---
 

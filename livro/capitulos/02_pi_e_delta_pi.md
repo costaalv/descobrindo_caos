@@ -116,12 +116,15 @@ Nada novo será acrescentado ao sistema. Apenas mudaremos a forma de olhar.
 
 Mas tudo o que virá depois — inclusive qualquer leitura espectral — depende deste pulso inicial, silencioso e incontornável, que nasce quando dobramos a reta e contamos com atenção.
 
+---
+
 ## Ponto de Repouso
 
-Antes de avançar, fixemos o que foi observado:
-- **O Instrumento**: A função aritmética $\Delta_\pi(x) = \pi(x) − 2\,\pi(x/2)$ mede o desbalanceamento entre dois papéis funcionais.
-- **O Fenômeno**: Os primos não são distribuídos ao acaso; eles alternam entre estabilizar e estruturar, gerando um pulso.
-- **A Constatação**: O sistema não é estático. Ele possui uma dinâmica interna de redistribuição de funções.
+A função aritmética $\Delta_\pi(x) = \pi(x) - 2\,\pi(x/2)$ não descreve uma distribuição, mas um desbalanceamento funcional. Ela torna visível a alternância entre dois papéis complementares exercidos pelos primos ao longo do intervalo observado.
+
+Os primos não atuam de forma homogênea.	Em certos regimes, estruturam a malha dos compostos; em outros, estabilizam a densidade da reta. Dessa alternância emerge um pulso,	não como ruído, mas como expressão de uma dinâmica interna.
+
+*O sistema, portanto, não é estático*. Ele redistribui funções sem perder coerência, e é essa redistribuição — não os valores isolados — que sustenta a estrutura observada.
 
 ---
 

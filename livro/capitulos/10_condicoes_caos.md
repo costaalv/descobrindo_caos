@@ -22,7 +22,7 @@ A metodologia desenvolvida ao longo deste trabalho repousa sobre três pilares c
 
 A primeira condição é abandonar a interpretação da reta numérica como um objeto estático e passar a observá-la como um **processo em evolução**.
 
-À medida que o parâmetro *x* cresce, as propriedades estatísticas do sistema mudam. Essa dependência explícita da escala permite identificar regimes distintos: um regime inicial descorrelacionado, uma região de transição e um regime estabilizado no qual emergem correlações de longo alcance.
+À medida que o parâmetro $x$ cresce, as propriedades estatísticas do sistema mudam. Essa dependência explícita da escala permite identificar regimes distintos: um regime inicial descorrelacionado, uma região de transição e um regime estabilizado no qual emergem correlações de longo alcance.
 
 Somente sistemas **tratados** como processos, e não como instantâneos, podem exibir esse tipo de estrutura em fases.
 
@@ -48,16 +48,12 @@ A interação entre esses três pilares é demonstrada de forma direta no **Note
 
 Nesse experimento, dois conjuntos de gráficos são produzidos:
 
-- um gráfico que explicita a estabilização geométrica da densidade de primos  
-  quando observada na escala logarítmica;
-- um gráfico que acompanha a evolução de uma grandeza de tensão relativa  
-  ao longo da reta,  
-  evidenciando a transição entre regimes dinâmicos.
+- um gráfico que explicita a estabilização geométrica da densidade de primos quando observada na escala logarítmica;
+- um gráfico que acompanha a evolução de uma grandeza de tensão relativa ao longo da reta, evidenciando a transição entre regimes dinâmicos.
 
 O gráfico inferior do notebook materializa o terceiro pilar: o “palco estável” criado pela mudança de variável.
 
-O gráfico superior materializa o primeiro pilar: a leitura dinâmica do sistema, na qual se observa a passagem de um regime instável  
-para um regime de flutuação estabilizada.
+O gráfico superior materializa o primeiro pilar: a leitura dinâmica do sistema, na qual se observa a passagem de um regime instável para um regime de flutuação estabilizada.
 
 A presença simultânea desses dois elementos é condição necessária para que a assinatura do caos se torne observável.
 
@@ -81,17 +77,17 @@ A “receita” observacional pode agora ser formulada de forma objetiva:
 
 É **somente** a intersecção rigorosa desses três princípios, e apenas ela, que permite transformar a contagem de primos em uma observação direta de estatísticas universais do caos.
 
-## Ponto de repouso
+---
 
-Até aqui:
+### Ponto de Repouso
 
-- foram isoladas as condições mínimas para a emergência do regime correlacionado;
-- ficou explícito que nenhuma delas é suficiente isoladamente;
-- o papel da escala, do dinamismo e da estabilização foi separado e articulado;
-- o **Notebook 10** foi utilizado como verificação empírica direta dessa articulação.
+Até aqui, foram isoladas as condições mínimas para a emergência de um regime espectral correlacionado.
 
-No próximo capítulo, essas condições serão tensionadas: investigaremos quais perturbações preservam o regime observado e quais o destroem,  
-delimitando com precisão o domínio de validade da universalidade identificada.
+Ficou claro que nenhuma delas é suficiente de forma isolada. A escala, o dinamismo do operador e o mecanismo de estabilização atuam de maneira conjunta, e apenas sua articulação produz o comportamento observado.
+
+O **Notebook 10** fornece a verificação empírica direta dessa interdependência, mostrando que a universalidade emerge somente quando essas condições são satisfeitas simultaneamente.
+
+No próximo capítulo, essa articulação será colocada sob tensão. Investigaremos quais perturbações preservam o regime identificado e quais o destroem, delimitando com precisão o domínio de validade da universalidade observada.
 
 ---
 

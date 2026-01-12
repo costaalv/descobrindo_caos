@@ -53,8 +53,7 @@ O ponto crucial é que:
 
 Assim, a diferença observada no espectro de $M$ **não nasce no operador**, mas na forma como o argumento do operador percorre a estrutura aritmética.
 
-A lente linear “congela” o sinal.  
-A lente logarítmica o faz vibrar.
+A lente linear “congela” o sinal. A lente logarítmica o faz vibrar.
 
 ## Complexidade efetiva e mistura de fases
 
@@ -66,7 +65,7 @@ $$
 
 é, por construção, simétrica e determinística.
 
-No entanto, o seu grau de complexidade efetiva depende da diversidade de fases presentes nos termos $\Delta_\pi(x_i) \dot \ln(x_j)$.
+No entanto, o seu grau de complexidade efetiva depende da diversidade de fases presentes nos termos $\Delta_\pi(x_i)\, \ln(x_j)$.
 
 - Em janelas lineares estreitas, essas fases são altamente correlacionadas.
 - Em janelas logarítmicas amplas, ocorre uma **mistura de fases** comparável àquela observada em sistemas caóticos determinísticos.
@@ -103,16 +102,17 @@ O que se afirma é mais restrito e mais sólido:
 
 > quando a estrutura aritmética é observada em sua escala natural, a complexidade necessária para a emergência de universalidade está presente.
 
-## Ponto de repouso
+---
 
-Ao final deste capítulo:
+## Ponto de Repouso
 
-- a escala deixa de ser um parâmetro técnico e passa a ser parte da estrutura;
-- a lente logarítmica é identificada como geometricamente natural;
-- o contraste entre Poisson e GOE é reinterpretado como mudança de regime, não de objeto;
-- o operador $M$ permanece determinístico e inalterado.
+Ao final deste capítulo, a escala deixa de ser um parâmetro técnico e passa a integrar a própria estrutura do problema.  
+A lente logarítmica é identificada como geometricamente natural para a observação do sinal aritmético.
 
-No próximo capítulo, essa compreensão será levada adiante: investigaremos **quais aspectos do operador são essenciais para a universalidade observada e quais podem ser modificados sem destruí-la**, separando estrutura de contingência.
+O contraste entre Poisson e GOE deixa de ser interpretado como mudança de objeto e passa a ser reconhecido como mudança de regime.  
+Em todos os casos, o operador $M$ permanece determinístico e inalterado.
+
+No próximo capítulo, essa compreensão será levada adiante. Investigaremos quais aspectos do operador são essenciais para a universalidade observada e quais podem ser modificados sem destruí-la, separando estrutura de contingência.
 
 ---
 

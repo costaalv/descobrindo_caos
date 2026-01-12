@@ -30,7 +30,7 @@ Para um autovetor normalizado
 > $v = (v_1, v_2, \dots, v_n)$, define-se:
 
 $$
-PR = \frac{(\sum_{i=1}^{n} |v_i|^2)^2}{\sum_{i=1}^{n} |v_i|^4}.
+\mathrm{PR} = \frac{(\sum_{i=1}^{n} |v_i|^2)^2}{\sum_{i=1}^{n} |v_i|^4}.
 $$
 
 Seu significado é direto:
@@ -60,7 +60,7 @@ Para matrizes da classe GOE, os componentes de um autovetor típico do *bulk* co
 
 Essa previsão pode ser testada diretamente:
 
-* seleciona-se um autovetor do centro do espectro;
+* seleciona-se um autovalor do centro do espectro;
 * constrói-se o histograma de seus componentes;
 * compara-se esse histograma com uma curva Gaussiana teórica;
 * quantifica-se a compatibilidade por meio do teste de Kolmogorov–Smirnov.
@@ -78,7 +78,7 @@ Para cada caso, são produzidos quatro gráficos:
 
 * o histograma dos componentes de um autovetor do *bulk*;
 * a curva Gaussiana teórica correspondente;
-* a distribuição dos valores de *PR*/*N* ao longo do espectro;
+* a distribuição dos valores de $PR/N$ ao longo do espectro;
 * a comparação visual entre regimes.
 
 ## Resultados — sinal genuíno e artefato
@@ -101,7 +101,7 @@ Na parametrização linear, os resultados aparentam, à primeira vista, ser igua
 
 Essa semelhança, no entanto, é enganosa.
 
-Nesse regime, a matriz construída é estruturalmente pobre e necessita da introdução de pequenas perturbações numéricas (*jitter*) para evitar degenerescências artificiais.
+Nesse regime, a matriz construída é estruturalmente pobre e necessita da introdução de pequenas perturbações numéricas (`jitter`) para evitar degenerescências artificiais.
 
 Os autovetores passam então a refletir majoritariamente as propriedades estatísticas do ruído introduzido, e não a estrutura aritmética subjacente.
 
@@ -127,18 +127,17 @@ Trata-se de uma *primitiva quântica* não no sentido físico, mas estatístico:
 
 Essa possibilidade permanece especulativa, mas ilustra o alcance conceitual do formalismo desenvolvido.
 
+---
+
 ## Ponto de repouso
 
-Até aqui:
+Até aqui, a análise espectral foi estendida dos autovalores aos autovetores do operador $M$.
 
-* a análise espectral foi estendida dos autovalores aos autovetores;
-* foi demonstrado que o regime GOE implica autovetores ergódicos;
-* o *Participation Ratio* confirmou a deslocalização estrutural;
-* a estatística Gaussiana dos componentes foi verificada;
-* distinguiu-se claramente sinal genuíno de artefato metodológico;
-* o **Notebook 11** forneceu a base empírica dessas conclusões.
+Mostrou-se que o regime GOE não se manifesta apenas na estatística dos níveis, mas também na geometria interna dos estados: os autovetores são ergódicos, o *Participation Ratio* confirma sua deslocalização estrutural e a distribuição Gaussiana dos componentes emerge de forma consistente.
 
-Com isso, a caracterização do regime caótico do operador $M$ está completa, tanto no espectro quanto na geometria interna dos estados.
+Esse conjunto de observações permitiu distinguir claramente sinal genuíno de artefatos metodológicos. O **Notebook 11** fornece a base empírica direta dessas conclusões.
+
+Com isso, a caracterização do regime caótico associado ao operador $M$ está completa, tanto no espectro quanto na estrutura interna dos estados.
 
 No capítulo seguinte, encerramos o percurso conceitual, reunindo os resultados obtidos em uma leitura estrutural unificada.
 

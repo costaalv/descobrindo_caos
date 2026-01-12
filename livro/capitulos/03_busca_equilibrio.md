@@ -48,13 +48,15 @@ Uma mudança adequada de escala desempenha um papel análogo ao de um tempo inte
 
 > O que parecia um descompasso infinito revela-se, afinal, uma harmonia que cresce com a própria escala. O caos inicial não é erro — é o preço da expansão.
 
+---
+
 ## Ponto de Repouso
 
-Antes de prosseguir, consolidemos a base desta etapa:
-- **A Normalização**: A tensão $\Delta_\pi(x)$ deve ser lida em relação à massa total de primos $\pi(x)$.
-- **O Limite**: O sistema tende ao equilíbrio perfeito ($1/2$ para cada papel funcional).
+A tensão $\Delta_\pi(x)$ não é uma grandeza absoluta. Ela só adquire significado quando observada em relação à massa total de primos $\pi(x)$, que define a escala natural do sistema.
 
-> O equilíbrio aqui não é ausência de movimento, mas o regime para o qual o movimento converge.
+Quando normalizada dessa forma,	a dinâmica interna revela um comportamento inequívoco: a redistribuição funcional não diverge, mas converge para um regime estável, no qual os papéis estruturador e estabilizador ocupam proporções simétricas.
+
+*O equilíbrio aqui não é ausência de movimento, mas o regime para o qual o movimento converge*.
 
 ---
 

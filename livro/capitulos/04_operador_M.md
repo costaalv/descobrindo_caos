@@ -37,7 +37,7 @@ O que buscamos não é previsão, mas observabilidade.
 
 ## Definição do operador harmônico
 
-Definimos o operador M por seus elementos $M_{ij}$:
+Definimos o operador $M$ por seus elementos $M_{ij}$:
 
 $$
 M_{ij}
@@ -131,15 +131,19 @@ Nos próximos capítulos, abandonaremos a inspeção visual e aplicaremos ferram
 
 Nada será acrescentado ao sistema.
 
+---
+
 ## Ponto de Repouso
 
-Até aqui:
-- um operador determinístico foi construído a partir de $\Delta_\pi(x)$;
-- nenhuma estatística foi calculada;
-- nenhuma hipótese espectral foi assumida;
-- apenas a estrutura geométrica do operador foi observada.
+Até este ponto, apenas o essencial foi estabelecido.  
+Um operador determinístico foi construído a partir de $\Delta_\pi(x)$.
 
-O espectrômetro está definido. A análise ainda não começou.
+Nenhuma estatística foi calculada.  
+Nenhuma hipótese espectral foi assumida.  
+Apenas a estrutura geométrica do operador foi examinada.
+
+O espectrômetro está definido.    
+A análise ainda não começou.
 
 ---
 
