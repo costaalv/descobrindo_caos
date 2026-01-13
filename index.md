@@ -18,6 +18,7 @@ O foco do trabalho é conceitual, operacional e verificável, sem dependência d
 
 ### Preliminares
 * [Prefácio](./livro/prefacio.md)
+* [Nota ao Leitor](./livro/nota_leitor.md)
 * [Nota Editorial](./livro/nota_editorial.md)
 
 ### Parte I — A Unidade
@@ -46,6 +47,11 @@ O foco do trabalho é conceitual, operacional e verificável, sem dependência d
 * [Capítulo 17: A Ponte de Berry — De Pitágoras a Dyson](./livro/capitulos/17_ponte_berry.md)
 * [Capítulo 17 1/2: Estatuto da Afirmação — Necessidade, Universalidade e Escolha](./livro/capitulos/17_meio_estatuto_da_afirmacao.md)
 * [Capítulo 18: Ressonância da Unidade — Onde Euler e o Caos se Encontram](./livro/capitulos/18_ressonancia_unidade.md)
+
+### Encerramento
+* [Epílogo](./livro/epilogo.md)
+
+---
 
 ## Laboratório Computacional
 
