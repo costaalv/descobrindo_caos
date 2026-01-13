@@ -71,4 +71,4 @@ Elas diferem apenas pela direção da observação.
 
 ---
 
-[$\gets$ Capítulo Anterior](./17_meio_estatuto_da_afirmacao.md) | [Sumário](../../index.md) | [Epílogo](../../livro/epilogo.md)
+[$\gets$ Capítulo Anterior](./17_meio_estatuto_da_afirmacao.md) | [Sumário](../../index.md) | [Epílogo](../epilogo.md)
