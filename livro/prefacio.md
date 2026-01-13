@@ -1,5 +1,12 @@
 # Prefácio
 
+> *A Matemática ocupa-se exclusivamente*  
+> *da enumeração e da comparação de relações.*
+>
+> — Carl Friedrich Gauss
+
+---
+
 Há uma crença silenciosa, quase nunca questionada, que atravessa a forma como aprendemos matemática desde cedo: a de que os números são entidades estáticas, isoladas, completamente conhecidas — e que o mistério, quando existe, está sempre em algum lugar distante, sofisticado, inacessível.
 
 Este livro nasce da suspeita oposta.
@@ -167,4 +174,4 @@ Vamos começar.**
 
 ---
 
-[Sumário](./index.md) | [Próximo Capítulo $\to$](./capitulos/01_o_um.md)
+[Sumário](./index.md) | [Nota ao Leitor $\to$](../../livro/nota_leitor.md)

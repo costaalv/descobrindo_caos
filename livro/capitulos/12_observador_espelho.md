@@ -1,4 +1,4 @@
-# 12. O Observador no Espelho — Controles e Robustez
+# 12. O Observador no Espelho — Controle e Robustez
 
 > *O primeiro princípio é que você não deve enganar a si mesmo —*  
 > *e você é a pessoa mais fácil de enganar.*  

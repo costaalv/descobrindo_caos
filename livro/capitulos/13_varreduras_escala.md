@@ -81,7 +81,7 @@ Até aqui, foi estabelecida de forma precisa a distinção entre um fenômeno lo
 
 Com esse critério, formulou-se um protocolo de varredura de escala no qual a construção do operador $M$ e a lente logarítmica permanecem fixas, enquanto apenas o ponto inicial $X_0$ é deslocado ao longo de várias ordens de magnitude. Para acompanhar essa varredura, adotou-se a estatística $\langle r \rangle$ como indicador sintético e robusto de correlação espectral, permitindo a comparação direta entre regimes sem a introdução de hipóteses adicionais.
 
-OO resultado observado organiza-se em três regiões bem definidas: um regime inicial compatível com Poisson, uma zona de transição centrada em torno de $X_0 \approx 10^4$, e um regime assintótico no qual $\langle r \rangle$ se estabiliza próximo ao valor característico da GOE. Acima de uma escala crítica, o diagnóstico deixa de depender da posição na reta numérica e passa a refletir um comportamento estatístico estável.
+O resultado observado organiza-se em três regiões bem definidas: um regime inicial compatível com Poisson, uma zona de transição centrada em torno de $X_0 \approx 10^4$, e um regime assintótico no qual $\langle r \rangle$ se estabiliza próximo ao valor característico da GOE. Acima de uma escala crítica, o diagnóstico deixa de depender da posição na reta numérica e passa a refletir um comportamento estatístico estável.
 
 A universalidade deixa, assim, de ser uma inferência intuitiva e passa a ser um **resultado operacional**. Existe um regime no qual o operador $M$, observado na escala logarítmica, apresenta assinaturas espectrais compatíveis com a classe GOE de forma persistente sob varreduras de $X_0$.
 

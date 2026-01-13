@@ -24,3 +24,5 @@ Esses rastros fixam um critério objetivo:
 Por essa razão, os notebooks não são citados como evidência externa, nem como validação posterior. Eles funcionam como **instrumentos de auditoria**, colocados à disposição do leitor após o encerramento do percurso conceitual.
 
 O livro termina quando a régua está posta. Os registros computacionais existem apenas para que qualquer leitor possa verificar, por si mesmo, que ela não se move.
+
+[$\gets$ Prefácio](../../livro/nota_leitor.md) | [Sumário](../../index.md) | [Próximo Capítulo $\to$](./01_o_um.md)

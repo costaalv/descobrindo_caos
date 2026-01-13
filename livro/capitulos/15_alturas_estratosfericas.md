@@ -28,7 +28,7 @@ Nesse contexto, os zeros da função zeta, e, por extensão, a aritmética dos p
 
 ### A confirmação computacional: Odlyzko
 
-A conjectura ganhou sustentação empírica decisiva com os trabalhos de Andrew Odlyzko. Utilizando supercomputadores e algoritmos altamente otimizados, Odlyzko calculou a posição de trilhões de zeros da função zeta em alturas extremas da reta crítica, atingindo ordens como $10^{22}$ e além.
+A conjectura ganhou sustentação empírica decisiva com os trabalhos de Andrew Odlyzko. Utilizando supercomputadores e algoritmos altamente otimizados, Odlyzko calculou a posição de bilhões de zeros da função zeta em alturas extremas da reta crítica, atingindo ordens como $10^{22}$ e além.
 
 Os resultados foram inequívocos: as estatísticas observadas coincidiam com extraordinária precisão com as previsões da GUE (*Gaussian Unitary Ensemble*), a classe esperada para sistemas sem simetria de reversão temporal.
 
@@ -87,6 +87,8 @@ Nesse notebook:
 O notebook não apenas confirma numericamente a persistência da estatística GOE em alturas extremas, como também fornece um protocolo transparente, auditável e reexecutável para a verificação independente dos resultados.
 
 Assim, este capítulo não repousa em autoridade histórica nem em extrapolação teórica isolada, mas em um experimento computacional explícito, alinhado com os padrões contemporâneos de reprodutibilidade científica.
+
+---
 
 ## Ponto de repouso
 

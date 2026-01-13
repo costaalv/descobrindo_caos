@@ -35,7 +35,7 @@ Para observar essa dinâmica, precisamos de um instrumento simples, direto e int
 
 Definimos a função $\pi(x)$ como a contagem exata de primos menores ou iguais a $x$. Com ela, podemos quantificar:
 - o número de primos estruturadores: $\pi\left( \left\lfloor x/2 \right\rfloor \right)$;
-- o número de primos estabilizadores: $\pi(x) − \pi\left( \left\lfloor x/2 \right\rfloor \right)$.
+- o número de primos estabilizadores: $\pi(x) - \pi\left( \left\lfloor x/2 \right\rfloor \right)$.
 
 A diferença entre essas duas quantidades define uma função aritmética natural de contraste:
 

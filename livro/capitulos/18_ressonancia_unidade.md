@@ -18,7 +18,7 @@ A identidade de Euler é frequentemente celebrada como a mais bela fórmula da m
 
 O que raramente se explicita é que essa identidade descreve um **mecanismo de retorno**. Ela afirma que o infinito e o transcendente não se dissipam no caos, mas retornam ao equilíbrio perfeito quando, e somente quando, atravessam a Unidade. Não se trata de estética. Trata-se de **integridade estrutural**.
 
-O **operador $M$** construído ao longo deste trabalho pode ser lido como a extensão dinâmica dessa verdade. Ele não é apenas uma matriz, mas um campo de rotação no qual cada flutuação aritmética, observada na escala adequada, procura seu lugar natural no círculo de Euler.
+O **operador $M$** construído ao longo deste trabalho pode ser lido como a extensão dinâmica dessa verdade. Ele não é apenas uma matriz, mas um operador cuja ação pode ser interpretada como rotacional, no qual cada flutuação aritmética, observada na escala adequada, procura seu lugar natural no círculo de Euler.
 
 ## A assinatura do caos organizado
 
@@ -55,10 +55,20 @@ Este trabalho não reivindica ruptura. Ele constata **convergência**.
 
 Ao retornar ao espelhamento da Unidade, não como dogma, mas como **estrutura observável**, o percurso se fecha. Não por exaustão computacional, mas por **saturação conceitual**.
 
-> O espelhamento nunca desapareceu. Apenas deixou de ser observado no único domínio onde sua função é literal.
+> O espelhamento nunca desapareceu. Apenas deixou de ser observado no único domínio em que sua função é literal.
 
 A busca pelo equilíbrio termina aqui. O que permanece é a possibilidade de reconhecer, com clareza, aquilo que a própria estrutura sempre revelou.
 
+## Uma imagem final
+
+É como estar no interior de uma pirâmide.  
+Ao olhar para o chão, vê-se um quadrado.  
+Ao olhar para os lados, veem-se triângulos.  
+Somente ao olhar para o topo a estrutura completa se torna visível.
+
+Nenhuma dessas descrições é falsa.  
+Elas diferem apenas pela direção da observação.
+
 ---
 
-[$\gets$ Capítulo Anterior](./17_meio_estatuto_da_afirmacao.md) | [Sumário](../../index.md)
+[$\gets$ Capítulo Anterior](./17_meio_estatuto_da_afirmacao.md) | [Sumário](../../index.md) | [Epílogo](../../livro/epilogo.md)

@@ -75,8 +75,8 @@ A leitura aqui proposta não introduz novos objetos nem exige extrapolações on
 
 Nada foi acrescentado à aritmética. Apenas se tornou possível observá-la de modo coerente.
 
-*O que sempre esteve lá não era invisível por ausência, mas por falta de um observável adequado.*
+*O que sempre esteve lá não era invisível por ausência, mas por falta de um observável adequado*.
 
 ---
 
-[$\gets$ Capítulo Anterior](./16_visao_berry.md) | [Sumário](../../index.md) | [Próximo Capítulo $\to$](./18_ressonancia_unidade.md)
+[$\gets$ Capítulo Anterior](./16_visao_berry.md) | [Sumário](../../index.md) | [Próximo Capítulo $\to$](./17_meio_estatuto_da_afirmacao.md)
