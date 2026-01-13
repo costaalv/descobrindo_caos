@@ -8,4 +8,4 @@ Ela ressoa.
 
 ---
 
-[$\gets$ Capítulo Anterior](./18_ressonancia_unidade.md) | [Sumário](../../index.md)
+[$\gets$ Capítulo Anterior](./capitulos/18_ressonancia_unidade.md) | [Sumário](../index.md)

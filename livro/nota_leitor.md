@@ -12,4 +12,4 @@ Nada aqui exige crença. Tudo exige atenção.
 
 ---
 
-[$\gets$ Prefácio](./livro/prefacio.md) | [Sumário](../../index.md) | [Nota Editorial $\to$](./livro/nota_editorial.md)
+[$\gets$ Prefácio](./prefacio.md) | [Sumário](../index.md) | [Nota Editorial $\to$](./nota_editorial.md)
