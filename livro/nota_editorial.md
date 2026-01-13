@@ -25,4 +25,4 @@ Por essa razão, os notebooks não são citados como evidência externa, nem com
 
 O livro termina quando a régua está posta. Os registros computacionais existem apenas para que qualquer leitor possa verificar, por si mesmo, que ela não se move.
 
-[$\gets$ Nota ao Leitor](../nota_leitor.md) | [Sumário](../../index.md) | [Próximo Capítulo $\to$](./01_o_um.md)
+[$\gets$ Nota ao Leitor](./nota_leitor.md) | [Sumário](../../index.md) | [Próximo Capítulo $\to$](./capitulos/01_o_um.md)
