@@ -174,4 +174,4 @@ Vamos começar.**
 
 ---
 
-[Sumário](../../index.md) | [Nota ao Leitor $\to$](../../livro/nota_leitor.md)
+[Sumário](../index.md) | [Nota ao Leitor $\to$](./nota_leitor.md)
