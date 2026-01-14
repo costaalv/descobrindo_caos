@@ -174,4 +174,4 @@ Vamos começar.**
 
 ---
 
-[Sumário](../index.md) | [Nota ao Leitor $\to$](../livro/nota_leitor.md)
+[$\gets$ Sumário](../index.md) | [Nota ao Leitor $\to$](../livro/nota_leitor.md)

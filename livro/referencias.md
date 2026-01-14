@@ -40,3 +40,7 @@ Physical Review Letters, v. 110, n. 8, 084101, 2013.
 ---
 
 Estas obras estabelecem o **quadro conceitual mínimo e suficiente** para interpretar a emergência da estatística GOE como **critério diagnóstico universal de comportamento caótico**, independentemente de um modelo dinâmico específico ou de hipóteses conjecturais adicionais.
+
+---
+
+[$\gets$ Capítulo Anterior](../livro/epilogo.md) | [Sumário](../index.md)
