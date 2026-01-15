@@ -25,6 +25,8 @@ Ele não busca persuasão, adoção comercial ou validação institucional. Seu 
 
 Nenhuma etapa exige confiança prévia.
 
+Leitores interessados apenas no resultado operacional podem seguir diretamente para os notebooks.
+
 ---
 
 # Nota Conceitual — Onde reside o caos quântico
