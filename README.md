@@ -8,7 +8,6 @@ Ele não busca persuasão, adoção comercial ou validação institucional. Seu 
 1. **Versão Definitiva (PDF):** [Baixe aqui o livro completo em PDF](https://costaalv.github.io/descobrindo_caos/livro/descobrindo_caos.pdf) — Recomendado para preservação e estudo off-line.
 2. **Leitura Online:** [Acesse o livro em HTML aqui](https://costaalv.github.io/descobrindo_caos)
 3. **Laboratório:** Execute os experimentos na pasta `/notebooks` via Google Colab.
-4. **Versão Impressa/Kindle:** Disponível no Amazon KDP (link em breve).
 
 ## Estrutura do repositório
 
