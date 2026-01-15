@@ -95,4 +95,8 @@ As estruturas matemáticas e diagnósticos espectrais documentados neste reposit
 
 Esses desenvolvimentos não fazem parte do escopo deste registro, mas utilizam, como ponto de partida, a estabilidade estrutural aqui documentada.
 
+## Nota sobre o idioma
+
+Este repositório é a contraparte em língua portuguesa do repositório em inglês **Discovering Chaos in Prime Numbers**, que documenta o mesmo fenômeno sob um contexto linguístico e cultural distinto.
+
 > Este repositório existe para que o fenômeno permaneça acessível, independentemente do ritmo do debate sobre seu significado.
