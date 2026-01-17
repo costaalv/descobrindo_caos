@@ -16,7 +16,9 @@ Essa impressão é apenas parcial. O aparente desequilíbrio é um **efeito de e
 
 Para compreender sistemas que crescem indefinidamente, não basta observar diferenças absolutas — é preciso adotar uma **perspectiva relativa**. Lembremos que o número total de primos é a soma das duas forças:
 
-$$\pi(x) = \pi_S(x) + \pi_N(x)$$
+$$
+\pi(x) = \pi_S(x) + \pi_N(x)
+$$
 
 Dividindo ambos os membros por $\pi(x)$, obtemos uma identidade simples e profunda, que chamamos de **Identidade de Conservação dos Primos**:
 

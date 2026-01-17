@@ -26,7 +26,7 @@ A questão central é simples e rigorosa:
 
 > a dualidade observada (Poisson versus GOE) é uma propriedade específica da estrutura dos primos, ou qualquer sinal suficientemente irregular produziria o mesmo efeito?
 
-Para responder a essa pergunta, o sinal aritmético determinístico, baseado em $\Delta_\pi(x)$, é substituído por um sinal de **ruído branco puro** — uma sequência de valores genuinamente aleatórios, sem correlações internas de longo alcance.
+Para responder a essa pergunta, o sinal aritmético determinístico, baseado em $\Delta_\pi(x)$, é substituído por um sinal de **ruído branco independente e identicamente distribuído (i.i.d.)** — uma sequência de valores genuinamente aleatórios, sem correlações internas de longo alcance.
 
 A intuição inicial poderia sugerir que um sinal ainda mais “caótico” deveria produzir estatísticas do tipo GOE em ambos os regimes.
 O resultado experimental, no entanto, aponta exatamente na direção oposta.

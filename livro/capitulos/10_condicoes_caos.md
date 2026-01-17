@@ -28,7 +28,7 @@ Somente sistemas **tratados** como processos, e não como instantâneos, podem e
 
 ### 2. O papel ativo do *Um*
 
-A segunda condição é reconhecer o papel estrutural do *Um* não apenas como axioma lógico, mas como **agente ativo de estabilização**.
+A segunda condição é reconhecer o papel estrutural do *Um* não apenas como axioma lógico, mas como **mecanismo implícito de estabilização aritmética**.
 
 Na construção do operador, o princípio da sucessão (+1) atua continuamente, preenchendo lacunas e contrabalançando a expansão multiplicativa inerente à aritmética dos primos.
 
@@ -75,7 +75,7 @@ A “receita” observacional pode agora ser formulada de forma objetiva:
 - reconhecer o papel estabilizador do *Um*;
 - alinhar a observação com a escala natural dos primos.
 
-É **somente** a intersecção rigorosa desses três princípios, e apenas ela, que permite transformar a contagem de primos em uma observação direta de estatísticas universais do caos.
+É **somente** a intersecção rigorosa desses três princípios, e apenas ela, que permite transformar a contagem de primos em um regime observável de estatísticas universais do caos.
 
 ---
 

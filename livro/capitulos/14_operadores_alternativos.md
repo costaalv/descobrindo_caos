@@ -7,7 +7,7 @@
 
 ## A última dúvida
 
-Os capítulos anteriores estabeleceram um resultado forte: ao observar o sinal aritmético dos primos na escala logarítmica, o espectro do operador construído exibe, de forma robusta, estatísticas de correlação espectral indistinguíveis daquelas associadas à classe GOE, enquanto a observação linear conduz sistematicamente ao regime de Poisson.
+Os capítulos anteriores estabeleceram um resultado forte: ao observar o sinal aritmético dos primos na escala logarítmica, o espectro do operador construído exibe, de forma robusta, estatísticas de correlação espectral indistinguíveis, no *bulk*, daquelas associadas à classe GOE, enquanto a observação linear conduz sistematicamente ao regime de Poisson.
 
 No entanto, uma dúvida legítima permanece.
 
@@ -98,6 +98,8 @@ Ele emerge da combinação de dois elementos fundamentais:
 2. a observação desse sinal na escala logarítmica natural dos primos.
 
 O operador atua apenas como um instrumento de leitura. Trocar o instrumento não altera a música.
+
+Embora o operador de fase seja complexo, as estatísticas observadas coincidem com aquelas previamente identificadas no regime ortogonal, indicando que a classe estatística relevante é determinada pela estrutura do sinal e não pela representação escolhida.
 
 ---
 

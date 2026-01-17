@@ -99,6 +99,12 @@ Nada além disso é reivindicado.
 
 O que esta observação estabelece é um fato experimental: a classe universal pode emergir sem que qualquer aleatoriedade externa seja injetada no procedimento.
 
+Sempre que estatísticas da classe GOE são mencionadas neste trabalho, elas devem ser entendidas como emergentes de um regime estrutural específico, caracterizado pela preservação de simetria e reversibilidade do operador construído, sob a escala de observação adequada.
+
+Não se reivindica aqui universalidade no sentido dinâmico usual da literatura em caos quântico, nem evidência de caos determinístico no sentido clássico ou semiclassicamente hiperbólico.
+
+Os resultados apresentados devem ser interpretados como um diagnóstico espectral de coerência estrutural, condicionado ao alinhamento entre a arquitetura do operador e a régua de observação empregada.
+
 ## Parâmetros do protocolo e estabilidade do fenômeno
 
 Para evitar que o reconhecimento da classe universal dependa de escolhas arbitrárias, é necessário explicitar quais parâmetros do protocolo afetam o resultado e em que sentido.
@@ -124,6 +130,8 @@ Quando essa estabilidade se observa, o reconhecimento de classe deixa de ser uma
 O terceiro nível não altera os dois primeiros. Ele apenas nomeia um comportamento observado.
 
 Neste capítulo, o comportamento reconhecido é o pertencimento estatístico do espectro do operador $M$, em regimes adequados, à classe universal GOE.
+
+Observe que o operador $M$, ao preservar simetria e exibir retorno estrutural sob mudança de escala, comporta-se como um dispositivo de reflexão aritmética.
 
 ---
 

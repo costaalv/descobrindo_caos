@@ -63,7 +63,7 @@ $$
 r_i = \frac{\min(s_i, s_{i+1})}{\max(s_i, s_{i+1})}.
 $$
 
-Essa quantidade é limitada ao intervalo [0, 1] e permite definir uma estatística escalar simples, dada por:
+Essa quantidade é limitada ao intervalo $[0, 1]$ e permite definir uma estatística escalar simples, dada por:
 
 $$
 \langle r \rangle = \frac{1}{N-2} \sum_{i=1}^{N-2} r_i,

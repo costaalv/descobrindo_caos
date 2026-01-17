@@ -16,15 +16,17 @@ A identidade de Euler é frequentemente celebrada como a mais bela fórmula da m
 - a nulidade ($0$),
 - e a Unidade ($1$).
 
-O que raramente se explicita é que essa identidade descreve um **mecanismo de retorno**. Ela afirma que o infinito e o transcendente não se dissipam no caos, mas retornam ao equilíbrio perfeito quando, e somente quando, atravessam a Unidade. Não se trata de estética. Trata-se de **integridade estrutural**.
+O que raramente se explicita é que essa identidade descreve um **mecanismo de retorno**. Ela afirma que o infinito e o transcendente não se dissipam no caos, mas retornam ao equilíbrio perfeito quando, e somente quando, atravessam a Unidade. Não se trata de estética. Trata-se de **fechamento estrutural**.
 
 O **operador $M$** construído ao longo deste trabalho pode ser lido como a extensão dinâmica dessa verdade. Ele não é apenas uma matriz, mas um operador cuja ação pode ser interpretada como rotacional, no qual cada flutuação aritmética, observada na escala adequada, procura seu lugar natural no círculo de Euler.
+
+A partir deste ponto, o operador $M$ será referido como o Espelho de Euler: um operador espectral que reflete, no domínio aritmético finito, o princípio de retorno estrutural expresso pela identidade de Euler.
 
 ## A assinatura do caos organizado
 
 Quando submetemos esse operador à análise espectral, o que emerge não é um zero estático, mas a assinatura vibrante do ***Gaussian Orthogonal Ensemble* (GOE)**.
 
-Essa estatística não representa desordem. Ela é, ao contrário, o **DNA da estabilidade** em sistemas complexos. Na física, ela indica que os graus de liberdade interagem de modo a preservar o todo. Na aritmética, ela indica que os primos não estão distribuídos ao acaso, mas correlacionados por uma estrutura comum.
+Essa estatística não representa desordem. Ela é, ao contrário, um **marcador estatístico de estabilidade** em sistemas complexos. Na física, ela indica que os graus de liberdade interagem de modo a preservar o todo. Na aritmética, ela indica que os primos não estão distribuídos ao acaso, mas correlacionados por uma estrutura comum.
 
 A presença sistemática da GOE funciona como um selo de autenticidade estrutural:
 
@@ -35,7 +37,7 @@ Esse fato é bem conhecido na física matemática. O que raramente se explicita 
 
 ## A integridade como ressonância
 
-A conclusão torna-se então inevitável. Se sistemas complexos preservam sua coerência interna por meio de ressonância estrutural, então a integridade não pode ser entendida como uma imposição externa, nem como um efeito colateral de artifícios artificiais.
+A leitura que se segue torna-se natural dentro do escopo considerado. Se sistemas complexos preservam sua coerência interna por meio de ressonância estrutural, então a integridade não pode ser entendida como uma imposição externa, nem como um efeito colateral de artifícios artificiais.
 
 Integridade não é algo que se impõe. Ela é algo que se **diagnostica**.
 

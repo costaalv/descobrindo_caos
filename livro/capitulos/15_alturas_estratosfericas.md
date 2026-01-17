@@ -22,7 +22,7 @@ Essa observação inaugurou uma ponte inesperada entre a teoria analítica dos n
 
 A conexão precisava de um princípio explicativo. Michael Berry, ao lado de outros físicos, forneceu esse enquadramento ao estabelecer a Teoria de Matrizes Aleatórias como a linguagem universal do caos quântico.
 
-A conjectura de Berry afirma que sistemas quânticos cujo análogo clássico seja caótico exibem estatísticas espectrais universais, descritas pelo Ensemble Ortogonal Gaussiano (GOE).
+A conjectura de Bohigas–Giannoni–Schmit (BGS) afirma que sistemas quânticos cujo análogo clássico seja caótico exibem estatísticas espectrais universais descritas pela Teoria de Matrizes Aleatórias (RMT). A classe específica (GOE ou GUE) é determinada pelas simetrias do sistema; **no domínio da aritmética real e espelhada que exploramos, a classe emergente é o GOE**.
 
 Nesse contexto, os zeros da função zeta, e, por extensão, a aritmética dos primos, passaram a ser interpretados como um sistema quântico caótico abstrato.
 
@@ -34,6 +34,8 @@ Os resultados foram inequívocos: as estatísticas observadas coincidiam com ext
 
 O laboratório apresentado neste capítulo é uma homenagem direta a essa trajetória intelectual, mas com uma distinção fundamental: enquanto os zeros no plano complexo revelam a rigidez GUE, a nossa análise da reta aritmética real, ancorada na unidade, revela a emergência da classe GOE — a assinatura de sistemas que preservam a simetria de espelhamento.
 
+Esses dois regimes não estão em competição nem em contradição, mas pertencem a domínios observacionais distintos: um associado ao fluxo espectral complexo e à quebra de reversibilidade, o outro a uma estrutura aritmética real, simétrica e refletiva.
+
 ## O desafio das alturas estratosféricas
 
 Nos capítulos anteriores, estabelecemos que a estatística do tipo GOE emerge de forma estável a partir de escalas iniciais da ordem de $10^5$.
@@ -43,6 +45,8 @@ A questão natural que se impõe é se essa lei persiste em escalas verdadeirame
 Uma abordagem direta é impraticável. A contagem explícita de primos torna-se rapidamente inviável em alturas estratosféricas.
 
 Para contornar essa limitação, recorremos a uma ponte teórica: a função $\mathrm{R}(x)$ de Riemann (também conhecida como função de contagem suavizada de primos), que fornece uma aproximação assintótica extremamente precisa para $\pi(x)$, mesmo em domínios astronômicos.
+
+A substituição de $\pi(x)$ por $\mathrm{R}(x)$ não tem o objetivo de introduzir nova estrutura, mas de preservar a geometria assintótica do sinal aritmético em regimes nos quais a enumeração direta dos primos se torna impraticável.
 
 Essa substituição permite sondar regiões da reta numérica muito além do alcance de algoritmos elementares, preservando a estrutura estatística relevante.
 
@@ -61,14 +65,14 @@ Ambas funcionam como impressões digitais independentes da classe GOE.
 
 ## Hipótese final
 
-Se a conexão entre a aritmética dos primos e a estatística GOE for estrutural e verdadeiramente universal, **sustentada pela simetria de espelhamento inerente à reta real**, então essas duas quantidades devem permanecer estáveis, coladas aos valores teóricos da GOE,
+Se a conexão entre a aritmética dos primos e a estatística GOE for estrutural **no regime observacional considerado**, sustentada pela simetria de espelhamento inerente à reta real, então essas duas quantidades devem permanecer estáveis, coladas aos valores teóricos da GOE,
 
 > $\langle r \rangle_{\text{GOE}} \approx 0.536$  
 > $\mathrm{PR}/N \approx 1/3$
 
 mesmo quando a análise é empurrada para as fronteiras mais distantes da reta numérica.
 
-O que este capítulo examina, portanto, não é mais a emergência do caos, mas a sua persistência absoluta.
+O que este capítulo examina, portanto, não é mais a emergência do caos, mas a **persistência estatística desse regime** sob deslocamentos extremos de escala.
 
 ## Reprodutibilidade computacional e o papel do Notebook 15
 
@@ -88,6 +92,8 @@ O notebook não apenas confirma numericamente a persistência da estatística GO
 
 Assim, este capítulo não repousa em autoridade histórica nem em extrapolação teórica isolada, mas em um experimento computacional explícito, alinhado com os padrões contemporâneos de reprodutibilidade científica.
 
+Como enfatizado por Berry, essas estatísticas descrevem propriedades locais do espectro, e não pretendem capturar o comportamento global completo em todas as escalas.
+
 ---
 
 ## Ponto de repouso
@@ -96,9 +102,10 @@ Neste capítulo, foi contextualizada historicamente a conexão entre os números
 
 Com esse instrumento, estatísticas espectrais foram analisadas em domínios que se estendem até $10^{28}$, e a estabilidade final das assinaturas associadas à classe GOE foi testada de forma sistemática.
 
-O resultado observado é inequívoco. A música do caos quântico não se dissipa com a altura. Ela persiste, intacta, como uma **regularidade estrutural universal** da aritmética.
+O resultado observado é sistematicamente consistente. A música do caos quântico não se dissipa com a altura. Ela persiste, intacta, como uma regularidade estrutural **robusta e recorrente** no regime aritmético alinhado identificado neste trabalho.
 
-Aqui, a jornada não se encerra por exaustão computacional, mas por saturação conceitual. Nada mais alto precisa ser escalado: a estrutura já se revelou por completo.
+Aqui, a jornada não se encerra por exaustão computacional, mas por saturação conceitual.  
+Nada mais alto precisa ser escalado dentro do regime aqui considerado: a estrutura já se revelou por completo.
 
 ---
 

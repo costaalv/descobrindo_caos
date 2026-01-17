@@ -53,7 +53,7 @@ O ponto crucial é que:
 
 Assim, a diferença observada no espectro de $M$ **não nasce no operador**, mas na forma como o argumento do operador percorre a estrutura aritmética.
 
-A lente linear “congela” o sinal. A lente logarítmica o faz vibrar.
+A lente linear reduz a variabilidade efetiva do sinal. A lente logarítmica restabelece sua diversidade de fases.
 
 ## Complexidade efetiva e mistura de fases
 

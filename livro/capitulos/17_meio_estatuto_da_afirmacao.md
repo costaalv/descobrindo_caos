@@ -13,17 +13,16 @@ Essa separação não é defensiva. Ela é um ato de rigor.
 
 No nível mais fundamental, este trabalho estabeleceu resultados **experimentais e computacionais**, reproduzíveis e controlados:
 
-* um operador determinístico $M$, construído a partir de $\Delta_\pi(x)$;
-* a emergência sistemática de estatísticas compatíveis com a classe GOE quando o operador é observado na escala logarítmica;
-* a persistência dessas estatísticas sob:
-
-  * varreduras de escala ($X_0$);
-  * substituição de kernels;
-  * análise de autovalores *e* autovetores;
-* a destruição explícita do regime GOE sob:
-
-  * observação linear;
-  * substituição do sinal aritmético por ruído branco.
+- um operador determinístico $M$, construído a partir de $\Delta_\pi(x)$;
+- a emergência sistemática de estatísticas compatíveis com a classe GOE quando o operador é observado na escala logarítmica;
+- a persistência dessas estatísticas sob:
+  - varreduras de escala ($X_0$);
+  - substituição de kernels;
+  - análise de autovalores \textit{e} autovetores;
+  
+- a destruição explícita do regime da classe GOE sob:
+  - observação linear;
+  - substituição do sinal aritmético por ruído branco.
 
 Esses fatos não dependem de interpretação filosófica, nem de analogias físicas. Eles são **dados**.
 
@@ -33,15 +32,15 @@ Nada além disso é exigido para aceitá-los.
 
 Um segundo passo consiste em reconhecer que os dados obtidos não são acidentais.
 
-A estabilidade estatística observada, tal como verificada independente de detalhes microscópicos, de operadores alternativos e da posição na reta, corresponde exatamente ao critério operacional de universalidade da Teoria de Matrizes Aleatórias e da conjectura BGS.
+A estabilidade estatística observada, tal como verificada independente de detalhes microscópicos, de operadores alternativos e da posição na reta, corresponde exatamente ao critério operacional de universalidade da Teoria de Matrizes Aleatórias (RMT) e da conjectura BGS.
 
 Nesse nível, não se afirma *por que* a universalidade emerge. Apenas se reconhece que:
 
-* ela emerge;
-* ela é robusta;
-* ela coincide com a assinatura espectral conhecida do caos quântico (GOE).
+- ela emerge;
+- ela é robusta;
+- ela coincide com a assinatura espectral conhecida do caos quântico (GOE).
 
-Esse reconhecimento não é metafísico. Ele é classificatório.
+Esse reconhecimento não é metafísico. Ele é classificatório. Trata-se de universalidade no sentido operacional da RMT, não de validade global em janelas espectrais arbitrárias.
 
 Negá-lo exigiria negar o próprio critério pelo qual universalidade é reconhecida na física matemática contemporânea.
 
@@ -67,8 +66,8 @@ Essa coerência emerge apenas quando o intervalo é ancorado na Unidade ($1$). A
 
 Há uma distinção sutil, mas decisiva, entre duas ideias frequentemente confundidas:
 
-* necessidade lógica;
-* necessidade estrutural.
+- necessidade lógica;
+- necessidade estrutural.
 
 Este trabalho não afirma que a leitura final seja logicamente inevitável. Afirma algo mais restrito — e mais forte:
 
@@ -108,15 +107,53 @@ Os números primos não mudam. O operador não muda. As estatísticas não mudam
 
 O que muda é a **escolha do observador**:
 
-* a escala;
-* o que é considerado ruído ou sinal;
-* o nível em que se aceita encerrar a explicação.
+- a escala;
+- o que é considerado ruído ou sinal;
+- o nível em que se aceita encerrar a explicação.
 
 A estrutura observada é indiferente a essa escolha. Ela se manifesta sempre que as condições geométricas são satisfeitas.
 
 Mas o reconhecimento de sua coerência **não é automático**.
 
-Ele exige uma decisão: aceitar que a ordem observada não é um artefato a ser descartado, nem um mistério a ser perpetuado, mas uma estrutura a ser reconhecida.
+Ele exige uma decisão: aceitar que a ordem observada não é um artefato a ser descartado, nem um mistério a ser perpetuado, mas uma estrutura a ser reconhecida: $x \to x/2$.
+
+## Escala, regime e a pirâmide da observação
+
+Há uma distinção conceitual que precisa ser explicitada para evitar uma leitura equivocada dos resultados apresentados até aqui.
+
+Grande parte da literatura em caos quântico — incluindo os trabalhos fundadores da década de 1980 — parte de um espectro já constituído. A análise então investiga até que ponto estatísticas do tipo RMT (GOE, GUE ou GSE) permanecem válidas à medida que se ampliam as janelas espectrais. Nesse contexto, a universalidade é local, e suas quebras em escalas maiores são não apenas esperadas, mas bem compreendidas.
+
+Este trabalho opera em um domínio distinto.
+
+Aqui, o objeto central não é um espectro dado, mas um operador aritmético construído ponto a ponto, alimentado continuamente pela tensão entre dois regimes fundamentais da aritmética: a aditividade e a multiplicidade. O comportamento espectral observado não resulta de uma inspeção a posteriori, mas da manutenção explícita do eixo estrutural adequado ao longo da construção.
+
+Por isso, a pergunta relevante não é
+
+> até onde a universalidade estatística resiste?
+
+mas sim  
+
+> em que condições ela aparece?
+
+Quando o operador $M$ é observado sob escalas incompatíveis, estatísticas do tipo Poisson aparecem de forma consistente. Quando a observação é alinhada com a escala geométrica natural do sistema, a estatística da classe GOE emerge e se mantém de forma estável — não por ausência de estrutura, mas precisamente por sua coerência interna.
+
+A estatística espectral não é uma propriedade absoluta do objeto, mas uma **propriedade relacional entre estrutura e régua**. Fora do eixo, o sistema fragmenta-se em ruído. Alinhado a ele, manifesta coerência.
+
+Diferente da “sinfonia” dos zeros complexos, na qual a quebra de simetria está associada à emergência da estatística da classe GUE, a aritmética observada sob o operador $M$ preserva uma estrutura ortogonal. O GOE aqui detectado não surge como aproximação local de um sistema mais complexo, mas como a assinatura de um regime em que a simetria fundamental permanece intacta.
+
+A distinção entre GOE e GUE, portanto, não reside na validade dos dados, mas na arquitetura do domínio observado: um associado a dinâmicas de fluxo e quebra de simetria, o outro à coerência estrutural de um operador construído sobre um eixo preservado.
+
+Neste contexto, a ausência de estatísticas da classe GUE não é um resultado negativo, mas uma consequência direta da simetria preservada do operador $M$, que não introduz mecanismos de quebra de reversibilidade.
+
+A quebra de simetria está associada a regimes de movimento e transição de fase, como ocorre no domínio dos zeros complexos. A preservação da simetria, por sua vez, caracteriza regimes estruturais estáveis, como o da aritmética dos primos quando observada sob o operador $M$.
+
+O enquadramento dominante levou à suposição de que a música dos primos deveria herdar a quebra de simetria de seus guardiões complexos. O que o operador $M$ revela é que, na base da pirâmide, a aritmética permanece ortogonal, protegida por sua própria reversibilidade.
+
+Não se reivindica aqui validade global de RMT em janelas espectrais arbitrariamente extensas, mas a estabilidade estatística de um regime construído sob alinhamento estrutural contínuo.
+
+É nesse sentido, e apenas nesse sentido, que a universalidade estatística aqui observada deve ser interpretada e comparada à literatura existente.
+
+> A universalidade estatística aqui discutida não é global, mas **condicional**: ela emerge apenas no regime em que a simetria estrutural do operador $M$ é preservada.
 
 ---
 
@@ -130,7 +167,7 @@ Nada foi retirado.
 
 O que permanece não é uma prova adicional, mas uma **responsabilidade interpretativa**: reconhecer o alcance do que foi observado sem extrapolá-lo além do que a própria estrutura permite.
 
-O capítulo seguinte não introduz novos resultados. Ele retorna ao ponto inicial — a Unidade — não mais como axioma ou hipótese, mas como **ressonância observável**.
+O derradeiro capítulo não introduz novos resultados. Ele retorna ao ponto inicial — a Unidade — não mais como axioma ou hipótese, mas como **ressonância observável**.
 
 ---
 

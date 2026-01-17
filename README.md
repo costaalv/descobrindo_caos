@@ -9,6 +9,19 @@ Ele não busca persuasão, adoção comercial ou validação institucional. Seu 
 2. **Leitura Online:** [Acesse o livro em HTML aqui](https://costaalv.github.io/descobrindo_caos)
 3. **Laboratório:** Execute os experimentos na pasta `/notebooks` via Google Colab.
 
+## Nota sobre registro e versionamento
+
+A versão **oficialmente registrada**, com DOI e versionamento acadêmico,
+encontra-se disponível no Zenodo, em língua inglesa:
+
+DOI conceitual (todas as versões):  
+https://doi.org/10.5281/zenodo.18258722
+
+Versão atual registrada:  
+v1.1 — Janeiro 2026
+
+Este repositório em português é um espaço **vivo**, destinado à preservação, acessibilidade e reprodutibilidade do fenômeno, mantendo equivalência estrutural com a versão registrada.
+
 ## Estrutura do repositório
 
 - `livro/` — texto completo da obra em Markdown, PDF e EPUB
@@ -43,8 +56,9 @@ Este trabalho adota uma posição clara, operacional e verificável:
 
 > **O caos quântico não reside exclusivamente no sistema, mas na relação entre o sistema e a forma de observação.**
 
-A estatística do tipo GOE/GUE **não é uma propriedade ontológica automática** de um objeto matemático ou físico isolado.  
-Ela emerge quando **a observação está alinhada com a escala estrutural adequada** do fenômeno analisado.
+A estatística do tipo **GOE**, amplamente associada ao caos quântico, não é uma propriedade ontológica automática de um objeto matemático ou físico isolado. 
+
+A distinção entre GOE e GUE é bem compreendida na literatura e depende da simetria preservada ou quebrada do sistema observado.
 
 ---
 
@@ -88,6 +102,8 @@ A estatística GOE não deve ser interpretada como um selo exclusivo, nem como u
 Ela é uma **assinatura relacional**: emerge quando a estrutura do sistema e a régua de observação entram em coerência.
 
 Este repositório documenta essa afirmação **não como conjectura**, mas como **fato operacional reproduzível**, verificável por qualquer leitor disposto a executar os experimentos aqui registrados.
+
+> O escopo conceitual deste trabalho encontra-se estabilizado. As atualizações neste repositório visam clareza, documentação e reprodutibilidade, não a introdução de novas hipóteses fundamentais.
 
 ## Nota sobre derivações externas
 

@@ -41,8 +41,6 @@ A hipótese testada é simples e forte: se o regime GOE for universal, o valor d
 
 O **Notebook 13** (`13_varreduras_escala.ipynb`) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/costaalv/descobrindo_caos/blob/main/notebooks/13_varreduras_escala.ipynb) implementa esse experimento de forma automatizada. Para cada valor de $X_0$, o operador é construído, seu espectro é calculado e a estatística $\langle r \rangle$ é extraída.
 
-
-
 O resultado final é um gráfico de $\langle r \rangle$ em função de $\ln(X_0)$, que permite visualizar diretamente a evolução do regime estatístico.
 
 Esse procedimento elimina qualquer interpretação baseada em casos isolados e expõe a estrutura global do fenômeno.

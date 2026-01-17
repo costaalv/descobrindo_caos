@@ -1,4 +1,4 @@
-# 16. A Visão de Berry — A Assinatura Universal do Caos Quântico
+# 16. A Visão de Berry — A Assinatura Estatística do Caos Quântico
 
 > *A mecânica quântica não é caótica.*  
 > *Então, como é que o mundo clássico,*  
@@ -29,14 +29,14 @@ O caos quântico não desaparece — ele muda de linguagem.
 
 A visão de Berry foi formalizada pela Conjectura de **Bohigas–Giannoni–Schmit (BGS)**. O resultado é inequívoco:
 
-- sistemas quânticos associados a dinâmicas clássicas **integráveis** exibem estatística de **Poisson**;
-- sistemas quânticos associados a dinâmicas clássicas **caóticas** exibem estatística do **Ensemble Ortogonal Gaussiano (GOE)**.
+- sistemas quânticos associados a dinâmicas clássicas **integráveis** exibem estatística de **Poisson*;
+- sistemas quânticos associados a dinâmicas clássicas **caóticas** exibem estatísticas da **Teoria de Matrizes Aleatórias (RMT)**, pertencentes às classes **GOE ou GUE**, conforme as simetrias do sistema.
 
-No regime caótico, os níveis de energia apresentam **repulsão espectral** e **rigidez global**. Especificamente, a estatística GOE emerge em sistemas que preservam a simetria de reversão temporal: a contraparte estrutural da simetria de espelhamento que identificamos na reta aritmética ancorada na unidade.
+No regime caótico, os níveis de energia apresentam **repulsão espectral** e **rigidez global**. Especificamente, a estatística **GOE** emerge em sistemas que preservam a simetria de reversão temporal: a contraparte estrutural da simetria de espelhamento que identificamos na reta aritmética ancorada na unidade.
 
 O caos, longe de produzir desordem estatística, impõe uma regularidade profunda.
 
-A GOE torna-se, assim, a **assinatura universal do caos quântico**.
+A **GOE** torna-se, assim, a **assinatura estatística característica do regime caótico quântico em sistemas com simetria de reversão temporal**.
 
 ## A pedra angular deste trabalho
 
@@ -44,9 +44,15 @@ Essa visão constitui o eixo conceitual de todo o percurso desenvolvido neste li
 
 Ao longo dos capítulos anteriores, construímos um operador espectral diretamente a partir das flutuações na contagem dos números primos, sem recorrer explicitamente aos zeros da função zeta de Riemann.
 
-Ainda assim, o espectro obtido exibe, de forma robusta, reprodutível e persistente, todas as assinaturas estatísticas da GOE.
+Ainda assim, o espectro obtido exibe, de forma robusta, reprodutível e persistente, todas as assinaturas estatísticas da **GOE**.
 
-À luz da visão de Berry, esse resultado adquire um significado preciso. Não se trata de uma coincidência numérica, mas da evidência de que a simetria de espelhamento em $1/2$ constitui, na reta real, uma realização funcional da mesma **classe de rigidez espectral que Riemann identificou no plano complexo**.
+À luz da visão de Berry, esse resultado adquire um significado preciso. Não se trata de uma coincidência numérica, mas de evidência de que a simetria de espelhamento em $1/2$ constitui, na reta real, uma realização funcional **análoga** da mesma classe de rigidez espectral observada por Riemann no plano complexo.
+
+Convém ressaltar que, na reta real, o espectro observado pertence à classe **GOE**, enquanto o espectro dos zeros no plano complexo pertence à classe **GUE**. Trata-se, portanto, de **regimes distintos de observação**, associados a simetrias diferentes.
+
+No plano complexo, a reta $\Re(s) = 1/2$ atua como um **eixo de simetria funcional** da função zeta de Riemann, no sentido imposto pela sua equação funcional. Essa simetria, no entanto, não corresponde à invariância por reversão temporal, o que explica a emergência da estatística **GUE** no espectro dos zeros.
+
+Na reta real, o espelhamento aritmético em $x \to x/2$ preserva uma simetria análoga, agora associada a uma estrutura real e reversível, compatível com a estatística **GOE**.
 
 ## A aritmética como objeto espectral de classe caótica
 
@@ -76,7 +82,7 @@ Durante mais de um século, a distribuição dos primos oscilou entre duas narra
 
 A visão de Berry oferece uma terceira via.
 
-Os primos não são aleatórios. Eles exibem **uma estrutura cuja estatística espectral pertence à classe caótica universal**.
+Os primos não são aleatórios. Eles exibem **uma estrutura cuja estatística espectral pertence à classe GOE no regime adequado**.
 
 Sua irregularidade não é ausência de lei, mas expressão de uma universalidade estatística mais profunda — a mesma que governa sistemas físicos caóticos.
 
@@ -84,9 +90,11 @@ E toda essa rigidez emerge de um único gesto estrutural, o espelhamento aritmé
 
 ## Ponto de repouso
 
-Neste capítulo, a visão de Berry foi apresentada como solução conceitual para o paradoxo do caos quântico, e a conjectura BGS foi introduzida como critério operacional de diagnóstico universal do caos. Nesse enquadramento, a classe GOE emerge não como uma escolha técnica, mas como a assinatura estatística natural do regime caótico.
+Neste capítulo, a visão de Berry foi apresentada como solução conceitual para o paradoxo do caos quântico, e a conjectura BGS foi introduzida como critério operacional de diagnóstico universal do caos.  
+Nesse enquadramento, a classe GOE emerge não como uma escolha técnica, mas como a assinatura estatística natural do regime caótico.
 
-À luz dessa linguagem universal, o espectro do operador aritmético pôde ser reinterpretado de forma unificada, reconciliando a tensão histórica entre ordem e irregularidade na distribuição dos primos. O que antes aparecia como conflito conceitual revelou-se como duas faces de uma mesma estrutura, observada sob lentes distintas.
+À luz dessa linguagem universal, o espectro do operador aritmético pôde ser reinterpretado de forma unificada, reconciliando a tensão histórica entre ordem e irregularidade na distribuição dos primos.  
+O que antes aparecia como conflito conceitual revelou-se como duas faces de uma mesma estrutura, observada sob lentes distintas.
 
 Com isso, a travessia conceitual está completa.
 
